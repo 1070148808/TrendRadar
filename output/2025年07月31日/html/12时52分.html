@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 151</p><p>生成时间: 2025-07-31 12:52:05</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">22</td>
+                    <td class="percentage">14.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2102043?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">马来西亚总理：美国对马来西亚商品的关税税率将于明日公布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2102043?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">马来西亚总理：美国对马来西亚商品的关税税率将于明日公布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731123720726800" target="_blank" class="news-link">马来西亚总理：马来西亚的目标是从2026年至2030年，每年实现4.5%至5.5%的GDP增长。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [B站热搜] <a href="https://search.bilibili.com/all?keyword=%E6%94%BF%E6%B2%BB%E5%B1%80%E4%BC%9A%E8%AE%AE%E9%87%8A%E6%94%BE%E4%BA%86%E5%93%AA%E4%BA%9B%E4%BF%A1%E5%8F%B7" target="_blank" class="news-link">政治局会议释放了哪些信号</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%94%BF%E6%B2%BB%E5%B1%80%E4%BC%9A%E8%AE%AE%E9%87%8A%E6%94%BE%E4%BA%86%E5%93%AA%E4%BA%9B%E4%BF%A1%E5%8F%B7" target="_blank" class="news-link">政治局会议释放了哪些信号</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2102032?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">韩国法院对前总统尹锡悦下达拘捕令</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2102032?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">韩国法院对前总统尹锡悦下达拘捕令</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583540_100_1" target="_blank" class="news-link">马来西亚总理安瓦尔：美国总统特朗普已确认出席今年10月的东盟地区峰会。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583539_100_1" target="_blank" class="news-link">马来西亚总理：美国对马来西亚商品征收的关税税率将于明天公布。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583535_100_1" target="_blank" class="news-link">马来西亚总理安瓦尔：今早与美国总统特朗普进行了沟通。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4337662_1" target="_blank" class="news-link">美联储内部暗流涌动：经济韧性VS通胀黏性，政策分歧与政治博弈下的艰难平衡</a> <font color='red'><strong>[4 - 16]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731122103860800" target="_blank" class="news-link">马来西亚总理：美国总统特朗普已确认出席10月的东盟区域峰会。</a> [6] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731121922092800" target="_blank" class="news-link">马来西亚总理：美国对马来西亚商品征收的关税税率将于明天公布。</a> [8] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731121602535800" target="_blank" class="news-link">马来西亚总理：今天上午与美国总统特朗普通话。</a> [9] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583515_100_1" target="_blank" class="news-link">【行情】印度纺织股下跌3%-7%，受美国总统特朗普对印度纺织品征收25%关税并威胁惩罚的言论影响。</a> [10 - 30] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731121335602800" target="_blank" class="news-link">伊朗外长：美国需赔偿冲突损失，核谈判才能重启</a> [10] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731121257068800" target="_blank" class="news-link">马来西亚总理向议会提交新的五年经济计划。</a> [11] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583511_100_1" target="_blank" class="news-link">美国总统特朗普：印度与俄罗斯之间的关系如何发展，我并不在意。</a> [13] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583510_101_1" target="_blank" class="news-link">美国总统特朗普：美国和印度的贸易很少，他们的关税太高，是世界上最高的。同样，俄罗斯和美国几乎没有合作。</a> [14] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583503_100_1" target="_blank" class="news-link">伊朗外长：在与以色列发生了为期12天的冲突之后，伊朗不会同意“一切照旧”。</a> [16] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731120453539800" target="_blank" class="news-link">伊朗外长：在与以色列发生了为期12天的冲突之后，伊朗不会同意“一切照旧”。</a> [18] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731120424687800" target="_blank" class="news-link">伊朗外长：与美国中东问题特使威特科夫在伊以冲突期间及之后互相交换了信息。</a> [19] <font color='grey'>- 12时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">14</td>
+                    <td class="percentage">9.27%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3752319" target="_blank" class="news-link">特朗普威胁25%关税，印度股市下跌，医药、消费电子首当其冲</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2102027" target="_blank" class="news-link">【午报】市场延续震荡分化，三大指数涨跌不一，AI产业链与创新药再度逆势走强</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3752323" target="_blank" class="news-link">美商务部长称“与柬埔寨和泰国达成贸易协议”，但未公布税率</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2102039?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社7月31日电，香港金管局表示，将继续维持货币金融稳定。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2102039?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社7月31日电，香港金管局表示，将继续维持货币金融稳定。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731123130972800" target="_blank" class="news-link">日本经济产业省METI：日本6月原油进口量同比下降4.6%，6月石油产品总销量同比下降1.2%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731123037614800" target="_blank" class="news-link">特朗普：加拿大刚刚宣布支持巴勒斯坦建国。这将使我们与他们达成贸易协议变得非常困难。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731122057786800" target="_blank" class="news-link">韩国六个商业团体表示欢迎与美国达成的贸易协议，该协议将缓解韩国出口的不确定性。</a> [7] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2102022?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社7月31日电，渣打集团第二季度调整后税前利润24亿美元，预估为19亿美元。渣打集团宣布回购13亿美元股票。</a> [10] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2102022?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社7月31日电，渣打集团第二季度调整后税前利润24亿美元，预估为19亿美元。渣打集团宣布回购13亿美元股票。</a> [10] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583512_100_1" target="_blank" class="news-link">渣打银行进一步回购13亿美元股票。</a> [12] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731120754678800" target="_blank" class="news-link">特朗普： 同样，俄罗斯和美国几乎没有什么贸易往来。让我们保持这种状态。</a> [13] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731120639830800" target="_blank" class="news-link">特朗普：与印度的贸易很少，他们的关税太高，是世界上最高的关税之一。</a> [15] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731120211090800" target="_blank" class="news-link">据英国金融时报：伊朗外长称，美国必须同意赔偿，才能进行核谈判。</a> [20] <font color='grey'>- 12时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">8</td>
+                    <td class="percentage">5.3%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/872/014.htm" target="_blank" class="news-link">效仿苹果平台化策略：三星 Galaxy S26 系列手机被曝多样化 AI 助手和技能</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/872/011.htm" target="_blank" class="news-link">Qt 框架现已支持华为鸿蒙 HarmonyOS 系统，开发者可跨平台开发原生应用</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3752309" target="_blank" class="news-link">沪指半日跌0.68%，AI硬件、医药股逆势走强，恒指跌超1%，科网股分化，国债涨，商品跌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/871/954.htm" target="_blank" class="news-link">布局个人 AI 市场，AMD 称正考虑向 PC 用户推出独立 NPU 方案</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/872/010.htm" target="_blank" class="news-link">TUXEDO 推出新款 Linux 核显本 InfinityBook Pro 15，搭载 AMD 锐龙 AI 300</a> [6] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583526_100_1" target="_blank" class="news-link">马来西亚国家石油公司：与微软扩大合作，以支持马来西亚的人工智能生态系统。</a> [6 - 26] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583517_101_1" target="_blank" class="news-link">Binance Alpha将于8月2日上线OLAXBT（AIO）</a> [9 - 29] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250731120841416800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2025-07-31）</a> [12] <font color='grey'>- 12时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.66%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3583530_100_1" target="_blank" class="news-link">基辅军事管理局负责人：俄罗斯对乌克兰首都基辅的空袭造成至少两人死亡。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 12时52分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
