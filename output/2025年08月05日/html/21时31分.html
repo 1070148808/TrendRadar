@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 150</p><p>生成时间: 2025-08-05 21:31:08</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">21</td>
+                    <td class="percentage">14.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050900" target="_blank" class="news-link">亿帆医药(002019.SZ)：子公司褪黑素颗粒境内生产药品注册上市许可申请获受理</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3594313_0_1" target="_blank" class="news-link">欧盟寻求在美贸易协定中对葡萄酒和烈酒免征关税</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805205952035800" target="_blank" class="news-link">美国前财政部长保尔森：不知道美国国债何时会 “触底”，美国应制定财政应急计划。</a> [6] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2106909?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中央财政下达农业生产防灾救灾资金4.55亿元 积极应对洪涝干旱灾情 助力加快恢复农业生产</a> [7] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2106909?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中央财政下达农业生产防灾救灾资金4.55亿元 积极应对洪涝干旱灾情 助力加快恢复农业生产</a> [7] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805205841855800" target="_blank" class="news-link">美国前财政部长盖特纳：10年期国债收益率仍处于“温和”水平，反映出市场的信心增强。</a> [8] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3594289_100_1" target="_blank" class="news-link">美联储数据显示，美国有效联邦基金利率8月4日为4.33%，交易额为1170亿美元，而8月1日则为4.33%，交易额为1290亿美元。</a> [10 - 30] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805205504223800" target="_blank" class="news-link">金十数据整理：每日美股市场要闻速递（2025-08-05）</a> [11] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805205245109800" target="_blank" class="news-link">美国前财政部长保尔森：美国经济具有韧性，但政策影响需要时间显现。</a> [12] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2106899?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月5日电，美股加密货币概念股盘前多数下跌，Coinbase跌近4%，计划发行20亿美元可转债；Circle跌近3%，Galaxy Digital跌超2%。</a> [13] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2106899?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月5日电，美股加密货币概念股盘前多数下跌，Coinbase跌近4%，计划发行20亿美元可转债；Circle跌近3%，Galaxy Digital跌超2%。</a> [13] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805205213240800" target="_blank" class="news-link">美国前财政部长盖特纳：关税是对美国制造商来说是有损害的。</a> [13] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3594281_0_1" target="_blank" class="news-link">2024年6月美国贸易逆差大幅收窄</a> [14] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805205130848800" target="_blank" class="news-link">美国前财政部长盖特纳：美国经济可以承受关税冲击。</a> [14] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3594278_100_1" target="_blank" class="news-link">巴西财政部秘书塞隆：我认为中期财政面临挑战，社会保障支出存在结构性变化。</a> [15] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805205024182800" target="_blank" class="news-link">市场消息：印尼探索将比特币作为国家储备货币。</a> [16] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805204650520800" target="_blank" class="news-link">美国6月贸易逆差降至2023年9月以来的最低水平</a> [18] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805204300959800" target="_blank" class="news-link">挪威财政大臣：将审查财富基金中以色列控股情况。</a> [21] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805204218383800" target="_blank" class="news-link">财经网站Forexlive评美国贸易帐：这不是影响市场的数据。此前在“解放日”前夕，进口在关税实施之前大幅飙升。贸易账数据现已恢复正常。</a> [24] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7534743041295974419/" target="_blank" class="news-link">马英九基金会与在津台商和青年座谈</a> [29] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805203644611800" target="_blank" class="news-link">加拿大商品贸易逆差小幅扩大至58.6亿加元</a> [30] <font color='grey'>- 21时31分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">14</td>
+                    <td class="percentage">9.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250805/1066719647.html" target="_blank" class="news-link">美国总统特朗普表示，他将在本年底前与中国国家主席习近平会晤，但仅在中美签署贸易协议的情况下</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4338364_1" target="_blank" class="news-link">特朗普发表重要讲话：宣布重磅关税，新美联储主席或很快出炉！</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805211057110800" target="_blank" class="news-link">泰国代理总理：将对柬埔寨提起诉讼</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2106927?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">泰国代理总理：将对柬埔寨提起诉讼</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2106927?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">泰国代理总理：将对柬埔寨提起诉讼</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050899" target="_blank" class="news-link">ST凯利(300326.SZ)：拟出售洁诺医疗股权并减资退出景正医疗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5050897" target="_blank" class="news-link">先锋电子(002767.SZ)：监事会主席辛德春拟减持不超过6.375万股</a> [7] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3752701" target="_blank" class="news-link">特朗普：可借理事空缺挑选美联储主席，未来一周内宣布药品和芯片关税，24小时内大幅提高印度关税</a> [8] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3752701" target="_blank" class="news-link">特朗普：可借理事空缺挑选美联储主席，未来一周内宣布药品和芯片关税，24小时内大幅提高印度关税</a> [8] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3594273_101_1" target="_blank" class="news-link">据BitcoinMagazine披露，印尼副总统办公室邀请比特币支持者前来讨论，将比特币作为国家储备资产的可行性。</a> [16] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805204828513800" target="_blank" class="news-link">特朗普：能源价格下跌将促使普京“停止冲突”</a> [17] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805204238669800" target="_blank" class="news-link">提示：美国总统特朗普结束在CNBC的讲话。</a> [22] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805204230094800" target="_blank" class="news-link">美国总统特朗普：北约领导人会按我的意愿行事。</a> [23] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805203828693800" target="_blank" class="news-link">美国总统特朗普：想再次竞选美国总统，但可能不会这么做。</a> [26] <font color='grey'>- 21时31分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">6</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250805212231062800" target="_blank" class="news-link">汇丰将标普500指数年底目标上调至6400点，因AI前景向好及政策不确定性缓解</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2106883" target="_blank" class="news-link">语音独角兽ElevenLabs推出AI音乐服务 可在数分钟内生成完整曲目</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/873/254.htm" target="_blank" class="news-link">闪迪推出 256TB 超大容量 UltraQLC NVMe 固态硬盘：针对 AI 与云基础设施优化，预计 2026 年上半年出货</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2106906?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">OpenAI、谷歌和Anthropic在美国获得民用合同批准</a> [9] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2106906?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">OpenAI、谷歌和Anthropic在美国获得民用合同批准</a> [9] <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2106735" target="_blank" class="news-link">宇树科技发布新款四足机器狗</a> [12] <font color='grey'>- 21时31分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">4</td>
+                    <td class="percentage">2.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2106446?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【财联社早知道】刚刚！央行等七部门发文称加强对数据和算力中心等数字基础设施建设的中长期贷款支持，机构称液冷市场有望加速放量，这家公司具有提供液冷全链条解决方案的能力，客户包括英伟达</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2106446?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【财联社早知道】刚刚！央行等七部门发文称加强对数据和算力中心等数字基础设施建设的中长期贷款支持，机构称液冷市场有望加速放量，这家公司具有提供液冷全链条解决方案的能力，客户包括英伟达</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/873/256.htm" target="_blank" class="news-link">小米 2999 元米家空调健康风 1.5 匹开售：物理双柔风 + 离子净化技术，国补 2399.2 元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时31分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2106715" target="_blank" class="news-link">南向资金追踪｜单日净流入约234亿港元创近4个月新高 大举加仓腾讯快手</a> [14] <font color='grey'>- 21时31分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3594284_0_1" target="_blank" class="news-link">NioCorp的埃尔克 creek 项目获得美国国防部 1000 万美元资金，用于开发钪供应链</a> [12] <font color='grey'>- 21时31分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
