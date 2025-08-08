@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 103</p><p>生成时间: 2025-08-08 18:45:45</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">15</td>
+                    <td class="percentage">14.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250808/1066775530.html" target="_blank" class="news-link">克宫：普京与乌兹别克斯坦总统通电话</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2110376?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">外交部：中国同包括俄罗斯在内的世界各国开展正常经贸能源合作 正当合法</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250808182204854800" target="_blank" class="news-link">荷兰外交大臣：荷兰政府一直立场明确地表示，加沙属于巴勒斯坦人。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2110378?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">外交部：关于长和出售海外港口资产事宜 中国政府将依法进行监管</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250808182106158800" target="_blank" class="news-link">荷兰外交大臣：以色列总理内塔尼亚胡政府在加沙地带加强以色列行动的计划是一个错误的举动。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2110375?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">外交部：欢迎莫迪总理来华出席上合组织天津峰会</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250808181515909800" target="_blank" class="news-link">德国总理默茨：德国政府在进一步通知之前，不会批准任何可能用于加沙地带的军事装备出口到以色列。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250808181446227800" target="_blank" class="news-link">德国总理默茨：谈判停火、释放人质是我们的首要任务；哈马斯不应在加沙未来扮演角色。</a> [6] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603606_100_1" target="_blank" class="news-link">以色列总理内塔尼亚胡：内塔尼亚胡政府计划加大在加沙的军事行动是错误的举措。</a> [7 - 27] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603601_100_1" target="_blank" class="news-link">德国总理默茨呼吁以色列政府不要采取任何进一步措施，吞并约旦河西岸地区。</a> [9 - 29] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603595_100_1" target="_blank" class="news-link">德国总理默茨：对加沙地带平民持续遭受苦难深表关切。</a> [12] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603589_100_1" target="_blank" class="news-link">德国总理默茨：德国政府将无限期内不会批准任何向以色列出口可在加沙地带使用的军事装备。</a> [14] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4338931_1" target="_blank" class="news-link">特朗普火速提名米兰担任美联储理事，新主席花落谁家？</a> [16] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603586_100_1" target="_blank" class="news-link">德国总理默茨：哈马斯未来不得在加沙发挥作用。</a> [18] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603581_100_1" target="_blank" class="news-link">德国总理默茨：有关停火和释放人质的谈判为德国首要任务。</a> [20] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">11</td>
+                    <td class="percentage">10.68%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2110384?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">证监会严肃查处贵州辖区深交所主板上市公司*ST高鸿严重财务造假案件</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603620_0_1" target="_blank" class="news-link">Expedia股价上涨，因2025年预订量预测增加</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603615_0_1" target="_blank" class="news-link">中国监管机构规范金融机构对稳定币的推广</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250808180510174800" target="_blank" class="news-link">经济学家：预计英国二季度GDP增速降至0.2%</a> [7] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603607_101_1" target="_blank" class="news-link">特朗普关税“神助攻” 反让国际股市再次伟大</a> [6 - 26] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250808180219508800" target="_blank" class="news-link">金十图示：2025年08月08日（周五）亚太市场股市指数（收盘）</a> [8] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603603_0_1" target="_blank" class="news-link">2025上半年中国逼近德国最大贸易伙伴地位</a> [8 - 28] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053352" target="_blank" class="news-link">美的集团(00300.HK)8月8日耗资9999.3万元回购139.5万股A股</a> [9] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2110358?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月8日电，中金所发布《中国金融期货交易所程序化交易管理办法》，自2025年10月9日起实施。</a> [10] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2110352?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">2连板上海港湾：当前公司股票价格短期涨幅较大 可能存在非理性炒作</a> [15] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2110344?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月8日电，印度国家证券存管有限公司(NSDL)数据显示，全球基金在上一交易日净卖出552亿卢比印度股票。</a> [16] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">6</td>
+                    <td class="percentage">5.83%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2110351" target="_blank" class="news-link">Meta狂抢AI人才 Anthropic创始人淡定回应：我们不怕被挖角</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053359" target="_blank" class="news-link">豪威集团(603501.SH)：图像传感器产品在小尺寸及低功耗方面的优势高度适配AR/VR包括AI眼镜等终端客户需求</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2110336" target="_blank" class="news-link">【数据看盘】AI应用股遭机构甩卖 多路资金联手抢筹市场高度板</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3603613_0_1" target="_blank" class="news-link">Tempus AI 第二季度亏损超出预期，营收超过预测</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2110367?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构龙虎榜解读】机器人+军工+商业航天+AI应用，提供关节机器人整机及机器人单元集成应用解决方案，拥有基于云端的机器人智能抓取多项专利，这家公司获净买入</a> [7] <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2110336" target="_blank" class="news-link">【数据看盘】AI应用股遭机构甩卖 多路资金联手抢筹市场高度板</a> [11] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.94%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2110369" target="_blank" class="news-link">瑞典首相承认使用ChatGPT帮助管理政府 遭到民众猛烈抨击</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2110360?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">快手上线独立“外卖”入口 外卖商品二季度支付用户数环比增长超3倍</a> [9] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.97%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4338932_1" target="_blank" class="news-link">金条关税突袭对瑞士造成新打击</a> [17] <font color='grey'>- 18时45分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
