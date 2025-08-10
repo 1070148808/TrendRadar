@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-08-10 22:18:15</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">9</td>
+                    <td class="percentage">21.43%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/world/202508/1049287.html" target="_blank" class="news-link">澳洲新西兰领导人警告：以军控制加沙城或违反国际法</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3605251_101_1" target="_blank" class="news-link">【行情】比特币维持超过1.5%的涨幅，目前交投于11.9万美元上方。美国副总统万斯称，需要由总统特朗普“强迫”俄罗斯总统普京与乌克兰总统泽连斯基会面。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3605247_100_1" target="_blank" class="news-link">以色列总理内塔尼亚胡：我们希望在加沙地带增加援助分配点。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3605246_100_1" target="_blank" class="news-link">以色列总理内塔尼亚胡：延长战争意味着许多人质可能饿死。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3605245_100_1" target="_blank" class="news-link">以色列总理内塔尼亚胡：我不想延长战争。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/politics/202508/1049284.html" target="_blank" class="news-link">泽连斯基：乌克兰全力支持欧洲领导人的联合声明</a> [7] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3605244_100_1" target="_blank" class="news-link">以色列总理内塔尼亚胡：我们正在讨论“有创意的方案”，争取在逼近哈马斯的同时解救人质。</a> [6 - 26] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3605241_100_1" target="_blank" class="news-link">以色列总理内塔尼亚胡：预计将“很快”完成新的加沙攻势计划。</a> [8 - 28] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3605240_100_1" target="_blank" class="news-link">以色列总理内塔尼亚胡：我们已指示军方允许更多外国记者进入加沙地带。</a> [9 - 29] <font color='grey'>- 22时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">5</td>
+                    <td class="percentage">11.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2111154?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">欧洲多国紧急呼吁以色列撤回扩大加沙军事行动决定</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2111154?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">欧洲多国紧急呼吁以色列撤回扩大加沙军事行动决定</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2111150?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">乌称打击俄一指挥所 指挥官和参谋长在内多人死亡</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2111150?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">乌称打击俄一指挥所 指挥官和参谋长在内多人死亡</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/politics/202508/1049286.html" target="_blank" class="news-link">男性人口下降 韩国军队规模过去六年缩减20%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2111144" target="_blank" class="news-link">已将机器人轴承纳入“十五五”业务板块规划 机器人概念股斩获五连板 本周机构密集调研相关上市公司</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2111148" target="_blank" class="news-link">多家私募沦为违规债券发行通道，协助自融或返费，监管部门集体出手处罚</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/taiwan/202508/1049279.html" target="_blank" class="news-link">拉脱维亚国会团访台 将访亚洲无人机AI研创中心</a> [12] <font color='grey'>- 22时18分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
