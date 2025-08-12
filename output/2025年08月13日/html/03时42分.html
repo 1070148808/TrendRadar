@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 28</p><p>生成时间: 2025-08-13 03:42:46</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">8</td>
+                    <td class="percentage">28.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2113409?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">结构性机会涌现 99%权益类基金近一年收益为正</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2113409?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">结构性机会涌现 99%权益类基金近一年收益为正</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813033124180800" target="_blank" class="news-link">墨西哥经济部长：墨西哥鞋类进口将征收25%的关税。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813031409395800" target="_blank" class="news-link">美国国际贸易委员会表示，将启动修改《协调关税表》的程序，以反映协调制度的变化。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813030645979800" target="_blank" class="news-link">墨西哥经济部颁布法令，暂时禁止鞋类进口。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813030626578800" target="_blank" class="news-link">美国制裁刚果（金）矿业公司，因涉嫌非法矿物贸易。</a> [6] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3609619_100_1" target="_blank" class="news-link">美国国际贸易委员会：启动修订统一关税表的程序，以反映协调制度的变化。</a> [8 - 28] <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3609618_100_1" target="_blank" class="news-link">墨西哥经济部：将通过法令暂时禁止在IMMEX进口计划下进口鞋类。（补充IMMEX进口计划的细节说明。）</a> [9 - 29] <font color='grey'>- 03时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">2</td>
+                    <td class="percentage">7.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3609632_101_1" target="_blank" class="news-link">欧尔班：欧盟不应为未邀请其领导人参加的谈判设定条件</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 03时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3609617_100_1" target="_blank" class="news-link">特立尼达和多巴哥总理：该国将审查石油和天然气税收制度以鼓励勘探。</a> [10 - 30] <font color='grey'>- 03时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3609627_0_1" target="_blank" class="news-link">美国7月关税收入创新高，但占政府总收入的比例不足10%</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 03时42分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
