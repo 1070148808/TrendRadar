@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2025-08-12 17:26:58</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">12</td>
+                    <td class="percentage">12.12%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2112898" target="_blank" class="news-link">债市收盘|财政部印发服务业贷款贴息政策方案，国债长端收益率继续上行1.5bp左右</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2112963?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">润都股份：硫酸氨基葡萄糖氯化钠复盐获得化学原料药上市申请批准通知书</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4339275_1" target="_blank" class="news-link">Circle即将公布上市后首份财报，股价迄今已暴涨400%</a> <font color='red'><strong>[5 - 17]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2112963?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">润都股份：硫酸氨基葡萄糖氯化钠复盐获得化学原料药上市申请批准通知书</a> [7] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3608396_100_1" target="_blank" class="news-link">罗马尼亚央行行长伊萨雷斯库：加息将带来风险，货币政策正试图避免进一步的衰退风险。</a> [7 - 27] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3608370_100_1" target="_blank" class="news-link">德国8月ZEW经济景气指数为34.7（路透调查预估为39.8）。</a> [10 - 30] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3608379_100_1" target="_blank" class="news-link">欧洲经济研究中心（ZEW）：化工和制药行业的前景均有所恶化。</a> [11] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3608377_100_1" target="_blank" class="news-link">欧洲经济研究中心（ZEW）：金融市场专家对欧盟与美国达成的贸易协议感到失望。</a> [12] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3608372_100_1" target="_blank" class="news-link">欧洲经济研究中心（ZEW）：8月份德国经济现况指数为-68.6点，前一月为-59.5点（路透调查预测为-65.0点）。</a> [13] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2112948?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财政部、税务总局：快递企业提供快递服务取得的收入 按照“收派服务”缴纳增值税</a> [14] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2112948?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财政部、税务总局：快递企业提供快递服务取得的收入 按照“收派服务”缴纳增值税</a> [17] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2112934?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月12日电，欧元区8月ZEW经济景气指数为34.7，前值36.1。</a> [20] <font color='grey'>- 17时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/12/0ba20752d5924af28b6f5e70bbccfa48.html" target="_blank" class="news-link">抢在“普特会”前，欧洲领导人要与特朗普“对表”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3608354_100_1" target="_blank" class="news-link">马来西亚总理安瓦尔：马来西亚的人工智能国家框架将推动可持续和包容性增长。</a> [18] <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3608351_100_1" target="_blank" class="news-link">乌克兰总统泽连斯基：我们看到俄军正在为新的攻势行动做准备。</a> [19] <font color='grey'>- 17时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.02%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2112973?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">工银瑞信赵蓓：中国成为全球创新药研发中心 出海机会有望继续增多</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3753130" target="_blank" class="news-link">创业板涨超1%，芯片股午后爆发、寒武纪涨停创新高，双焦期货大涨，恒指涨0.25%，复星国际涨超13%</a> [10] <font color='grey'>- 17时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.01%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2112888" target="_blank" class="news-link">头部券商正以百人团队打造新AI APP！一线调查：APP迭代呈现五点趋势</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.01%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2112912" target="_blank" class="news-link">港股评级汇总 | 西部证券给予快手买入评级</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时26分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
