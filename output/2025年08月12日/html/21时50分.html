@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 93</p><p>生成时间: 2025-08-12 21:50:30</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">8</td>
+                    <td class="percentage">8.6%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250812213241195800" target="_blank" class="news-link">土耳其总统府：土耳其和乌克兰领导人讨论了土乌双边关系以及地区和全球问题。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250812213054739800" target="_blank" class="news-link">土耳其总统埃尔多安与乌克兰总统泽连斯基通电话。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250812/1066826310.html" target="_blank" class="news-link">匈牙利总理欧尔班：欧盟单方面努力向俄美提出条件的行为软弱且可悲</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2113290?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">前美联储官员Bullard：若独立性得到尊重 愿意担任美联储主席</a> [6] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250812212122415800" target="_blank" class="news-link">美国财长顾问：美国最新的通胀报告继续显示关税并未产生负面影响。7月份核心商品价格上涨0.2%。过去12个月，核心商品价格仅上涨1.1%，自特朗普总统开始逐步征收关税以来，实际涨幅仅为0.8%。</a> [10] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250812211955050800" target="_blank" class="news-link">欧盟外交负责人：以色列必须批准所有国际非政府组织的援助物资运输，并允许必要的人道主义机构开展行动。</a> [11] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250812211925296800" target="_blank" class="news-link">欧盟外交政策负责人：在加沙人最需要帮助的时候，以色列对非政府组织实施的新限制措施将使本已灾难性的局势更加恶化。</a> [12] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250812211321549800" target="_blank" class="news-link">伊朗第一副总统：如果条件成熟，即使与美国直接谈判也可以有尊严地进行。实现“零”铀浓缩是“一个笑话”。</a> [15] <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">7</td>
+                    <td class="percentage">7.53%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2113303?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月12日电，纳斯达克中国金龙指数盘初涨约0.4%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753127" target="_blank" class="news-link">贸易战缓和+CPI低于预期，美股三大指数集体高开，欧股涨幅回落，以太坊站上4400美元关口</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/874/880.htm" target="_blank" class="news-link">18.18 万元起上汽大众途观 L 出众款“最便宜车型”上市：降级 8 英寸液晶仪表、取消可开启式全景天窗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%81%92%E5%A4%A7%E5%B0%86%E5%8F%96%E6%B6%88%E4%B8%8A%E5%B8%82%E5%9C%B0%E4%BD%8D" target="_blank" class="news-link">中国恒大将取消上市地位</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/874/878.htm" target="_blank" class="news-link">16499 元现货：英伟达 RTX 5090 D v2 显卡发售，技嘉、七彩虹、索泰、万丽等一众新品官宣上市</a> [6] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2112858?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【财联社早知道】刚刚，财政部、央行等重磅发布个人消费贷款财政贴息政策实施方案！机构称AI引领消费电子行业成长，这家公司是苹果光学识别、光学感应测试设备领域的核心供应商</a> [8] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055387" target="_blank" class="news-link">铂科新材(300811.SZ)：拟共同投资设立无锡湃圃春之阳创业投资基金合伙企业</a> [8] <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2113301?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">南海部分海域进行军事训练 禁止驶入</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250812212849240800" target="_blank" class="news-link">乌克兰武装部队：乌克兰国防军正在阻止俄罗斯的推进，并采取措施阻止敌人深入乌克兰领土。目前已记录到91场战斗。</a> [6] <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/874/884.htm" target="_blank" class="news-link">NVIDIA亮相 SIGGRAPH 2025：推出全新 Cosmos 世界模型，展示图形与 AI 融合新成果</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113291" target="_blank" class="news-link">人形机器人商业化提速 宇树、智元等产能、订单和交付进度如何？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055393" target="_blank" class="news-link">佑驾创新(02431.HK)拟8月22日举行董事会会议以审批中期业绩</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113283" target="_blank" class="news-link">抖音公布炒作“理想车主乱停车”事件相关账号处置情况</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时50分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
