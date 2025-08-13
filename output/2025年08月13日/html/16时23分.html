@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 116</p><p>生成时间: 2025-08-13 16:23:18</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">14</td>
+                    <td class="percentage">12.07%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113996" target="_blank" class="news-link">社保基金最新持仓披露：银行股依旧“心头好”，还有哪些独门重仓股？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753229" target="_blank" class="news-link">如何理解GPT-5？商业价值大于技术价值，OpenAI很快要成“全球最值钱非上市公司”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753233" target="_blank" class="news-link">90后正在成为基金投资主力军</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055815" target="_blank" class="news-link">汇宇制药(688553.SH)：公司产品获得境外上市许可</a> [6] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055813" target="_blank" class="news-link">中国医药(600056.SH)：子公司获得化学原料药上市申请批准通知书</a> [8] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610767_100_1" target="_blank" class="news-link">德国经济部：预计今年剩余时间内的通胀将保持稳定。</a> [8 - 28] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3753187" target="_blank" class="news-link">特朗普炮轰高盛关税预测错误：换个首席经济学家，CEO去当DJ算了</a> [9] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2114022?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月13日电，美股加密货币概念股盘前走高，DeFi Development涨超16%，囤币数量和质押业务显著增长；BMNR涨超3%，SharpLink Gaming涨超2%。</a> [10] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2113996" target="_blank" class="news-link">社保基金最新持仓披露：银行股依旧“心头好”，还有哪些独门重仓股？</a> [10] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610765_100_1" target="_blank" class="news-link">德国经济部：出口动能短期内将保持疲软。</a> [10 - 30] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610764_100_1" target="_blank" class="news-link">德国经济部：尽管就美国关税问题达成基本协议，但并未出现明显的经济复苏迹象。</a> [11] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055809" target="_blank" class="news-link">港股异动丨恒瑞医药涨超4% 海曲泊帕乙醇胺片上市许可申请获受理</a> [12] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610756_100_1" target="_blank" class="news-link">泰国央行：将确保泰铢走势符合经济基本面。</a> [15] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2113989?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国通胀数据揭晓后 欧元期权成为做空美元主力</a> [18] <font color='grey'>- 16时23分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">10</td>
+                    <td class="percentage">8.62%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2114036?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月13日电，Coreweave股价盘前跌超9%，因AI基础设施投入扩大加剧其二季度亏损。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2114035?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">阿里AI TO C 业务启动近千人招聘</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/875/059.htm" target="_blank" class="news-link">AMD 苏姿丰：不会效仿扎克伯格高薪挖角，使命感和认同感更能吸引 AI 人才</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753209" target="_blank" class="news-link">大涨！沪指突破“924”高点，全市场成交破2万亿，AI硬件、医药爆发，恒指涨超3%，腾讯音乐大涨超16%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113950" target="_blank" class="news-link">世界人形机器人运动会明日开幕！宇树、天工等确认参赛</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610778_101_1" target="_blank" class="news-link">第一批人工智能在生物制造领域典型应用案例公布，16个上榜。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610769_100_1" target="_blank" class="news-link">消息人士：美国当局在人工智能芯片的出货中嵌入定位追踪器，以抓捕非法转运至中国的行为。</a> [6 - 26] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610766_101_1" target="_blank" class="news-link">阿里Ai To C业务启动近千人招聘</a> [9 - 29] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3753209" target="_blank" class="news-link">大涨！沪指突破“924”高点，全市场成交破2万亿，AI硬件、医药爆发，恒指涨超3%，腾讯音乐大涨超16%</a> [10] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610751_0_1" target="_blank" class="news-link">科技公司争夺人工智能人才：使命与数百万美元的报价</a> [16] <font color='grey'>- 16时23分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/875/061.htm" target="_blank" class="news-link">第三代骁龙 7s + 6200mAh 硅碳电池：小米 Redmi Note 14 Pro+ 手机 1328 元新低</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/875/057.htm" target="_blank" class="news-link">谷歌大中华区总裁陈俊廷：中国出海开发者已成为全球不可或缺的中坚力量</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813154329622800" target="_blank" class="news-link">派杰投资：将英伟达(NVDA.O)目标价从180美元上调至225美元。</a> [7] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%83%A0%E5%B7%9E%E8%80%81%E6%9D%BF%E6%90%AD%E4%B8%8A%E8%8B%B1%E4%BC%9F%E8%BE%BE+4%E4%B8%AA%E6%9C%88%E7%8C%9B%E6%B6%A8%E5%8D%83%E4%BA%BF" target="_blank" class="news-link">惠州老板搭上英伟达 4个月猛涨千亿</a> [10] <font color='grey'>- 16时23分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813155533104800" target="_blank" class="news-link">德国总理府日程表显示，德国总理默茨和乌克兰总统泽连斯基将于格林尼治时间周三14:00（北京时间22:00）左右在柏林发表新闻声明。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时23分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055781" target="_blank" class="news-link">洪都航空(600316.SH)：九三阅兵是国家国防力量的一次大检阅，洪都必不会缺席</a> [14] <font color='grey'>- 16时23分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610768_100_1" target="_blank" class="news-link">恒指升643点，恒生科技指数升191点，阿里巴巴升逾6%，腾讯升逾4%，美团升逾4%，腾讯、万洲国际、翰森制药、京东健康、紫金矿业创新高，市场成交额上升。</a> [7 - 27] <font color='grey'>- 16时23分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
