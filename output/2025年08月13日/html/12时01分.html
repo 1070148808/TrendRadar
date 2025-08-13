@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 155</p><p>生成时间: 2025-08-13 12:01:28</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">19</td>
+                    <td class="percentage">12.26%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113628" target="_blank" class="news-link">债市公告精选 | 华南城股票停牌，被香港高等法院下达清盘令</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4339429_1" target="_blank" class="news-link">美经济数据“冷热不均”及政策博弈，金价3350美元/盎司附近面临阻力</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055655" target="_blank" class="news-link">A股异动 | 被立案调查，际华集团再度跌超7%，3日连跌近23%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113739" target="_blank" class="news-link">特朗普炮轰高盛不懂关税：换掉首席经济学家 CEO去当DJ吧！</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813114047930800" target="_blank" class="news-link">金十图示：2025年08月13日（周三）富时中国A50指数成分股午盘收盘行情一览：保险、证券板块普涨，银行股涨跌不一</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610282_100_1" target="_blank" class="news-link">【行情】印度10年期政府债券收益率开盘下跌10个基点至6.3911%，前一交易日收报6.4920%。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055651" target="_blank" class="news-link">A股异动丨被证监会立案，恒信东方大跌近19%，跌幅居市场首位</a> [6] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813113225889800" target="_blank" class="news-link">越南盾兑美元汇率跌至纪录低点。</a> [7] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113716" target="_blank" class="news-link">又一家券商债券业务受罚，去年以来处罚券商已超10家</a> [8] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055649" target="_blank" class="news-link">A股午评：创业板指涨2.81%，沪指创2021年12月以来新高！证券板块领涨</a> [8] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113645" target="_blank" class="news-link">商保创新药目录引关注 中慧生物上市近3日累计涨超4倍</a> [10] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2113605" target="_blank" class="news-link">牛市亏钱更不可原谅？明星基金经理被批赌性太重，跳槽名将们的业绩都咋样？</a> [12] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610255_100_1" target="_blank" class="news-link">【行情】新加坡股市上涨1.1%至4267.09点，创7月28日以来新高。</a> [12] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610244_0_1" target="_blank" class="news-link">中国财政部副部长廖岷：贷款经办机构对贷款人授信时，要基于借款人的真实需求和信用状况，不得借贴息政策诱导消费者进行借贷。</a> [13] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610236_0_1" target="_blank" class="news-link">美国股市指数在通胀数据和关税影响分析中创历史新高</a> [16] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610235_100_1" target="_blank" class="news-link">中国财政部副部长廖岷：将支持国内消费成为经济的主要驱动力。</a> [17] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610233_100_1" target="_blank" class="news-link">中国财政部副部长廖岷：“双贴息”政策期限一年到期后，将视情况研究是否延长</a> [18] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813110810812800" target="_blank" class="news-link">马来西亚副能源部长：政府将在第四个监管期内维持对国家能源公司（Tenaga Nasional）三年7.3%的利润上限。超过设定利润率的部分将通过电力行业基金返还给消费者。</a> [22] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813110458558800" target="_blank" class="news-link">受AI前景及芯片关税豁免提振 台湾地区股市有望创历史新高</a> [23] <font color='grey'>- 12时01分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">8</td>
+                    <td class="percentage">5.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753214" target="_blank" class="news-link">人民日报专访王兴兴：最大的难题还是机器人AI水平不太够用，没有突破临界点</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/874/991.htm" target="_blank" class="news-link">单发射器 249 元：影石 Insta360 发布 Mic Air 麦克风，可配合手机、全景相机、运动相机使用</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2113757?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">午评：创业板指半日涨2.81% AI硬件股持续爆发</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113717" target="_blank" class="news-link">一文剖析：AI周期是否已达顶峰？本质上取决于这三大风险</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055652" target="_blank" class="news-link">ETF午评 | 沪指创2021年12月以来新高，CPO板块满屏历史新高，创业板人工智能ETF大成涨5%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2113757?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">午评：创业板指半日涨2.81% AI硬件股持续爆发</a> [6] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113707" target="_blank" class="news-link">美股最强50 | 从梗图到广告帝国，Reddit能靠AI走出第二春吗？</a> [6] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3610257_101_1" target="_blank" class="news-link">Binance Alpha将于8月15日上线PublicAI（PUBLIC），符合条件用户可使用Alpha积分领取空投</a> [11] <font color='grey'>- 12时01分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">4</td>
+                    <td class="percentage">2.58%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250813/1066836546.html" target="_blank" class="news-link">德国总理办公室负责人呼吁加强德军和情报部门的实力</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250813114720077800" target="_blank" class="news-link">巴克莱：美联储新理事米兰可能是美联储主席的黑马人选</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2113728" target="_blank" class="news-link">韩国宪政史上首次！前总统尹锡悦夫妇双双被捕</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250813/1066835219.html" target="_blank" class="news-link">英媒：伦敦试图阻止欧盟领导人对普京和特朗普会晤发表评论</a> [7]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.94%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/875/001.htm" target="_blank" class="news-link">Canalys：2025 年第二季度小米重夺东南亚智能手机市场桂冠</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5055654" target="_blank" class="news-link">大行评级｜摩根大通：将小米列入“正面催化观察”名单 维持“中性”评级及目标价60港元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/874/997.htm" target="_blank" class="news-link">接近 DeepSeek 人士确认：R2 模型本月内并无发布计划</a> [6] <font color='grey'>- 12时01分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
