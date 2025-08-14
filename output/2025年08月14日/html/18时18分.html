@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-08-14 18:18:40</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">7</td>
+                    <td class="percentage">11.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2115398" target="_blank" class="news-link">【焦点复盘】金融权重护盘难阻调整，沪指3700点关口得而复失，国产算力芯片双龙逆势爆发</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2115403" target="_blank" class="news-link">公募小程序时代来临？销售功能再放开，卖基金尚有三大痛点</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3613789_0_1" target="_blank" class="news-link">迷因币市场反弹至820亿美元，加密货币市场普遍上涨</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3613767_100_1" target="_blank" class="news-link">特朗普推动的加密货币狂潮引发华尔街IPO热潮。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2115377" target="_blank" class="news-link">天数智芯也要上市？国产GPU密集IPO</a> [8] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3613741_0_1" target="_blank" class="news-link">英国第二季度经济增长0.3%，超出预期</a> [8 - 28] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3613714_0_1" target="_blank" class="news-link">安姆科报告第四季度财政亏损，并提供全年业绩指引</a> [14] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">4</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2115416" target="_blank" class="news-link">【数据看盘】机构连续4日加仓创新医疗 多路资金联手抢筹四方精创</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3613753_100_1" target="_blank" class="news-link">【行情】伦敦证券交易所集团（LSEG）数据显示，德国场外交易次日交付的基本负荷电价下跌32%，至每兆瓦时75.70欧元。</a> [6 - 26] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3613736_100_1" target="_blank" class="news-link">法国总统马克龙：美国总统特朗普在周三向欧洲领导人表示，美国和“所有有意愿的盟友”应成为乌克兰安全保证的一部分。</a> [10 - 30] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3613719_100_1" target="_blank" class="news-link">乌克兰总统泽连斯基：乌克兰已获得欧洲盟友购买的价值15亿美元的美国武器。</a> [13] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">4</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3613783_100_1" target="_blank" class="news-link">京东健康中期净利润飙涨27.5%至约26亿元人民币。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3613727_0_1" target="_blank" class="news-link">京东二季度营收超预期，618大促销售强劲</a> [11] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2203211" target="_blank" class="news-link">跟抖音趋势榜学变美</a> [19] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3613696_100_1" target="_blank" class="news-link">【行情】京东美股盘前上涨3.1%，此前公司季度营收超出预期。</a> [19] <font color='grey'>- 18时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250814/1066857308.html" target="_blank" class="news-link">俄国防部：特别军事行动期间，乌克兰军队一昼夜内损失1315名军人</a> <font color='red'><strong>[2]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
