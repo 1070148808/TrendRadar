@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 80</p><p>生成时间: 2025-08-22 22:40:38</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">13</td>
+                    <td class="percentage">16.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822222101404800" target="_blank" class="news-link">以色列总理内塔尼亚胡：国际红十字会无视以色列近期在加沙采取的人道主义举措。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/china/202508/2250372.html" target="_blank" class="news-link">山东两市违规向超500名死亡人员发放近47万元养老金</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2123580?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月22日电，美联储主席鲍威尔在杰克逊霍尔全球央行年会上表示，关税驱动的物价上涨压力可能刺激持久的通胀动力，但鉴于劳动力市场存在下行风险，这种可能性不大。</a> [6] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221944798800" target="_blank" class="news-link">美联储主席鲍威尔：货币政策没有预设的路线。FOMC成员将仅根据对数据的评估及其对经济前景和风险平衡的影响做出决定。我们永远不会偏离这一方针。</a> [6] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221915937800" target="_blank" class="news-link">市场分析：鲍威尔强调决策始终由数据驱动 或回应政治压力</a> [7] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221827125800" target="_blank" class="news-link">美国总统特朗普：将观察俄罗斯总统普京和乌克兰总统泽连斯基是否会合作。</a> [8] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221343632800" target="_blank" class="news-link">欧洲信用风险指标在美联储主席鲍威尔发表言论后收紧。</a> [18] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2123560?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月22日电，美联储主席鲍威尔在杰克逊霍尔全球央行年会上表示，美联储仍认为，仅凭就业可能超过其最大可持续水平的不确定估算，并不一定需要收紧政策。</a> [20] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221217376800" target="_blank" class="news-link">美国总统特朗普：我们正开始建造宴会厅。</a> [22] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221207007800" target="_blank" class="news-link">美国大型科技股在美联储主席鲍威尔暗示可能降息后小幅上涨，谷歌(GOOG.O)上涨1.9%，微软(MSFT.O)上涨0.8%，亚马逊(AMZN.O)上涨1.2%。</a> [23] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221132634800" target="_blank" class="news-link">美联储主席鲍威尔：新框架强调承诺采取有力行动，确保长期通胀预期保持稳定。</a> [25] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221116952800" target="_blank" class="news-link">美联储主席鲍威尔：当央行的目标之间存在冲突时，新框架要求采取平衡的应对方式。</a> [26] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822220755731800" target="_blank" class="news-link">特斯拉(TSLA.O)在美联储主席鲍威尔暗示可能降息后上涨4%。</a> [30] <font color='grey'>- 22时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">8</td>
+                    <td class="percentage">10.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2123584?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月22日电，加密货币概念股Coinbase涨4.5%，Strategy涨3%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/taiwan/202508/2250374.html" target="_blank" class="news-link">台湾经济部长郭智辉以健康理由请辞</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221611297800" target="_blank" class="news-link">鲍威尔公布货币政策框架最新调整 就业与通胀应对策略更灵活</a> [13] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2123567?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">鲍威尔：先前的框架过于强调具体的经济状况 新框架旨在适应各种经济状况</a> [15] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2123566?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">纳斯达克中国金龙指数涨幅扩大，现涨2.2%，最新报7880点。</a> [16] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221141945800" target="_blank" class="news-link">鲍威尔“加入”鸽派阵营 称经济风险为降息提供更足理由</a> [24] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822220948779800" target="_blank" class="news-link">纳斯达克中国金龙指数涨超2%。</a> [27] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822220856266800" target="_blank" class="news-link">南非兰特兑美元汇率上涨1%。</a> [29] <font color='grey'>- 22时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250822/1067009857.html" target="_blank" class="news-link">北约秘书长：欧洲在过去一个月内从美国为基辅采购了价值15亿美元的武器，此类供应将继续</a> <font color='red'><strong>[1]</strong></font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822221334922800" target="_blank" class="news-link">美股芯片股上涨，英伟达(NVDA.O)上涨1.4%，英特尔(INTC.O)上涨4.3%，高通(QCOM.O)涨3.2%。</a> [19] <font color='grey'>- 22时40分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
