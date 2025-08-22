@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 224</p><p>生成时间: 2025-08-22 09:09:05</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">15</td>
+                    <td class="percentage">6.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2122450" target="_blank" class="news-link">券商晨会精华：DeepSeek-V3.1发布，国产算力板块迎催化</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822085031447800" target="_blank" class="news-link">Meta豪掷百亿，与谷歌达成云计算服务大单</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753852" target="_blank" class="news-link">超百亿美元！谷歌云拿下Meta大单</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/taiwan/202508/2250315.html" target="_blank" class="news-link">台网红“馆长”无法开抖音账号 陆委会：可能捧得不够努力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753718" target="_blank" class="news-link">高盛交易台：现在是抄底“美股动量股”的时候，“除非下周英伟达财报暴雷”</a> [6] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/877/171.htm" target="_blank" class="news-link">为何 Pixel 10 Pro XL 手机独享 25W 无线快充？谷歌回应：规避起火隐患、兑现 7 年更新承诺</a> [10] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753850" target="_blank" class="news-link">DeepSeek上线两天后再回看：一次“小更新”，一场架构“豪赌”</a> [10] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/877/170.htm" target="_blank" class="news-link">因未按要求上报自动驾驶相关交通事故，特斯拉面临美交通部门调查</a> [11] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/877/169.htm" target="_blank" class="news-link">科技昨夜今晨 0822：小米正式发布 Redmi Note 15 系列；vivo Vision 探索版 MR 头显发布；DeepSeek-V3.1 正式发布...</a> [12] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2122457" target="_blank" class="news-link">DeepSeek-V3.1正式发布 UE8M0 FP8技术助力国产芯片加速追赶</a> [13] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/Chronicles/202508/2250305.html" target="_blank" class="news-link">英媒：中国因美商务部长侮辱性言论 转向抵制英伟达晶片</a> [13] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063601" target="_blank" class="news-link">中信建投：DeepSeek-V3.1发布，国产算力板块迎催化</a> [14] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822080826963800" target="_blank" class="news-link">英伟达(NVDA.O)美股夜盘跌幅扩大至0.75%。</a> [14] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822080544164800" target="_blank" class="news-link">英伟达(NVDA.O)要求暂停H20芯片生产。</a> [15] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2209948" target="_blank" class="news-link">卢伟冰：小米汽车不参与价格战</a> [21] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">13</td>
+                    <td class="percentage">5.8%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753856" target="_blank" class="news-link">日本长债重回“危机模式”，“长债危机”会蔓延到股市吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2122541?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国内期货主力合约涨跌不一</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2122382?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【九点特供】5000亿“准财政”工具将出，重点支持新兴产业等；DeepSeek称新版本针对下一代国产芯片做了优化，这家公司参股的AI芯片小巨头是仅有的8家通过DeepSeek系列开源模型适配的企业之一</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2122481" target="_blank" class="news-link">智元机器人明年出货量预期达数万台 哪些上市公司有望入局？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822084027280800" target="_blank" class="news-link">金十数据整理：隔日全球股市走势回顾（2025-08-22）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2122480" target="_blank" class="news-link">8月22日投资避雷针：这家上市公司三天两度公告 两位董事先后被立案调查</a> [7] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2122382?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【九点特供】5000亿“准财政”工具将出，重点支持新兴产业等；DeepSeek称新版本针对下一代国产芯片做了优化，这家公司参股的AI芯片小巨头是仅有的8家通过DeepSeek系列开源模型适配的企业之一</a> [8] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753851" target="_blank" class="news-link">A股“跑赢”美股：来龙与去脉</a> [9] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2122480" target="_blank" class="news-link">8月22日投资避雷针：这家上市公司三天两度公告 两位董事先后被立案调查</a> [12] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250822/1066995163.html" target="_blank" class="news-link">欧盟农协指责冯德莱恩在欧美贸易协定中没有兑现自己的承诺</a> [12]</div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2122442" target="_blank" class="news-link">【数读IPO】高分子材料领域“小巨人”今日上市，产品应用于家电、汽车等领域</a> [17] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822080110800800" target="_blank" class="news-link">品浩：美国股市上涨不能反映经济状况</a> [17] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822080022349800" target="_blank" class="news-link">金十图示：2025年08月22日（周五）全网加密货币实时爆仓数据</a> [18] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">12</td>
+                    <td class="percentage">5.36%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063614" target="_blank" class="news-link">DeepSeek-V3.1与中康智能体深度融合：以“双模式”AI重构医药零售与商用智能</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063613" target="_blank" class="news-link">国金证券：AI服务器出货量带动电子氟化液需求快速提升</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/877/178.htm" target="_blank" class="news-link">OpenAI 首席人力官（CPO）Julia Villagra 离职，仅上任不到半年</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3753849" target="_blank" class="news-link">以史为鉴，技术革命都遵循同一个规律，AI“投资狂潮”会和当年铁路、电网一样吗？</a> [7] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2122476" target="_blank" class="news-link">小K播早报|欧盟：拟向美国采购400亿美元AI芯片 DeepSeek-V3.1正式发布</a> [8] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822082940433800" target="_blank" class="news-link">OpenAI首席人事官将离任。</a> [9] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/opinion/202508/2250309.html" target="_blank" class="news-link">蔡翌卿：AI时代如何培养新加坡下一代</a> [10] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/opinion/202508/2250308.html" target="_blank" class="news-link">谢伟铿：AI冲击本地毕业生求职</a> [11] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2122486?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国金证券：AI服务器出货量带动电子氟化液需求快速提升</a> [12] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2122486?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国金证券：AI服务器出货量带动电子氟化液需求快速提升</a> [15] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2122461" target="_blank" class="news-link">AI大模型加速落地 数据价值有望得到进一步被挖掘</a> [15] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3626066_100_1" target="_blank" class="news-link">快手CFO金秉：预计今年可灵AI全年收入将较年初目标翻倍。</a> [15] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3626091_0_1" target="_blank" class="news-link">美国因性教育内容终止向加州提供1230万美元拨款</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822083418801800" target="_blank" class="news-link">韩国前国务总理韩德洙接受特检组传唤调查</a> [7] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/opinion/202508/2250312.html" target="_blank" class="news-link">黄龙翔 吕赐杰：走出AI的“柏拉图洞穴”——教育如何引路？</a> [7] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2122516?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">韩国前国务总理韩德洙接受特检组传唤调查</a> [8] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063607" target="_blank" class="news-link">先健科技(01302.HK)：镍钛合金动脉导管未闭封堵器进入创新医疗器械特别审查程序</a> [8] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2122469" target="_blank" class="news-link">惠泰医疗上半年净利同比增24.11% 拟与关联方共同投资栗亮医疗</a> [10] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2122516?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">韩国前国务总理韩德洙接受特检组传唤调查</a> [11] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/member/articles/3753848" target="_blank" class="news-link">8.22会员早报 美联储主席候选人布拉德递上“投名状”：今年降息100个基点；美国制造业以三年来最快速度扩张</a> [13] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">5</td>
+                    <td class="percentage">2.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2122543?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国防部拟投最高5亿美元采购合金级钴</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2122517?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">伊朗海军举行演习 发射导弹摧毁目标</a> [6] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250822083154832800" target="_blank" class="news-link">伊朗海军举行演习 发射导弹摧毁目标</a> [8] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2122517?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">伊朗海军举行演习 发射导弹摧毁目标</a> [9] <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7541174736772988971/" target="_blank" class="news-link">撞船坠机 美军事故连环上演</a> [20] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2122496" target="_blank" class="news-link">美联储高官呼吁拥抱加密行业：无需畏惧数字资产创新</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063609" target="_blank" class="news-link">国金证券：AI助力农药创新药研发</a> [6] <font color='grey'>- 09时09分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
