@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 41</p><p>生成时间: 2025-08-24 14:33:19</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.32%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250824140010122800" target="_blank" class="news-link">特朗普再划“两周”时间线 可能推高俄乌冲突战场烈度</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7541978263791341066/" target="_blank" class="news-link">学者：佩通坦有望继续担任泰国总理</a> [14] <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7541972498221416484/" target="_blank" class="news-link">资深外交官刘立德大使逝世</a> [25] <font color='grey'>- 14时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.32%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/877/635.htm" target="_blank" class="news-link">克蒂怪兽 SV7 36 周年纪念版越野车上市：基于江铃福特烈马改装而来，49.8 万元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3753984" target="_blank" class="news-link">PPI、人民币汇率与中国资产重估</a> [9] <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2123928" target="_blank" class="news-link">寒武纪携手海光信息20CM涨停 盘中创历史新高A股名单一览</a> [10] <font color='grey'>- 14时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.32%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2122795?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【研选】华为定于8月27日召开数据存储AI SSD新品发布会，这家公司SSD产品已陆续适配鲲鹏、海光等国产CPU平台；美国军方数十年来首次寻求战略储备钴，分析师看好钴价未来两年有望迎来持续的上涨趋势</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2122795?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【研选】华为定于8月27日召开数据存储AI SSD新品发布会，这家公司SSD产品已陆续适配鲲鹏、海光等国产CPU平台；美国军方数十年来首次寻求战略储备钴，分析师看好钴价未来两年有望迎来持续的上涨趋势</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2123844" target="_blank" class="news-link">探访国家先进计算太原中心：国产算力如何支撑AI与大科学？｜一线</a> [21] <font color='grey'>- 14时33分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
