@@ -1,0 +1,94 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 25</p><p>生成时间: 2025-08-26 04:45:58</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">5</td>
+                    <td class="percentage">20.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3630324_101_1" target="_blank" class="news-link">韩国总统李在明会见英伟达Ceo黄仁勋。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3630317_100_1" target="_blank" class="news-link">美国达拉斯联储主席洛根：应继续观察，以判断继续沟通联邦基金利率目标区间是否为最优选择。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3630311_100_1" target="_blank" class="news-link">美国达拉斯联储主席洛根：美联储也有方法可以改善资产负债表的沟通工作。</a> [9 - 29] <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3630309_100_1" target="_blank" class="news-link">美国达拉斯联储主席洛根：美联储应探索如何在突出中位数观点的同时，避免对美联储内部观点的多样性造成过度强调。</a> [11] <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3630293_100_1" target="_blank" class="news-link">美国总统特朗普在谈及与韩国的会谈时表示：我认为我们达成了一项协议。</a> [17] <font color='grey'>- 04时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">2</td>
+                    <td class="percentage">8.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2125435?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">纳斯达克中国金龙指数收涨0.11%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2125434?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美股三大指数集体收跌 大型科技股涨跌不一</a> [6] <font color='grey'>- 04时45分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
