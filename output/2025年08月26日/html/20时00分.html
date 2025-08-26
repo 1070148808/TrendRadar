@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 63</p><p>生成时间: 2025-08-26 20:00:06</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">16</td>
+                    <td class="percentage">25.4%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2126518?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">新华锦：公司股票可能被实施其他风险警示及退市风险警示</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2126513?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月26日电，上交所发布关于山东新华锦国际股份有限公司非经营性资金占用以及财务总监未签署确认意见相关事项的监管工作函，涉及对象：上市公司，董事，监事，高级管理人员，控股股东及实际控制人。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826195414731800" target="_blank" class="news-link">加拿大蒙特利尔银行CEO：加拿大经济虽不强劲，但并未感受到衰退迹象。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3631742_0_1" target="_blank" class="news-link">中国商务部副部长将访问华盛顿，正值贸易谈判期间</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3631727_100_1" target="_blank" class="news-link">加拿大蒙特利尔银行高管：尽管宏观经济前景已变得更为乐观，但贸易政策和财政政策动态带来的影响仍存在不确定性。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3631708_100_1" target="_blank" class="news-link">【行情】印度10年期基准政府债券收益率在最后一小时反弹后基本持平，报6.5997%，前一交易日收报6.5967%。</a> [6 - 26] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826195207404800" target="_blank" class="news-link">巴基斯坦央行副行长：巴基斯坦货币定价合理，巴基斯坦卢比正呈现相对稳定性。</a> [9] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3631689_100_1" target="_blank" class="news-link">加拿大蒙特利尔银行CEO：近几个月北美贸易风险有所减弱。</a> [12] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826194203274800" target="_blank" class="news-link">加拿大蒙特利尔银行首席风险官：关税的全面影响尚未传导至经济。</a> [13] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826194151430800" target="_blank" class="news-link">加拿大蒙特利尔银行首席风险官：尽管宏观经济前景已变得更加积极，但贸易政策和财政政策发展带来的影响仍存在不确定性。</a> [14] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2126481?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构龙虎榜解读】华为昇腾+算力+数字货币，系统完成与鲲鹏、欧拉等基础软硬件的深度适配，把AI大模型产品在基于昇腾算力的推理一体机上进行适配优化，将联合华为推出AI一体机产品，这家公司获净买入</a> [15] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826194133738800" target="_blank" class="news-link">加拿大蒙特利尔银行首席风险官：银行正密切关注加拿大不断上升的失业率。</a> [15] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826194119362800" target="_blank" class="news-link">加拿大蒙特利尔银行首席风险官：贸易政策及其影响仍存在不确定性。</a> [16] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2126488?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">李强主持国务院第十五次专题学习：进一步凝聚共识、拓宽思路，扎实推动服务贸易高质量发展</a> [18] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2126486?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">2025欧亚经济论坛将于9月23日至25日在西安举办</a> [19] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826192812118800" target="_blank" class="news-link">加拿大蒙特利尔银行CEO：近几个月北美贸易风险有所减弱。尽管就业增长放缓，但加拿大消费支出依然强劲。</a> [19] <font color='grey'>- 20时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">8</td>
+                    <td class="percentage">12.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826195457452800" target="_blank" class="news-link">加拿大蒙特利尔银行CEO：在政治上看到促增长政策的积极叙事。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3631744_100_1" target="_blank" class="news-link">德国总理梅尔茨：以色列不得让巴勒斯坦国未来存在成为不可能。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826195358136800" target="_blank" class="news-link">德国总理默茨：以色列不能让巴勒斯坦国的存在成为不可能。</a> [7] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542848557779439155/" target="_blank" class="news-link">李在明下了盘日美韩的“外交棋局”</a> [8] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3631694_0_1" target="_blank" class="news-link">梅赛德斯-奔驰养老基金出售股份后，日产汽车股价下跌</a> [8 - 28] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3754149" target="_blank" class="news-link">法国政治动荡叠加美联储风波，全球股市下跌，长债跌幅扩大，美元收复大部分失地</a> [10] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826194028897800" target="_blank" class="news-link">市场消息：俄罗斯外长拉夫罗夫与塞尔维亚总理通话。</a> [17] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542760873832792114/" target="_blank" class="news-link">特朗普改称印巴冲突中7架战机被击落</a> [28] <font color='grey'>- 20时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2126514?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">俄罗斯副防长与伊朗驻俄大使会谈 讨论两国军事合作</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250826194638946800" target="_blank" class="news-link">俄罗斯副防长与伊朗驻俄大使会谈 讨论两国军事合作</a> [11] <font color='grey'>- 20时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3754161" target="_blank" class="news-link">国务院“人工智能+”行动意见：聚焦AI芯片攻坚与软件生态培育，力推智能汽车等终端发展</a> [9] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542341017375309851/" target="_blank" class="news-link">“人工智能+”行动将带来哪些改变</a> [21] <font color='grey'>- 20时00分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
