@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 105</p><p>生成时间: 2025-08-27 22:22:17</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">23</td>
+                    <td class="percentage">21.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128130?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">创金合信基金上半年营收净利双增长</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250827/1067087149.html" target="_blank" class="news-link">贸易休战期，TEMU恢复对美直邮</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250827/1067086984.html" target="_blank" class="news-link">美财长称美国与印度的贸易谈判已“拖太久”</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4341460_1" target="_blank" class="news-link">中国股市出现过热预警：指数估值高、杠杆交易上升</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250827220640868800" target="_blank" class="news-link">美国财政部：美国批准部分俄罗斯钻石进口交易许可。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3634345_101_1" target="_blank" class="news-link">【行情】美股盘初，主要行业Etf涨跌不一，能源业Etf涨0.95%，区域银行Etf涨0.4%，半导体Etf跌0.5%，全球科技股指数Etf跌0.4%。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2128118?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">信澳基金上半年净利缩水超七成</a> [6] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250827220022664800" target="_blank" class="news-link">金十图示：2025年08月27日（周三）全球股市指数-美洲市场（盘初）</a> [7] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3634329_100_1" target="_blank" class="news-link">印度7月经济报告：得益于高于正常水平的降水，加上季风作物播种情况良好，短期内整体通胀可能保持温和。</a> [8 - 28] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2128111?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">银华基金上半年净利微增 管理规模增长9%</a> [9] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3634327_100_1" target="_blank" class="news-link">印度7月经济报告：稳健的宏观经济基本面持续增强印度经济的韧性。</a> [9 - 29] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2128105?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">特朗普呼吁起诉金融大鳄索罗斯</a> [10] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3634325_101_1" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：美联储理事丽莎·库克休假将是“体面的做法”。</a> [10 - 30] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3634323_100_1" target="_blank" class="news-link">印度7月经济报告：印度正推行多元化贸易战略以维持贸易表现，但此类举措需要一定时间方能发挥作用。</a> [11] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3634321_100_1" target="_blank" class="news-link">印度7月经济报告：当前印度与美国之间的贸易谈判将至关重要</a> [12] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3634320_100_1" target="_blank" class="news-link">印度7月经济报告：美国关税对印度出口的直接影响看似有限，但其对经济的次生和衍生影响构成挑战。</a> [13] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128118?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">信澳基金上半年净利缩水超七成</a> [14] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3634315_0_1" target="_blank" class="news-link">纽约联储威廉姆斯表示九月降息与否取决于经济数据，强调美联储的独立性</a> [14] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3634311_100_1" target="_blank" class="news-link">印度7月经济报告：印度经济在2025年中呈现谨慎乐观态势。</a> [15] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250827214934003800" target="_blank" class="news-link">金十图示：2025年08月27日（周三）美股热门股票行情一览（美股盘初）</a> [15] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250827214909646800" target="_blank" class="news-link">印度7月经济报告：GST改革、放松管制举措、主权评级上调，有望降低借贷成本，吸引外资。</a> [16] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128111?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">银华基金上半年净利微增 管理规模增长9%</a> [17] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250827214844549800" target="_blank" class="news-link">印度7月经济报告：得益于高于正常水平的降水，加上季风作物播种情况良好，短期内整体通胀可能保持温和。</a> [17] <font color='grey'>- 22时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">6</td>
+                    <td class="percentage">5.71%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/08/27/243843a7746346f79189f72f8fc7e988.html" target="_blank" class="news-link">外媒：丹麦外交大臣召见美国外交官</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4341510_1" target="_blank" class="news-link">贝森特：美联储主席人选“肯定”会在金秋揭晓</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3634343_0_1" target="_blank" class="news-link">AXIOS网站记者表示，一位参与伊朗谈判的欧洲高级外交官透露，欧洲领导人即将就启动针对伊朗的“快速恢复机制”（snapback）进程做出决定。只有外交奇迹才能阻止这种情况的发生。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2128116?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">俄总统新闻秘书说尚未确定俄乌下一轮谈判时间</a> [7] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250827215452154800" target="_blank" class="news-link">AXIOS网站记者表示，一位参与伊朗谈判的欧洲高级外交官透露，欧洲领导人即将就启动针对伊朗的“快速恢复机制”（snapback）进程做出决定。只有外交奇迹才能阻止这种情况的发生。</a> [11] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128116?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">俄总统新闻秘书说尚未确定俄乌下一轮谈判时间</a> [15] <font color='grey'>- 22时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/878/505.htm" target="_blank" class="news-link">何小鹏回应建议雷军造车：小米有互联网软件硬件与硬件的基因</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/878/503.htm" target="_blank" class="news-link">单联瑜回应口水仗：小米进入空调行业就没有打算复制过去的模式，要做能持续升级的高品质科技家电</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128010?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【公告全知道】英伟达+数据中心+第三代半导体+机器人！公司参与英伟达Blackwell系列架构数据中心硬件合作建设</a> [6] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250827215004230800" target="_blank" class="news-link">英伟达(NVDA.O)转跌1.3%。</a> [14] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2128094?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">京东方Ａ：上半年净利润32.47亿元 同比增长42.15%</a> [18] <font color='grey'>- 22时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.81%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/878/501.htm" target="_blank" class="news-link">HUAWEI WATCH FIT 4 Pro 手表获鸿蒙 HarmonyOS 5.1.0.211 升级，支持调节华为耳机音量 / 降噪模式等</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2128119?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月27日电，企业级云存储与协作平台Box公司(BOX)上涨3%。该公司将其2026财年营收指引上调至11.75亿美元，主要得益于企业高级协议数量翻倍及人工智能应用加速。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2127856?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·洞察】端侧AI产品即将迎来发布热潮，Meta计划在第四季度开启全球化销售，覆盖人群将提升十倍，年化出货量或触及2000万台级别，有望打开产业链成长天花板；中国生产力有望迎系统性重估</a> [8] <font color='grey'>- 22时22分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2128119?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月27日电，企业级云存储与协作平台Box公司(BOX)上涨3%。该公司将其2026财年营收指引上调至11.75亿美元，主要得益于企业高级协议数量翻倍及人工智能应用加速。</a> [13] <font color='grey'>- 22时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.95%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5069184" target="_blank" class="news-link">中创新航(03931.HK)中期利润同比增长80.4%至7.5亿元</a> [8] <font color='grey'>- 22时22分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
