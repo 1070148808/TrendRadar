@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 65</p><p>生成时间: 2025-08-27 14:55:46</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">8</td>
+                    <td class="percentage">12.31%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2127385?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">知名牛散张寿春、魏巍分别拍下ST华西600万股股票</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068195" target="_blank" class="news-link">A股异动丨上海建科跌逾4% 国新上海拟减持不超1.46%公司股份</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250827/1067077494.html" target="_blank" class="news-link">俄中学术机构首次联合出版《区域经济》杂志</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250827144410334800" target="_blank" class="news-link">金十数据整理：每日全球外汇市场要闻速递（2025-08-27）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068189" target="_blank" class="news-link">A股异动丨四川双马跌约5% 股东拟合计减持不超2%公司股份</a> [8] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2127359?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社8月27日电，菲律宾股市指数上涨2%至6,270.11点。</a> [12] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2127345?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">德国工业遭美关税冲击 相关组织要求欧盟与美重谈贸易协议</a> [18] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7543121715635686958/" target="_blank" class="news-link">“泰勒经济学”再现威力</a> [30] <font color='grey'>- 14时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">5</td>
+                    <td class="percentage">7.69%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250827/1067077735.html" target="_blank" class="news-link">墨西哥总统：反对外国对委内瑞拉事务的任何干涉</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250827/1067077374.html" target="_blank" class="news-link">波兰呼吁基辅就侮辱总统纳夫罗茨基一事道歉</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250827/1067077138.html" target="_blank" class="news-link">国台办正告台湾地区领导人：任何歪曲二战历史的企图都不可能得逞</a> [7]</div><br><div class='new-title'>🆕 [凤凰] <a href="https://news.ifeng.com/c/8m9xQxKuW9c" target="_blank" class="news-link">巴西总统卢拉内阁会点名美国：把自己当“世界皇帝”</a> [11] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068183" target="_blank" class="news-link">A股异动丨大博医疗跌逾5% 股东大博国际拟减持不超2%公司股份</a> [14] <font color='grey'>- 14时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">6.15%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3754242" target="_blank" class="news-link">AH股午后跳水，沪指、恒指跌超1%，AI产业链活跃，寒武纪股价一度超贵州茅台，国债反弹，商品下跌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068194" target="_blank" class="news-link">大行评级｜招银国际：上调快手目标价至84港元 对其AI发展与商业化前景持乐观态度</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/878/382.htm" target="_blank" class="news-link">业界最大单盘容量：华为发布三款 AI SSD 新品，最高 122/245 TB</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2127322?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】前7月融资额超240亿，机构称随着国内外企业布局加速+AI技术突破，人形机器人有望迎来量产落地时点，这家企业给宇树供货</a> [11] <font color='grey'>- 14时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">3</td>
+                    <td class="percentage">4.62%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068193" target="_blank" class="news-link">格科微(688728.SH)单季度营收创新高，经营现金流大增超800%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5068190" target="_blank" class="news-link">华宝新能（301327.SZ）上半年营收创新高：净利润大增超68%, 全球业务加速扩张</a> [7] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2127362?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">创新药概念股震荡走低 热景生物跌超10%</a> [10] <font color='grey'>- 14时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7543128249136582180/" target="_blank" class="news-link">菲律宾举行夺岛演习有何目的</a> [17] <font color='grey'>- 14时55分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
