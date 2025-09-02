@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2025-09-02 14:46:31</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">7</td>
+                    <td class="percentage">6.93%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2133407?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：支持人工智能高性能训练、推理芯片及端侧芯片的研发应用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250902/1067212431.html" target="_blank" class="news-link">俄中签署20余项双边合作文件，涉及能源、航天和人工智能等领域</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5075898" target="_blank" class="news-link">AI+出海双引擎，万咖壹联或成港股APPLovin</a> [6] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3754749" target="_blank" class="news-link">特斯拉“宏图计划4”发布：大规模地将AI融入物理世界，未来80%的价值在于机器人</a> [6] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2133400?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海经信委组织开展2025年度上海市“人工智能+”行动项目申报工作</a> [7] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2133375" target="_blank" class="news-link">AI唱主角！特斯拉发布“宏图4.0” 马斯克：未来80%价值来自机器人</a> [7] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4342064_1" target="_blank" class="news-link">俄中签署20余项双边合作文件，涉及能源、航天和人工智能等领域</a> [16] <font color='grey'>- 14时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">6</td>
+                    <td class="percentage">5.94%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2133404?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深圳市远致星辰创业投资基金登记成立 出资额10亿</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/politics/202509/0251269.html" target="_blank" class="news-link">世贸总干事呼吁加强全球贸易基础</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642660_100_1" target="_blank" class="news-link">印尼央行：将与政府分担部分债券的票息支付。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642638_100_1" target="_blank" class="news-link">【行情】中国石油A股盘中涨3.2%。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3754746" target="_blank" class="news-link">股债齐跌！A股午后跌势扩大，创业板跌3%，CPO等算力硬件股大幅下跌，恒科指跌超1%，科网股普遍调整</a> [10] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642614_0_1" target="_blank" class="news-link">欧元区经济在全球经济变化中展现韧性</a> [13] <font color='grey'>- 14时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.95%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3754754" target="_blank" class="news-link">习近平同俄罗斯总统普京会谈</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250902/1067212225.html" target="_blank" class="news-link">媒体：俄中印领导人在上合组织峰会上的团结向美国发出“强有力信号”</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642617_0_1" target="_blank" class="news-link">印度总理莫迪：正推进印度半导体使命的下一个阶段。</a> [9 - 29] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642613_100_1" target="_blank" class="news-link">中国国家主席习近平：要增强合作韧性，提升合作默契，全力巩固和维护合作大局。</a> [11] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642611_100_1" target="_blank" class="news-link">中国国家主席习近平：中俄双方要以大项目引领合作，打造标杆合作项目，促进深层次利益融合。</a> [12] <font color='grey'>- 14时46分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
