@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 108</p><p>生成时间: 2025-09-02 15:20:19</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">17</td>
+                    <td class="percentage">15.74%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133456?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">又一家险资私募基金完成备案</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250902150055043800" target="_blank" class="news-link">午盘收盘，国内期货主力合约涨跌不一。多晶硅涨近4%，集运欧线涨超3%，低硫燃料油（LU）、沪银涨超2%，燃料油、SC原油、工业硅涨超1%；跌幅方面，碳酸锂跌超4%，乙二醇（EG）跌超2%，纯苯、苯乙烯（EB）、玻璃跌超1%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2133434?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">欧洲主要股指开盘涨跌不一</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250902145941716800" target="_blank" class="news-link">西班牙8月失业人数变化 2.2万人，前值-0.14万人。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2133435?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国内商品期货收盘涨跌不一 多晶硅涨近4%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250902145913805800" target="_blank" class="news-link">西班牙8月失业人数月率 0.91%，前值-0.1%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642765_100_1" target="_blank" class="news-link">意大利Mediobanca股价跌幅扩大，下跌1.5%。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250902145449395800" target="_blank" class="news-link">印度贸易部长：印度正在与美国进行双边贸易协议的磋商。</a> [6] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2133417?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】机构称该行业正迎来产业化关键期，未来有望先在低空经济、机器人等高价值量领域率先放量，这家企业已实现工艺全线覆盖</a> [8] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2133418?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">股票ETF昨日净流入超45亿元</a> [9] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250902144931745800" target="_blank" class="news-link">消息人士称，印度一些最大的银行已经告诉印度央行，他们已经没有空间购买邦政府发行的债券。</a> [9] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5075917" target="_blank" class="news-link">A股异动丨腾龙股份收跌6.99% 控股股东之一致行动人蒋依琳8月28日减持公司股份25万股</a> [10] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2133399?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">2025基金中报透视：医药、银行、电子成加仓重点 舒泰神基金持股比例增长居首</a> [11] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5075916" target="_blank" class="news-link">A股收评：创业板指、深成指均跌逾2%！全市场超4000股下跌，CPO概念大回撤</a> [11] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133434?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">欧洲主要股指开盘涨跌不一</a> [12] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133435?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国内商品期货收盘涨跌不一 多晶硅涨近4%</a> [13] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133417?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】机构称该行业正迎来产业化关键期，未来有望先在低空经济、机器人等高价值量领域率先放量，这家企业已实现工艺全线覆盖</a> [18] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642753_100_1" target="_blank" class="news-link">【行情】德国场外交易次日交付的基本负荷电价下跌40.5%，至每兆瓦时68欧元。</a> [7 - 27] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133445?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月2日电，德国场外交易次日基载电力价格下跌40.5%，至68欧元/兆瓦时。</a> [9] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642744_100_1" target="_blank" class="news-link">中国外交部：中方决定对俄罗斯普通护照持有人试行免签政策。</a> [11] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2133402" target="_blank" class="news-link">AI热潮中美国电力公司也有苦恼：“幽灵数据中心”太多！</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5075919" target="_blank" class="news-link">普联软件(300996.SZ)：正积极推进AI智能体在风险管理、监管报送、投资管理等场景的解决方案研发</a> [8] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5075918" target="_blank" class="news-link">润建股份(002929.SZ)：与阿里在AI应用、算力等多个领域开展了业务合作</a> [9] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642756_100_1" target="_blank" class="news-link">阿里巴巴：双方将重点聚焦云计算驱动的企业运营、AI赋能的业务创新及电商领域的拓展。</a> [6 - 26] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250902144538086800" target="_blank" class="news-link">盯盘神器·现货黄金：再创新高后空头情绪升温，下方仍有不少支撑</a> [10] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.93%</td>
+                    <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344708&amp;amp;topic_name=%E4%B8%9C%E6%96%BD%E6%95%88%E9%A2%A6%21%E4%B8%AD%E8%B6%8A%E4%B8%A4%E5%9B%BD%E5%86%9B%E4%BA%8B%E5%AF%B9%E6%AF%94" target="_blank" class="news-link">东施效颦!中越两国军事对比</a> [9] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.93%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2133411?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】具身智能必备的硬件平台，行业未来有望复制自动驾驶细分领域的竞争格局，这家公司相关产品已经获得多个知名客户的订单</a> [12] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
