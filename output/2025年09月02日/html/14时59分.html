@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 52</p><p>生成时间: 2025-09-02 14:59:04</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">7</td>
+                    <td class="percentage">13.46%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133418?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">股票ETF昨日净流入超45亿元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133399?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">2025基金中报透视：医药、银行、电子成加仓重点 舒泰神基金持股比例增长居首</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3642677_100_1" target="_blank" class="news-link">哈萨克斯坦央行：8月份在国内市场从国家基金出售4.2亿美元。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133404?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深圳市远致星辰创业投资基金登记成立 出资额10亿</a> [9] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/879/823.htm" target="_blank" class="news-link">消息称三星首款 TriFold 三折叠手机产能规划仅约 5 万台，预计 11 月上市</a> [12] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/879/822.htm" target="_blank" class="news-link">手机形态充电宝：realme 真我 10000mAh 级超大电池新机有望明年初上市</a> [13] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4342068_1" target="_blank" class="news-link">日韩股市收涨，日经指数上涨0.3%，韩股收涨0.9%</a> [16] <font color='grey'>- 14时59分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">7.69%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/member/articles/3754757" target="_blank" class="news-link">新能源失速、AI拥挤后，2025年的真正机会在哪里？【王开大师课9.2】</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133407?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：支持人工智能高性能训练、推理芯片及端侧芯片的研发应用</a> [6] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/879/825.htm" target="_blank" class="news-link">上海：支持 AI 企业进行人工智能高性能训练、推理芯片及端侧芯片的研发应用</a> [11] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133400?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海经信委组织开展2025年度上海市“人工智能+”行动项目申报工作</a> [12] <font color='grey'>- 14时59分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2133411?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】具身智能必备的硬件平台，行业未来有望复制自动驾驶细分领域的竞争格局，这家公司相关产品已经获得多个知名客户的订单</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/879/830.htm" target="_blank" class="news-link">小米 16 系列手机规格曝光：标准版 / Pro 版 6.3 英寸 1.5K 屏，首发骁龙 8 Elite Gen5 芯片</a> [6] <font color='grey'>- 14时59分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A7%94%E6%80%BB%E7%BB%9F%E7%A7%80%E4%B8%AD%E5%9B%BD%E6%89%8B%E6%9C%BA%EF%BC%9A%E7%BE%8E%E5%9B%BD%E4%BD%AC%E7%AA%83%E5%90%AC%E4%B8%8D%E4%BA%86" target="_blank" class="news-link">委总统秀中国手机：美国佬窃听不了</a> [25] <font color='grey'>- 14时59分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
