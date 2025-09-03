@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 75</p><p>生成时间: 2025-09-04 01:29:33</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">13</td>
+                    <td class="percentage">17.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904012000001800" target="_blank" class="news-link">2026年FOMC票委、明尼阿波利斯联储主席卡什卡利将于十分钟后参加一场炉边谈话。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904011833446800" target="_blank" class="news-link">乌克兰总统泽连斯基和法国总统马克龙在爱丽舍宫举行双边会谈。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904011646661800" target="_blank" class="news-link">德国总理默茨：我们也将很快与汽车制造商和供应商展开会谈，讨论当前行业面临的挑战。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646348_0_1" target="_blank" class="news-link">消息人士：乌克兰总统泽连斯基和法国总统马克龙在爱丽舍宫举行双边会谈。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646345_100_1" target="_blank" class="news-link">德国总理默茨：我们也将很快与汽车制造商和供应商展开会谈，讨论当前行业面临的挑战。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646341_100_1" target="_blank" class="news-link">法国总统马克龙：“意愿联盟”已准备好在达成停火协议后为乌克兰提供安全保障。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646338_100_1" target="_blank" class="news-link">德国总理默茨：我将很快邀请企业和利益相关方参加国家钢铁峰会，相关企业一直受到高额关税困扰。</a> [6 - 26] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646336_101_1" target="_blank" class="news-link">美国总统特朗普：很快将与乌克兰总统泽连斯基沟通，未来数天将与他对话。</a> [7 - 27] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904011523377800" target="_blank" class="news-link">法国总统马克龙：意愿联盟准备好在停火的情况下向乌克兰提供安全保障。</a> [11] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904011429626800" target="_blank" class="news-link">德国总理默茨：我将很快邀请企业及相关利益方参加国家钢铁峰会，企业一直遭受高关税的困扰。</a> [13] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646325_100_1" target="_blank" class="news-link">印度总理莫迪：税收改革将改善公民的生活，并确保所有人的商业便利，尤其是小商人和企业。</a> [14] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904010525322800" target="_blank" class="news-link">印度总理莫迪：税收改革将改善公民的生活，并确保所有人的商业便利，尤其是小商人和企业。</a> [23] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904005949484800" target="_blank" class="news-link">两位外交消息人士称，美国中东问题特使威特科夫在乌克兰联盟会议前抵达巴黎。</a> [29] <font color='grey'>- 01时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">10</td>
+                    <td class="percentage">13.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904012113246800" target="_blank" class="news-link">特朗普警告：法院否决关税政策将废除贸易协议并重创美国经济</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646349_101_1" target="_blank" class="news-link">协议条款显示，Teamviewer股东们出售股票获得数倍认购，预计将在英国伦敦时间18:25结束认购。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646346_0_1" target="_blank" class="news-link">瑞·达利欧将加密货币和黄金价格飙升归因于美国债务水平</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904011609659800" target="_blank" class="news-link">消息人士：沙特阿美计划本月尽快发行美元伊斯兰债券。</a> [7] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646331_0_1" target="_blank" class="news-link">美联储理事提名人米兰：作为美联储理事，我的观点将基于我的分析。美联储资产负债表的构成是一个悬而未决的问题。货币政策独立性是关键因素。</a> [10 - 30] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646322_0_1" target="_blank" class="news-link">特朗普警告：若最高法院驳回关税合法性，或将逆转贸易协定</a> [16] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904011045935800" target="_blank" class="news-link">美联储理事提名人米兰：货币政策独立性是关键因素。</a> [16] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646318_100_1" target="_blank" class="news-link">印度税务部长：此次全面的减税举措将对印度联邦政府和各邦政府的财政收入具备可持续性。</a> [19] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904010945563800" target="_blank" class="news-link">美联储理事提名人米兰：央行的主要职责是防止经济萧条和通胀。</a> [20] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904010305607800" target="_blank" class="news-link">印度税务部长：此次减税措施对联邦政府和各州政府来说在财政上都是可持续的。</a> [26] <font color='grey'>- 01时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250904005918619800" target="_blank" class="news-link">特朗普考虑将新奥尔良作为打击犯罪行动的下一站</a> [30] <font color='grey'>- 01时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3646332_0_1" target="_blank" class="news-link">谷歌垄断裁决及处罚公布后股价上涨</a> [9 - 29] <font color='grey'>- 01时29分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
