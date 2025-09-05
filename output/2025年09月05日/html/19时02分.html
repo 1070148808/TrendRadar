@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 25</p><p>生成时间: 2025-09-05 19:02:02</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">8</td>
+                    <td class="percentage">32.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905185512872800" target="_blank" class="news-link">乌克兰总统泽连斯基：数千名外国军队驻扎在乌克兰的问题正在作为安全保证的一部分进行讨论。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905185121419800" target="_blank" class="news-link">欧洲理事会主席科斯塔：欧盟团队将前往华盛顿进行有关（对俄）制裁的磋商。</a> [7] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905184924673800" target="_blank" class="news-link">印度外交部：美印关系对我们很重要；我们将继续专注于实质性议程。</a> [10] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905184732806800" target="_blank" class="news-link">克里姆林宫发言人佩斯科夫：俄罗斯总统普京将参加金砖国家线上峰会。</a> [12] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905184644095800" target="_blank" class="news-link">乌克兰总统泽连斯基：欧洲和美国团队将协调对俄制裁，双方团队将在数日内会晤，讨论制裁事宜。</a> [14] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905184210951800" target="_blank" class="news-link">印度外交部发言人：毛里求斯总理将于9月9日开始对印度进行为期5天的访问。</a> [17] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905183633183800" target="_blank" class="news-link">德国外交部发言人：将紧急提供210万欧元，以援助受阿富汗地震影响的民众。</a> [22] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905183252364800" target="_blank" class="news-link">特斯拉(TSLA.O)：建议股东投票“反对”一项要求实施政治中立政策的股东提案。</a> [24] <font color='grey'>- 19时02分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905184312287800" target="_blank" class="news-link">据报道，以色列国防军袭击了加沙城的Mushtahi大楼。</a> [15] <font color='grey'>- 19时02分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905184948120800" target="_blank" class="news-link">欧盟能源委员：欢迎美国支持欧盟逐步淘汰俄罗斯石油和天然气的计划。将在下周与美国能源部长讨论落实美欧贸易协议中能源承诺的下一步措施。</a> [9] <font color='grey'>- 19时02分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250905183415485800" target="_blank" class="news-link">特斯拉(TSLA.O)：董事会将最终根据其受托责任和政策决定与人工智能相关的战略。</a> [23] <font color='grey'>- 19时02分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
