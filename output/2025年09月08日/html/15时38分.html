@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-09-08 15:38:24</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">4</td>
+                    <td class="percentage">8.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2138507?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">外交部评石平：数典忘祖，出卖良知，勾连反华势力，挑衅滋事</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时38分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2138501?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中方如何看待乌克兰寻求在菲律宾部署无人机生产？外交部回应</a> [6] <font color='grey'>- 15时38分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2138498?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">外交部回应石破茂宣布辞职</a> [8] <font color='grey'>- 15时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547603558732926527/" target="_blank" class="news-link">记者：泰总理危机四伏</a> [14] <font color='grey'>- 15时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/Chronicles/202509/0851784.html" target="_blank" class="news-link">英媒：新任商务部长本周赴华展开贸易会谈</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时38分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2138503?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中国连续16年保持东盟第一大贸易伙伴地位</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时38分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4342798_1" target="_blank" class="news-link">日本上调二季度经济增幅，三季度或现负增长</a> [17] <font color='grey'>- 15时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/politics/202509/0851783.html" target="_blank" class="news-link">美国防部改名战争部 解放军报：重新包装军事扩张</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547599900700053011/" target="_blank" class="news-link">学者：特朗普需军事胜利为自己添彩</a> [15] <font color='grey'>- 15时38分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/881/226.htm" target="_blank" class="news-link">真我 15 Pro 手机「流光白」「暮光绿」配色外观公布：一体透明星窗、AI 魔法双闪光灯</a> [19] <font color='grey'>- 15时38分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2138233" target="_blank" class="news-link">光刻机龙头首次布局AI软件 阿斯麦或领投“欧洲OpenAI” 还将参与公司管理</a> [20] <font color='grey'>- 15时38分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
