@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 21</p><p>生成时间: 2025-09-10 04:01:17</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">4</td>
+                    <td class="percentage">19.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755267" target="_blank" class="news-link">日本央行最快于10月加息！政坛风云难改货币紧缩步伐</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3655871_100_1" target="_blank" class="news-link">美国PNC金融服务集团CEO邓查克：预计2026年净利息收入的增长轨迹将与今年保持一致。</a> [7 - 27] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3655868_100_1" target="_blank" class="news-link">美国PNC金融服务集团CEO邓查克：我们并未看到存款方面存在较大的竞争。</a> [9 - 29] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3655862_100_1" target="_blank" class="news-link">美国PNC金融服务集团CEO比尔·邓查克：如果再次出现像近期那样的兼并机遇，公司很可能再次出手。</a> [11] <font color='grey'>- 04时01分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">14.29%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755263" target="_blank" class="news-link">马克龙任命勒科尔尼为法国总理</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3655850_101_1" target="_blank" class="news-link">南非总统：G20（二十国集团）峰会将致力于推动全球南方发展议程</a> [14] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3655845_100_1" target="_blank" class="news-link">加拿大总理卡尼：加拿大谴责以色列对卡塔尔的袭击。</a> [16] <font color='grey'>- 04时01分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3655881_100_1" target="_blank" class="news-link">卡塔尔首相表示：以色列使用了防空系统无法探测的武器。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 04时01分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3655875_101_1" target="_blank" class="news-link">美国银行首席财务官Alastair Borthwick表示，该公司第三季度的投资银行业务预计将增长10%至15%，与同行表现“一致”或“略好”。与此同时，Borthwick表示，预计交易收入将同比增长中个位数。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 04时01分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
