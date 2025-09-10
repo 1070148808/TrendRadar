@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 32</p><p>生成时间: 2025-09-11 03:23:47</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">9.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3658267_100_1" target="_blank" class="news-link">美国总统特朗普：我们都必须为查理·柯克祈祷，后者遭遇枪击。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250911025220236800" target="_blank" class="news-link">据NBC新闻记者：保守派政治活动家查理·基克的演讲进行到20分钟时，枪声响起，据我们所知，他当时中弹，并与他的安全团队一起被带离了现场。</a> [7] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250911024756006800" target="_blank" class="news-link">据NBC新闻记者：特朗普盟友、美国保守派政治活动家查理·基克在活动中遭枪击。</a> [8] <font color='grey'>- 03时23分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3658254_100_1" target="_blank" class="news-link">美国能源部长克里斯·赖特：未来几年，全球经济增长将保持强势，石油需求也将大幅增加。</a> [8 - 28] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250911024206899800" target="_blank" class="news-link">美国能源部长赖特：在接下来的几年里，将会看到强劲的全球经济复苏，石油需求将大幅增加。</a> [11] <font color='grey'>- 03时23分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.12%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3658270_100_1" target="_blank" class="news-link">美国国防部：美国国务院批准可能向芬兰出售AIM-120D-3型先进中程空对空导弹和相关设备，估计价值10.7亿美元。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 03时23分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
