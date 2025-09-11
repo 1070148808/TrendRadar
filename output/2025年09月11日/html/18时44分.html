@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 89</p><p>生成时间: 2025-09-11 18:44:17</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">8</td>
+                    <td class="percentage">8.99%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/882/269.htm" target="_blank" class="news-link">9 月 17 日上市，比亚迪 2026 款腾势 N9 又一款双拼配色“蓝辰银”公布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2142471?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">抚顺特钢：要约收购结果出炉 公司股票明日复牌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082269" target="_blank" class="news-link">丽珠医药(01513.HK)9月11日耗资500万元人民币回购12.67万股A股</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2142456?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">盛科通信：国家集成电路产业投资基金已减持410万股公司股份</a> [10] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250911182204965800" target="_blank" class="news-link">印尼新任财政部长：印尼2026年预算审议可能包括赤字目标。</a> [12] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3659445_0_1" target="_blank" class="news-link">欧洲央行预计维持利率不变，通胀目标和财政担忧并存</a> [13] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250911182008425800" target="_blank" class="news-link">印尼新任财政部长：可能重新审议2026年预算草案。</a> [13] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250911181433835800" target="_blank" class="news-link">欧盟贸易委员塞夫科维奇前往印度进行贸易谈判。</a> [15] <font color='grey'>- 18时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">6</td>
+                    <td class="percentage">6.74%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/882/266.htm" target="_blank" class="news-link">阿里夸克回应留学生无法领取“教育计划”权益：将持续优化，确保全面覆盖</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250911183003806800" target="_blank" class="news-link">西班牙外交部在马德里传唤俄罗斯驻西班牙使团临时代办，以谴责波兰领空被侵犯事件。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3659487_101_1" target="_blank" class="news-link">阿里夸克回应“教育计划”在华留学生身份认证争议</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3659476_100_1" target="_blank" class="news-link">西班牙外交部召见俄罗斯驻马德里代办，谴责俄罗斯侵犯波兰领空的行为。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250911182907515800" target="_blank" class="news-link">路透社/益普索民调：仅16%的美国人支持总统拥有决定利率和制造业运营的权力。</a> [6] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [thepaper] <a href="https://m.thepaper.cn/newsDetail_forward_31594558" target="_blank" class="news-link">外交部：黄岩岛是中国固有领土，中方不接受菲律宾所谓的“抗议”</a> [14] <font color='grey'>- 18时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">4.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082267" target="_blank" class="news-link">精智达(688627.SH)：后续将围绕AI驱动下高算力、高存储及深度人机交互相关需求持续布局</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3659457_0_1" target="_blank" class="news-link">AI2 Robotics获得HKC公司7000万美元AlphaBot2机器人订单</a> [9 - 29] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3659447_0_1" target="_blank" class="news-link">甲骨文公司市值飙升，得益于人工智能云进展和OpenAI交易</a> [12] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2142437?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构龙虎榜解读】高端PCB+光通信+机器人，通过收购切入光通信模块领域，计划投资不超10亿美元建设高端印制电路板项目，聚焦AI服务器、高速运算等新兴场景需求，2到3年内分批释放产能，这家公司获净买入</a> [13] <font color='grey'>- 18时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.12%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250911182918183800" target="_blank" class="news-link">路透社/益普索民调：仅有32%的美国人支持向城市部署军队打击犯罪。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时44分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
