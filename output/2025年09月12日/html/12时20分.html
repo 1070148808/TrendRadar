@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 98</p><p>生成时间: 2025-09-12 12:20:40</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">11</td>
+                    <td class="percentage">11.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2143214" target="_blank" class="news-link">AI加速落地金融机构业务领域，成本高等难题何解？招行周天虹：聚焦“三多”高价值场景</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2143211" target="_blank" class="news-link">资本加码、赛道分化 AI陪伴机器人开启“情绪经济”新蓝海|直击2025外滩大会</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250912120527566800" target="_blank" class="news-link">361度(01361.HK)：正探索使用稳定币支付和结算的解决方案，用于在中国大陆以外地区的产品销售。该支付方式助降低与中国大陆以外客户交易时面临的汇率风险。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/taiwan/202509/1252100.html" target="_blank" class="news-link">美商务部长：将与台湾达成重大贸易协议</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3661107_100_1" target="_blank" class="news-link">马来西亚7月份批发和零售贸易额同比增长5%，增速较前月加快。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082580" target="_blank" class="news-link">SOL市值突破1260亿美元 为市值排名第五的加密货币</a> [6] <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082579" target="_blank" class="news-link">A股异动 | 伊之密午间收跌5.5% 实控人拟减持不超727万股</a> [7] <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250912115924323800" target="_blank" class="news-link">特朗普提名驻印大使称美印贸易协议接近达成 施压印度停购俄油</a> [11] <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3661082_100_1" target="_blank" class="news-link">【行情】印度10年期基准政府债券收益率基本持平，报6.4668%，前一交易日收报6.4666%。</a> [12] <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3DA%E8%82%A1&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26q%3DA%25E8%2582%25A1%26dgr%3D0%26pos%3D15%26filter_type%3Drealtimehot%26band_rank%3D14%26realpos%3D14%26c_type%3D31%26display_time%3D1757650691%26pre_seqid%3D17576506910580256502154" target="_blank" class="news-link">A股</a> [14] <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250912114023285800" target="_blank" class="news-link">财政部2年期固息债“25附息国债17”加权中标收益率为1.44%，边际中标收益率为1.47%，全场倍数2.59，边际倍数3.06。财政部7年期固息债“25附息国债18”加权中标收益率为1.78%，边际中标收益率为1.81%，全场倍数3.79，边际倍数21.3。</a> [18] <font color='grey'>- 12时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">5.1%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2143210?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月12日电，美团推出“小美”AI智能体，助力外卖业务。</a> [7] <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2143210?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月12日电，美团推出“小美”AI智能体，助力外卖业务。</a> [7] <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5082578" target="_blank" class="news-link">ETF午评 | AI硬件分化，通信设备ETF涨7%，通信ETF跌2%</a> [8] <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3661083_100_1" target="_blank" class="news-link">Iphone Air取消实体Sim卡延迟在华发售；苹果(Aapl.Us)：正与监管机构紧密合作，争尽快在中国推出。</a> [11] <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250912115844452800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2025-09-12）</a> [12] <font color='grey'>- 12时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/taiwan/202509/1252099.html" target="_blank" class="news-link">中国大陆在黄岩岛建自然保护区 台外交部：恐引区域争端</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3661105_100_1" target="_blank" class="news-link">在快速支援部队基地附近发现远程“神风”无人机，可能加剧苏丹冲突。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3661093_100_1" target="_blank" class="news-link">尼泊尔前首席大法官卡尔基可能被任命为临时总理。</a> [8 - 28] <font color='grey'>- 12时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/882/423.htm" target="_blank" class="news-link">福布斯中国发布 2025 中国 ESG 50 强：阿里巴巴、比亚迪、小米、腾讯等在列</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/882/403.htm" target="_blank" class="news-link">谷歌“关门部”出手，Tables 工作跟踪和项目管理工具 12 月 16 日停运</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3661097_100_1" target="_blank" class="news-link">小米总裁卢伟冰：第二季度ACS交付量540万部以上，增长优先于竞争。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 12时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.02%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547940525354287167/" target="_blank" class="news-link">西班牙各界：西方应停止向以运武器</a> [26] <font color='grey'>- 12时20分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
