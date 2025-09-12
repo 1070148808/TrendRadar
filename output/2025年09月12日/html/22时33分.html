@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2025-09-12 22:33:37</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">8</td>
+                    <td class="percentage">7.21%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250912221533150800" target="_blank" class="news-link">尼泊尔总统办公室：尼泊尔前首席大法官苏希拉·卡基被选为临时领导人。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250912220448143800" target="_blank" class="news-link">丹麦外交大臣：欧盟对俄罗斯的下一轮制裁应该“尽可能严厉”</a> [8] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662146_100_1" target="_blank" class="news-link">美国军方声明：美国中央司令部司令Brad Cooper在叙利亚首都大马士革总统府与叙利亚沙姆解放武装领导人沙拉举行会晤。</a> [11] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662139_100_1" target="_blank" class="news-link">丹麦外交大臣：我们已经与“不少”乌克兰企业展开对话。</a> [14] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662133_100_1" target="_blank" class="news-link">丹麦外交大臣：欧盟针对俄罗斯的第19轮制裁方案应“尽可能严厉”，重点关注规避制裁、影子舰队和金融部门。</a> [19] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250912215309294800" target="_blank" class="news-link">据以色列报道：以色列总理内塔尼亚胡与内阁小部长就加沙战争召开的讨论已经结束。</a> [20] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250912215100615800" target="_blank" class="news-link">市场消息：尼泊尔议会已解散。据悉苏希拉·卡尔基将于今日宣誓就任临时总理。</a> [22] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/634781127.html" target="_blank" class="news-link">见证历史！外交部迎来历史最快记者发布会只提问一个问题便结束</a> [29] <font color='grey'>- 22时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">8</td>
+                    <td class="percentage">7.21%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2144072?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月12日电，在密歇根大学消费者信心指数公布后，美元兑日元汇率上涨，最高达到147.68，涨幅0.3%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2144080?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月12日电，纳斯达克中国金龙指数跌幅扩大，现跌1.0%，最新报8303.73点。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5083179" target="_blank" class="news-link">9月15日A股投资避雷针︱*ST东通：公司股票被叠加实施退市风险警示；新大洲A：全资子公司债务逾期</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2144072?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月12日电，在密歇根大学消费者信心指数公布后，美元兑日元汇率上涨，最高达到147.68，涨幅0.3%。</a> [6] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250912220451838800" target="_blank" class="news-link">金十图示：2025年09月12日（周五）全球股市指数-美洲市场（盘初）</a> [7] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5083175" target="_blank" class="news-link">红太阳(000525.SZ)：拟推不超过735.47万股限制性股票激励计划</a> [8] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250912220224286800" target="_blank" class="news-link">美国联邦贸易委员会调查亚马逊与谷歌搜索广告业务</a> [9] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7549183615028956682/" target="_blank" class="news-link">财政部披露最新隐性债务数据</a> [24] <font color='grey'>- 22时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/charts/41957665" target="_blank" class="news-link">剑指奥特曼！马斯克：OpenAI举报人死于谋杀</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662156_101_1" target="_blank" class="news-link">Polymarket采用Chainlink预言机解决以价格为中心的投注结果</a> [7 - 27] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2143756" target="_blank" class="news-link">【焦点复盘】创业板指震荡调整跌逾1%，AI硬件股分化加剧，有色板块多股逆势涨停</a> [13] <font color='grey'>- 22时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.9%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/882/591.htm" target="_blank" class="news-link">韩国议员参访北京小米汽车工厂，夸赞“实力让人叹为观止”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时33分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
