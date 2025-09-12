@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-09-12 21:48:23</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">16</td>
+                    <td class="percentage">32.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755503" target="_blank" class="news-link">亚马逊、谷歌盘中走低，报道称美国联邦贸易委员会就搜索广告业务对亚马逊、谷歌展开调查</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755472" target="_blank" class="news-link">美股开盘涨跌不一，超微电脑涨超6%，现货白银日内涨超2%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2144045" target="_blank" class="news-link">大基金三期首个产业投资项目浮出水面！携手拓荆科技进军三维集成设备</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2144054?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月12日电，亚马逊、谷歌因搜索广告业务受到美国联邦贸易委员会的调查。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2144040" target="_blank" class="news-link">“高端制造”成基金赚钱赛道，同一赛道这些基金为何明显落后？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755502" target="_blank" class="news-link">牛市基金代销格局揭晓：增量资金源源不断，前一百名机构资产超10.199万亿（附全部排名）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662109_101_1" target="_blank" class="news-link">【行情】美股盘初，主要行业Etf涨跌不一，生物科技指数Etf跌0.8%，全球航空业Etf跌超0.6%。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662100_0_1" target="_blank" class="news-link">特朗普威胁要对俄罗斯实施新的经济制裁</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662098_101_1" target="_blank" class="news-link">亚马逊和谷歌因搜索广告业务受到美国联邦贸易委员会（Ftc）调查。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2144048?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美股三大指数开盘涨跌不一 超微电脑涨超5%</a> [7] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2144036?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">千里科技：筹划发行H股股份并在香港联交所主板上市</a> [12] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662081_101_1" target="_blank" class="news-link">【行情】标普500指数高开3.19点，涨幅0.05%，报6590.66点；道琼斯工业平均指数低开30.86点，跌幅0.07%，报46077.14点；纳斯达克综合指数高开35.55点，涨幅0.16%，报22078.63点。</a> [12] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662080_100_1" target="_blank" class="news-link">据路透调查：预计英国2025年经济平均增长率为1.3%，2026年为1.2%（8月份调查预测分别为1.1%和1.2%）。</a> [13] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662079_100_1" target="_blank" class="news-link">据路透调查：12位经济学家预计，英国央行将在2025年10月至2026年9月期间缩减675亿英镑的债券持仓规模。</a> [14] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662078_100_1" target="_blank" class="news-link">据路透调查：67位经济学家中有42位预计英国央行年内将再次降息25个基点，至第四季度的3.75%，22位预计将维持利率不变。</a> [15] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662066_100_1" target="_blank" class="news-link">俄罗斯央行行长纳比乌琳娜及其副行长扎博特金就利率、经济和预算发表评论。</a> [20] <font color='grey'>- 21时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755500" target="_blank" class="news-link">报道：英伟达DGX Cloud云计算业务受挫缩减，AI开发者抵触高价</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2144022" target="_blank" class="news-link">从大模型到智能体，能干活的AI员工开始“上岗”！｜直击2025外滩大会</a> [6] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662073_0_1" target="_blank" class="news-link">iPhone Air因eSIM监管问题在中国推迟发布；iPhone 17 Pro Max需求旺盛</a> [17] <font color='grey'>- 21时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662092_0_1" target="_blank" class="news-link">地缘政治紧张局势下，因担忧俄罗斯出口中断，布伦特原油价格飙升</a> [6 - 26] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3662067_100_1" target="_blank" class="news-link">加拿大总理卡尼办公室声明：加拿大代表团与中方就油菜籽争议进行了建设性会谈。</a> [19] <font color='grey'>- 21时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2144055?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上交所启动科技创新咨询委员会换届工作</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2144025?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">英伟达收缩云计算业务</a> [18] <font color='grey'>- 21时48分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
