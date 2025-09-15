@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 121</p><p>生成时间: 2025-09-15 22:11:49</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">18</td>
+                    <td class="percentage">14.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915215908218800" target="_blank" class="news-link">伊朗总统：以色列对卡塔尔的侵略旨在破坏制止加沙冲突的努力。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915215814471800" target="_blank" class="news-link">俄罗斯大使在英国外交部办公室的谈话中表示，莫斯科不可能有兴趣向波兰派遣无人机。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915215214914800" target="_blank" class="news-link">埃及总统：我告诉以色列人民，目前正在发生的事情破坏了和平的前景，威胁着你们的安全以及该地区所有人民的安全。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3664716_0_1" target="_blank" class="news-link">伊朗总统：以色列对卡塔尔的侵略旨在破坏制止加沙冲突的努力。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3664706_0_1" target="_blank" class="news-link">埃及总统：我告诉以色列人民，目前正在发生的事情破坏了和平的前景，威胁着你们的安全以及该地区所有人民的安全。</a> [7 - 27] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915214813745800" target="_blank" class="news-link">土耳其总统：我们不能接受巴勒斯坦人民流离失所、灭绝或分裂。</a> [10] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145799?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">卡塔尔埃米尔：加沙冲突已演变成种族灭绝战争</a> [11] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145799?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">卡塔尔埃米尔：加沙冲突已演变成种族灭绝战争</a> [11] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3664699_0_1" target="_blank" class="news-link">土耳其总统：我们不能接受巴勒斯坦人民流离失所、灭绝或分裂。</a> [11] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915214555709800" target="_blank" class="news-link">土耳其总统：我们必须在许多发展领域实现自给自足，并加强这些领域的合作。</a> [13] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3664693_0_1" target="_blank" class="news-link">土耳其总统：我们必须在许多发展领域实现自给自足，并加强这些领域的合作。</a> [15] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915214500870800" target="_blank" class="news-link">土耳其总统：以色列政客在重复所谓的“大以色列”（Greater Israel）的幻想。</a> [15] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3664689_0_1" target="_blank" class="news-link">土耳其总统：我希望我们今天的决定能够转化为一份向全世界发表的书面宣言。</a> [16] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915214420908800" target="_blank" class="news-link">埃及总统塞西：以色列目前的行动阻碍了中东地区达成新和平条约的机会。</a> [16] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3664688_100_1" target="_blank" class="news-link">埃及总统塞西：以色列当前行动正在阻碍中东地区达成新的和平条约。</a> [17] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915214158678800" target="_blank" class="news-link">土耳其总统：我希望我们今天的决定能够转化为一份向全世界发表的书面宣言。</a> [18] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915213556918800" target="_blank" class="news-link">埃及总统：现在是认真果断处理巴勒斯坦问题的时候了。</a> [23] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915213326854800" target="_blank" class="news-link">埃及总统：以色列的傲慢要求我们对安全和区域合作有共同的愿景。</a> [26] <font color='grey'>- 22时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">16</td>
+                    <td class="percentage">13.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915220014971800" target="_blank" class="news-link">金十图示：2025年09月15日（周一）全球股市指数-美洲市场（盘初）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755629" target="_blank" class="news-link">10万金领岗位敞开大门，金融圈最大校招季来袭</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145737?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【公告全知道】存储芯片+机器人+低空经济+AI眼镜！公司已与优必选、智元等机器人公司展开合作或达成合作意向</a> [7] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145737?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【公告全知道】存储芯片+机器人+低空经济+AI眼镜！公司已与优必选、智元等机器人公司展开合作或达成合作意向</a> [7] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145801?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月15日电，印度国家证券存管有限公司(NSDL)数据显示，全球基金在上一交易日净买入102亿卢比印度股票。</a> [9] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145801?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月15日电，印度国家证券存管有限公司(NSDL)数据显示，全球基金在上一交易日净买入102亿卢比印度股票。</a> [9] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145800?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月15日电，据印度国家证券交易所（NSE），全球基金9月15日净买入127亿卢比印度股票。</a> [10] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145800?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月15日电，据印度国家证券交易所（NSE），全球基金9月15日净买入127亿卢比印度股票。</a> [10] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084050" target="_blank" class="news-link">海尔智家(06690.HK)9月15日耗资910万元回购35万股A股</a> [10] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5084048" target="_blank" class="news-link">中国艺术金融(01572.HK)陈运伟辞任非执行董事</a> [12] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145795?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月15日电，标普500指数涨0.38%，纳斯达克综合指数涨0.63%，二者均刷新历史新高。</a> [14] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145795?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月15日电，标普500指数涨0.38%，纳斯达克综合指数涨0.63%，二者均刷新历史新高。</a> [14] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3664696_101_1" target="_blank" class="news-link">【行情】美股盘初，主要行业Etf涨跌不一，可选消费Etf涨超1%，网络股指数Etf涨幅居前。</a> [14] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915214134054800" target="_blank" class="news-link">金十图示：2025年09月15日（周一）美股热门股票行情一览（美股盘初）</a> [19] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7550280827985219091/" target="_blank" class="news-link">李大霄：中国股市或步入局部牛</a> [21] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915213034674800" target="_blank" class="news-link">美股开盘，道指涨0.03%，标普500指数涨0.34%，纳指涨0.45%。特斯拉(TSLA.O)涨6.74%，马斯克于上周五斥资约10亿美元购入逾250万股公司股票。英伟达(NVDA.O)跌1.32%、甲骨文(ORCL.N)涨4.12%。</a> [30] <font color='grey'>- 22时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">8</td>
+                    <td class="percentage">6.61%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755608" target="_blank" class="news-link">特斯拉提振美股开启“超级央行周”，纳指涨0.45%，谷歌涨超3%续刷历史新高，英伟达跌超1%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/883/178.htm" target="_blank" class="news-link">谷歌总市值首次突破 3 万亿美元，美股超 3 万亿公司增至 4 家</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145791?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">谷歌涨超3%续刷历史新高 总市值首次升破3万亿美元</a> [17] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145791?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">谷歌涨超3%续刷历史新高 总市值首次升破3万亿美元</a> [17] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3664681_101_1" target="_blank" class="news-link">【行情】谷歌涨超3%，续刷盘中历史新高，总市值首次升破3万亿美元。</a> [19] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915214111432800" target="_blank" class="news-link">谷歌总市值首次升破3万亿美元</a> [20] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250915213118844800" target="_blank" class="news-link">数据中心运营商Coreweave(CRWV.O)涨6.82%，此前与英伟达(NVDA.O)签署了一份价值63亿美元的新订单。</a> [27] <font color='grey'>- 22时11分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%9C%E9%A3%8E%E4%B8%8A%E6%B1%BD%E7%90%86%E6%83%B3%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%B0%8F%E7%B1%B3%E7%AD%89+%E9%9B%86%E4%BD%93%E8%A1%A8%E6%80%81" target="_blank" class="news-link">东风上汽理想比亚迪小米等 集体表态</a> [29] <font color='grey'>- 22时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.83%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/09/15/25358be5f1424003922cf1c0c79d5000.html" target="_blank" class="news-link">美国国防部改名“战争部” 令世界看到美国真相</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.83%</td>
+                    <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2238073" target="_blank" class="news-link">AI拥有了一张可触摸的脸</a> [8] <font color='grey'>- 22时11分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
