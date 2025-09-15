@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 46</p><p>生成时间: 2025-09-15 13:20:21</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">4</td>
+                    <td class="percentage">8.7%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/883/002.htm" target="_blank" class="news-link">赛力斯、比亚迪、小米汽车等十多家车企宣布积极响应中汽协《汽车整车企业供应商账款支付规范倡议》</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145011?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">小米汽车：将一如既往履行60天以内支付账期承诺</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%B0%8F%E7%B1%B317+%E7%8E%8B%E8%85%BE&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26lcate%3D5001%26flag%3D1%26pos%3D6%26stream_entry_id%3D31%26band_rank%3D6%26q%3D%25E5%25B0%258F%25E7%25B1%25B317%2520%25E7%258E%258B%25E8%2585%25BE%26dgr%3D0%26realpos%3D6%26cate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1757913564%26pre_seqid%3D1757913564405029133217" target="_blank" class="news-link">小米17 王腾</a> [6] <font color='grey'>- 13时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317pro%E7%B3%BB%E5%88%97%E6%88%96%E5%B0%86%E6%B6%A8%E4%BB%B7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26lcate%3D5001%26flag%3D1%26pos%3D20%26stream_entry_id%3D31%26band_rank%3D19%26q%3D%2523%25E5%25B0%258F%25E7%25B1%25B317pro%25E7%25B3%25BB%25E5%2588%2597%25E6%2588%2596%25E5%25B0%2586%25E6%25B6%25A8%25E4%25BB%25B7%2523%26dgr%3D0%26realpos%3D19%26cate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1757913564%26pre_seqid%3D1757913564405029133217" target="_blank" class="news-link">小米17pro系列或将涨价</a> [19] <font color='grey'>- 13时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/09/15/288b4b094c424f899773205ef42976f7.html" target="_blank" class="news-link">卢拉：博索纳罗被定罪“不是政治迫害”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663605_100_1" target="_blank" class="news-link">美国总统特朗普：华盛顿特区市长Bowser表示，华盛顿特区警察将不再配合美国移民及海关执法局的工作。若此情况发生，将宣布国家紧急状态并予以联邦化。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 13时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7549936232059961394/" target="_blank" class="news-link">男子与三位老人起冲突被石头砸</a> [24] <font color='grey'>- 13时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663581_100_1" target="_blank" class="news-link">滴灌通集团创始人李小加：未来滴灌通或考虑英美上市，港股已经走过至暗时刻。</a> [8 - 28] <font color='grey'>- 13时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7549910668678397991/" target="_blank" class="news-link">飞天茅台批发价创上市以来新低</a> [19] <font color='grey'>- 13时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145010?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">今年下半年第一场大范围冷空气来袭 北方气温将创新低</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时20分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
