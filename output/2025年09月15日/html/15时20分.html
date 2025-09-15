@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 110</p><p>生成时间: 2025-09-15 15:20:03</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">22</td>
+                    <td class="percentage">20.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/taiwan/202509/1552339.html" target="_blank" class="news-link">国民党民调：郑丽文主席选举微弱优势领跑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755600" target="_blank" class="news-link">放弃激进执法，美国SEC主席称：将在“破门而入”前通知企业技术违规行为</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145187?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：探索境外已上市且国内未注册的医疗器械在沪先行试用</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663794_100_1" target="_blank" class="news-link">中国国家主席习近平：着力纠治政绩观偏差，完善高质量发展考核体系和干部政绩考核评价体系。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663793_100_1" target="_blank" class="news-link">中国国家主席习近平：健全有利于市场统一的财税体制、统计核算制度和信用体系。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663791_100_1" target="_blank" class="news-link">中国国家主席习近平：持续开展规范涉企执法专项行动。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145187?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：探索境外已上市且国内未注册的医疗器械在沪先行试用</a> [7] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663790_100_1" target="_blank" class="news-link">中国国家主席习近平：畅通出口转内销路径，提高国内国际标准一致性，培育一批内外贸优质企业。</a> [6 - 26] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145180?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：推动医疗器械相关垂类大模型研发应用</a> [8] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663786_100_1" target="_blank" class="news-link">中国国家主席习近平：建设全国统一大市场，不仅是构建新发展格局、推动高质量发展的需要，而且是赢得国际竞争主动权的需要。</a> [8 - 28] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145174?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：推进上海高端医疗器械产业高质量发展 培育壮大高能级企业</a> [9] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663787_100_1" target="_blank" class="news-link">中国国家主席习近平：将规范地方招商引资的“乱象”。</a> [9 - 29] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145180?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：推动医疗器械相关垂类大模型研发应用</a> [10] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145174?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：推进上海高端医疗器械产业高质量发展 培育壮大高能级企业</a> [11] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145177?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：对已纳入医疗机构可另收费一次性使用医疗器械目录的“新优药械”产品 加快受理企业挂网采购申请</a> [11] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145175?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：重点发展高端医学影像产品、高端人工智能医疗器械等</a> [12] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663782_100_1" target="_blank" class="news-link">中国国家主席习近平：将规范政府采购。</a> [12] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145177?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：对已纳入医疗机构可另收费一次性使用医疗器械目录的“新优药械”产品 加快受理企业挂网采购申请</a> [13] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663780_100_1" target="_blank" class="news-link">中国国家主席习近平：推动落后产能“有序退出”。</a> [13] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145175?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：重点发展高端医学影像产品、高端人工智能医疗器械等</a> [14] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145164?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">《上海市促进高端医疗器械产业全链条发展行动方案》印发</a> [16] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145164?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">《上海市促进高端医疗器械产业全链条发展行动方案》印发</a> [18] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">6</td>
+                    <td class="percentage">5.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145190?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月15日电，马斯克表示，位于美国德州的三星工厂将生产AI6，而非AI5，至于是否使用高带宽内存（HBM）尚未做出决定。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2145161" target="_blank" class="news-link">AI存力需求爆发 这类产品严重缺货 新一轮涨价潮已来</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145190?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月15日电，马斯克表示，位于美国德州的三星工厂将生产AI6，而非AI5，至于是否使用高带宽内存（HBM）尚未做出决定。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/883/051.htm" target="_blank" class="news-link">广汽埃安 AION RT 焕新款 9 月 22 日登场，同级唯一全系标配宁德电池</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/883/049.htm" target="_blank" class="news-link">时薪 900 美元 AI 工程师抢走麦肯锡饭碗：写代码的正干掉做 PPT 的</a> [7] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663765_100_1" target="_blank" class="news-link">特斯拉CEO马斯克：三星位于得克萨斯州的工厂将生产Ai6芯片而非Ai5芯片，关于是否采用HBM高带宽内存的决定尚未作出。</a> [19] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.55%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755596" target="_blank" class="news-link">特斯拉和xAI要合并？对冲基金大佬：感觉不可避免</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663781_100_1" target="_blank" class="news-link">国泰金：上修今年台湾经济成长率至4.5%，明年首估2%，预计周四台湾地区货币政策主管机关维持利率不变。</a> [10 - 30] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2145157?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月15日电，欧洲央行管委科赫尔称，还不会将欧元对美元汇率描述为一种风险，但如果欧元持续升值，最终可能会对出口导向型产业造成问题。</a> [18] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663767_100_1" target="_blank" class="news-link">穆迪：撒哈拉以非洲主要经济体受融资成本高企影响。</a> [18] <font color='grey'>- 15时20分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2145157?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月15日电，欧洲央行管委科赫尔称，还不会将欧元对美元汇率描述为一种风险，但如果欧元持续升值，最终可能会对出口导向型产业造成问题。</a> [20] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.91%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250915/1067456152.html" target="_blank" class="news-link">俄军图-22M3轰战机在“西方-2025”演习期间于巴伦支海中立水域上空完成巡逻任务</a> <font color='red'><strong>[3]</strong></font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.91%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/hkMacao/202509/1552332.html" target="_blank" class="news-link">深化与瑞典合作 港科大推动香港成中瑞创新战略枢纽</a> [8] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.91%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3663761_0_1" target="_blank" class="news-link">小米17系列旗舰手机本月发布；目标与苹果竞争</a> [20] <font color='grey'>- 15时20分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
