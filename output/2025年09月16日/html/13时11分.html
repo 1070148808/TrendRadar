@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 35</p><p>生成时间: 2025-09-16 13:11:35</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">4</td>
+                    <td class="percentage">11.43%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2146270?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">俄外交部：俄美乌三方领导人会晤的基础尚不存在</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时11分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4343957_1" target="_blank" class="news-link">鲍威尔的救赎时刻：阻击政治攻击、挽救央行信誉的最后机会</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时11分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250916/1067471954.html" target="_blank" class="news-link">俄公众院主权问题委员会主席：乌军正准备撤离其控制的扎波罗热南部地区</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2146036" target="_blank" class="news-link">上海发布高端医疗器械行动方案 国资母基金锚定脑机接口、手术机器人等优先投资</a> [20] <font color='grey'>- 13时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">8.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2146269?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月16日电，马斯克称，计划周六对AI5芯片设计进行技术评估，下周将召开关于人工智能/自动驾驶系统、擎天柱（Optimus）机器人、车辆产量的会议</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时11分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/883/305.htm" target="_blank" class="news-link">腾讯《洛克王国：世界》今启「同行测试」招募，官方宣布“鸿蒙还在适配中（以后会有！）”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时11分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/883/302.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 5.1.0 (18) 及以上版本系统支持 eSIM 卡管理</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2146254?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">以防长：以军正在强力打击哈马斯基础设施</a> [7] <font color='grey'>- 13时11分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
