@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-09-18 22:45:55</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">11</td>
+                    <td class="percentage">18.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2149534?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">本轮巴以冲突已致加沙地带65141人死亡</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2149532?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海市教育委员会通报“部分学校午餐中的虾仁炒蛋存在问题”：相关菜品留样及原料已送检 一周内将出具检验结果</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2149532?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海市教育委员会通报“部分学校午餐中的虾仁炒蛋存在问题”：相关菜品留样及原料已送检 一周内将出具检验结果</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3671599_100_1" target="_blank" class="news-link">英国首相斯塔默：我们必须对俄罗斯总统普京施加更大的压力。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3671595_100_1" target="_blank" class="news-link">美国总统特朗普：我们正试图重新获得巴格拉姆空军基地。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3671592_100_1" target="_blank" class="news-link">美国总统特朗普：风力发电是个昂贵的笑话，一场灾难。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3671583_100_1" target="_blank" class="news-link">美国总统特朗普：已告知英国首相，停止移民问题，必要时可动用军队。</a> [9 - 29] <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3671582_0_1" target="_blank" class="news-link">美国总统特朗普称赞美国油价下跌。</a> [10 - 30] <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3671570_100_1" target="_blank" class="news-link">美国总统特朗普：我与英国首相在巴勒斯坦国问题上持有不同意见。</a> [17] <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3671569_100_1" target="_blank" class="news-link">美国总统特朗普：我们必须牢记10月7日。</a> [18] <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3671567_100_1" target="_blank" class="news-link">美国总统特朗普：以色列人质应立即获得释放。</a> [19] <font color='grey'>- 22时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">4</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3671598_100_1" target="_blank" class="news-link">俄罗斯央行：将9月19日美元/俄罗斯卢布官方汇率定为83.1725（前值为82.9987）。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2149518?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月18日电，杜邦将动用15亿美元用于并购和股票回购。</a> [7] <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3671586_0_1" target="_blank" class="news-link">美国法院维持委内瑞拉国家石油公司PDVSA以Citgo股份为抵押的2020年债券的有效性</a> [7 - 27] <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2149503?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">纳斯达克综合指数涨1% 再创历史新高</a> [16] <font color='grey'>- 22时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2149521?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月18日电，英美联合声明表示，促进实验设施和数据的研究、开发和使用协调，包括通过人工智能，为具有成本竞争力的聚变发电厂铺平道路。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2149516?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月18日电，英美联合声明表示，将在美国和英国科学机构之间建立联合旗舰研究计划，在共同优先领域开展人工智能科学， 包括合作开发共同优先事项的模型和数据集。</a> [8] <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2149502?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月18日电，微软CEO纳德拉宣布在威斯康星州建立最强大的人工智能数据中心。</a> [17] <font color='grey'>- 22时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3755859" target="_blank" class="news-link">小红书与虚假营销上演“猫鼠游戏”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时45分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1952088334047339800" target="_blank" class="news-link">英伟达将收购 50 亿美元的英特尔股份，收购背后有什么考量？将带来哪些影响？</a> [20] <font color='grey'>- 22时45分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
