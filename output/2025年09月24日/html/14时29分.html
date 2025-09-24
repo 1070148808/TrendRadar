@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 104</p><p>生成时间: 2025-09-24 14:29:03</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">10</td>
+                    <td class="percentage">9.62%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3756167" target="_blank" class="news-link">谁来买单“AI资本狂潮”？未来三年，硅谷出1.4万亿美元，华尔街筹1.2万亿美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2154417?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">湖北：推动100T超低延时“空芯光纤”、8英寸芯片晶圆、GPU芯片、车规级AI芯片等一批全国“首发”光通信技术和产品规模化应用</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/885/363.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 6 开发者版本确认通知中心 / 控制中心状态图标位置下移</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/885/361.htm" target="_blank" class="news-link">微软开放 Windows ML：打通高通、英特尔、AMD、英伟达硬件，统一框架高效构建 AI 应用</a> [7] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2154411?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月24日电，人工智能机器人公司梅卡曼德据悉计划香港IPO。</a> [8] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2154417?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">湖北：推动8英寸芯片晶圆、GPU芯片、车规级AI芯片等一批全国“首发”光通信技术和产品规模化应用</a> [8] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2154411?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月24日电，人工智能机器人公司梅卡曼德据悉计划香港IPO。</a> [11] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2154406?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">湖北：支持人工智能大模型研发应用</a> [13] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1948453092845645951" target="_blank" class="news-link">让 AI 替我们干活，最终会养出「废人」还是「超人」？</a> [15] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2154406?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">湖北：支持人工智能大模型研发应用</a> [16] <font color='grey'>- 14时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">5</td>
+                    <td class="percentage">4.81%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2154418?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">WTO总干事：中国的决定体现了其对建立更加平衡、公平全球贸易体系承诺</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3678811_100_1" target="_blank" class="news-link">俄罗斯财政部提议自2026年起将增值税从20%上调至22%。</a> <font color='red'><strong>[1 - 29]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2154418?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">WTO总干事：中国的决定体现了其对建立更加平衡、公平全球贸易体系承诺</a> [7] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3678800_101_1" target="_blank" class="news-link">中信集团党委书记、董事长奚国华会见桥水基金创始人瑞·达利欧</a> [6 - 26] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3678786_100_1" target="_blank" class="news-link">俄罗斯财政部：2026年预算草案是平衡和可持续的。</a> [8 - 28] <font color='grey'>- 14时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/885/369.htm" target="_blank" class="news-link">小米 17 Pro 系列手机率先攻克逆光摄影难题：单帧影像可获得高动态 HDR，实现小米迄今最高传感器动态范围 16.5EV</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/885/345.htm" target="_blank" class="news-link">小米雷军回应“对标苹果、保时捷、特斯拉”：敢于对标世界第一就是一种勇气，只有对标第一、学习第一才能最终赶超第一</a> [20] <font color='grey'>- 14时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B1%9F%E8%8B%8F%E7%9C%81%E6%95%99%E8%82%B2%E5%8E%85%EF%BC%9A%E5%BF%85%E8%A6%81%E6%97%B6%E5%8F%AF%E5%81%9C%E8%AF%BE%E5%81%9C%E5%AD%A6" target="_blank" class="news-link">江苏省教育厅：必要时可停课停学</a> [16] <font color='grey'>- 14时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3756159" target="_blank" class="news-link">创业板涨2%逼近3200点，芯片半导体爆发，中芯国际创新高，恒科指涨超2%，阿里大涨7%创近四年高位</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时29分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
