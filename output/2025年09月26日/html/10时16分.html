@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 232</p><p>生成时间: 2025-09-26 10:16:51</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">19</td>
+                    <td class="percentage">8.19%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2156790" target="_blank" class="news-link">保险会计新准则全面转换倒计时：险企重塑经营账本忙、多家非上市公司系统开发测试已近尾声</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/885/926.htm" target="_blank" class="news-link">赛力斯拟在港交所上市，H 股发行获中国证监会备案</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089741" target="_blank" class="news-link">A股异动丨赴港上市加速，赛力斯逼近涨停，创历史新高</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250926100728310800" target="_blank" class="news-link">印尼盾兑美元汇率下跌0.3%至16,790，为4月29日以来的最低水平。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3756312" target="_blank" class="news-link">08年预警次贷危机“一战成名”，明星对冲基金经理Einhorn警告：AI投入将产生“巨额”资本损失</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089739" target="_blank" class="news-link">A股早评：沪指低开0.35%，风电设备股盘初拉升，医药股普跌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089738" target="_blank" class="news-link">A股异动丨医药股普跌，翰宇药业、凯莱英跌超3%</a> [6] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250926095854319800" target="_blank" class="news-link">泰国副财政部长：我们的目标是提振经济，为“隧道尽头带来光明”。</a> [6] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250926095731457800" target="_blank" class="news-link">泰国副财政部长：目前暂无提高增值税的提议。</a> [7] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250926095616457800" target="_blank" class="news-link">泰国副财政部长：信用评级并非主要担忧，因外债水平极低。</a> [8] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3682663_100_1" target="_blank" class="news-link">泰国副财长：旨在刺激经济并“让隧道尽头出现曙光”。</a> [8 - 28] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2156798?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">青岛发布基金发展行动方案 构建3000亿元基金矩阵</a> [9] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3756310" target="_blank" class="news-link">美国银行业准备金余额已跌破3万亿美元，预示金融体系“流动性紧张”，美联储需要停止缩表</a> [9] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2156699" target="_blank" class="news-link">年内港股五起IPO超百亿，规模最大车企上市，再搅动投行江湖</a> [10] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2156798?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">青岛发布基金发展行动方案 构建3000亿元基金矩阵</a> [11] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/china/202509/2653245.html" target="_blank" class="news-link">中国对墨西哥涉华限制措施进行贸易壁垒调查</a> [12] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3682649_100_1" target="_blank" class="news-link">【行情】中国赛力斯劲扬6.8%，发行境外上市外资股（H股）获证监会备案。</a> [15] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3682648_100_1" target="_blank" class="news-link">日本财务大臣加藤胜信：不对外汇水平发表评论。</a> [16] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3682639_100_1" target="_blank" class="news-link">墨西哥经济部：已向中国官员发出亲切邀请，欢迎中方派出代表团访墨，就相关事宜举行讨论。</a> [19] <font color='grey'>- 10时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">9</td>
+                    <td class="percentage">3.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2156823?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">顺络电子：目前公司AI服务器相关订单饱满 相关业务快速增长</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/885/927.htm" target="_blank" class="news-link">每日为你呈上专属早报：OpenAI 推 ChatGPT Pulse，奥尔特曼最喜欢的 AI 功能</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2156759" target="_blank" class="news-link">科技股主导赚钱效应！AI 算力硬件迎资金回流，半导体国产化仍是核心看点</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/885/924.htm" target="_blank" class="news-link">机构：鸿蒙电脑占高端市场份额超 70%，华为折叠电脑重塑 2W + 市场格局</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [B站热搜] <a href="https://search.bilibili.com/all?keyword=B%E7%AB%99%E5%BC%80%E6%BA%90AI%E8%AF%AD%E9%9F%B3%E5%A4%A9%E8%8A%B1%E6%9D%BF" target="_blank" class="news-link">B站开源AI语音天花板</a> [9] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=B%E7%AB%99%E5%BC%80%E6%BA%90AI%E8%AF%AD%E9%9F%B3%E5%A4%A9%E8%8A%B1%E6%9D%BF" target="_blank" class="news-link">B站开源AI语音天花板</a> [9] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3756301" target="_blank" class="news-link">市场最大“黑天鹅”：AI资本支出放缓，三大“巨雷”会是美股噩梦</a> [10] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/885/905.htm" target="_blank" class="news-link">6499 元华硕 ROG Xbox 掌机 X 开启预约，首发 AMD 锐龙 AI Z2 Extreme 芯片</a> [19] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2156622" target="_blank" class="news-link">美防长下令数百将领紧急集结 OpenAI测试称GPT-5媲美专家 | 环球市场</a> [24] <font color='grey'>- 10时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7554168275597266451/" target="_blank" class="news-link">小米17 Pro比iPhone17 Pro低4000元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2156806?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月26日电，小米集团短线走低，现跌超4%，成交额超50亿港元。</a> [7] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7554014276287250473/" target="_blank" class="news-link">299元小米磁吸充电宝你会买吗</a> [8] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2156806?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月26日电，小米集团短线走低，现跌超4%，成交额超50亿港元。</a> [9] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089735" target="_blank" class="news-link">大摩：小米新款手机销量料强劲 汽车定制服务将成重要竞争优势</a> [9] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/885/915.htm" target="_blank" class="news-link">段永平：在黄峥进入谷歌以后才认识他，未曾建议他去谷歌</a> [11] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/885/906.htm" target="_blank" class="news-link">【IT之家开箱】小米 17 Pro / Pro Max 手机图赏：柔和直边设计，妙享背屏亮眼</a> [18] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7554183194749177383/" target="_blank" class="news-link">小米17 Pro系列背屏玩法全解</a> [19] <font color='grey'>- 10时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">5</td>
+                    <td class="percentage">2.16%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20250926/1067610667.html" target="_blank" class="news-link">俄罗斯外长与联合国秘书长讨论乌克兰和巴以冲突地区局势</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/newsdetail/4345899_1" target="_blank" class="news-link">前美联储主席齐声捍卫独立性，东京通胀持稳支撑日央行谨慎</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2156813?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">全国基本养老保险参保人数达10.72亿人</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2156813?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">全国基本养老保险参保人数达10.72亿人</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3682637_100_1" target="_blank" class="news-link">墨西哥经济部：墨西哥近期所采取的决定均源自正当的国家利益，而非外部压力，也不带有任何地缘政治考量。</a> [20] <font color='grey'>- 10时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.29%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250926100055303800" target="_blank" class="news-link">日本电机制造商日立宣布推出英伟达AI工厂，加速物理AI创新。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5089737" target="_blank" class="news-link">港股早评：三大指数低开 科技股普跌 创新药概念股集体下跌</a> [7] <font color='grey'>- 10时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20250926094907643800" target="_blank" class="news-link">印尼盾创新低，印尼“大胆”干预汇市</a> [9] <font color='grey'>- 10时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.43%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/taiwan/202509/2653251.html" target="_blank" class="news-link">大陆国防部：“台独”对战后国际秩序构成最严重挑战</a> [6] <font color='grey'>- 10时16分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
