@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2025-09-29 23:13:55</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">19</td>
+                    <td class="percentage">21.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/china/202509/2953550.html" target="_blank" class="news-link">华夏凯德商业REIT上市首日涨幅12.6%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2159984?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月29日电，摩根士丹利将美股消费金融板块评级从“谨慎”上调至“符合预期”。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2159982?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">利弗莫尔证券显示，珞石(山东)机器人集团股份有限公司向港交所提交上市申请书，联席保荐人为中金公司、国泰君安国际。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2159984?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月29日电，摩根士丹利将美股消费金融板块评级从“谨慎”上调至“符合预期”。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/china/202509/2953548.html" target="_blank" class="news-link">中国拟推5000亿人民币新型政策性金融工具 以促进投资</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2159981?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">利弗莫尔证券显示，烟台蓝纳成生物技术股份有限公司-B向港交所提交上市申请书，独家保荐人为中金公司。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2159982?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">利弗莫尔证券显示，珞石(山东)机器人集团股份有限公司向港交所提交上市申请书，联席保荐人为中金公司、国泰君安国际。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2159980?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月29日电，利弗莫尔证券显示，珠海精实测控技术股份有限公司向港交所提交上市申请书，联席保荐人为中金公司、浦银国际。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2159981?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">利弗莫尔证券显示，烟台蓝纳成生物技术股份有限公司-B向港交所提交上市申请书，独家保荐人为中金公司。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2159980?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月29日电，利弗莫尔证券显示，珠海精实测控技术股份有限公司向港交所提交上市申请书，联席保荐人为中金公司、浦银国际。</a> [6] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3686729_100_1" target="_blank" class="news-link">俄罗斯央行：将9月30日美元/俄罗斯卢布官方汇率定为82.8676（前值为83.6118）。</a> [9 - 29] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2159973?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月29日电，利弗莫尔证券显示，贝达药业股份有限公司向港交所提交上市申请书，联席保荐人为摩根士丹利、中信证券。</a> [10] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2159971?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月29日电，利弗莫尔证券显示，微医控股有限公司向港交所提交上市申请书，联席保荐人为华泰国际、招银国际。</a> [11] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2159968?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社9月29日电，利弗莫尔证券显示，利欧集团股份有限公司向港交所提交上市申请书，联席保荐人为华泰国际、中国银河国际。</a> [12] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3686720_100_1" target="_blank" class="news-link">法国道达尔能源公司CEO：董事会将于2026年2月就考虑到价格环境的情况下如何削减股票回购计划做出决定。</a> [12] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5091384" target="_blank" class="news-link">美股异动｜比特币突破11.4万美元，加密货币概念股普涨</a> [12] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3686719_100_1" target="_blank" class="news-link">巴西央行行长加利波罗：当前账户赤字是需求过热以及经济放缓的又一迹象。</a> [13] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2159966?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">利弗莫尔证券显示，四川百利天恒药业股份有限公司向港交所提交上市申请书，联席保荐人为高盛、摩根大通、花旗。</a> [14] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3686717_100_1" target="_blank" class="news-link">巴西央行行长加利波罗：我们拥有充足的外汇储备。</a> [14] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5091394" target="_blank" class="news-link">微创医疗(00853.HK)拟进行心律管理业务策略性重组而订立合并协议</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3686758_100_1" target="_blank" class="news-link">法国道达尔能源公司CEO：我认为许多亚洲客户的购买行为都是出于政治和特朗普关税因素，并非经济因素。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/taiwan/202509/2953543.html" target="_blank" class="news-link">郝龙斌：若当选国民党主席 将讨党产还党工退休金</a> [8] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3686710_100_1" target="_blank" class="news-link">欧盟委员会提出四项“旗舰”国防项目——欧洲无人机墙、东翼警戒、防空盾牌及国防太空盾牌。</a> [18] <font color='grey'>- 23时13分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7555493602168671787/" target="_blank" class="news-link">召集美军将领 美国防部要搞什么大事</a> [30] <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2159975?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【电报解读】华为昇腾0Day支持DeepSeek-V3.2-Exp！机构称国产算力从供给侧和需求侧均迎来新的变化，看好算力芯片、数据中心IDC、电源等细分领域，这家公司已成为华为的核心供应商之一</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
