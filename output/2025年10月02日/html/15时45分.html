@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-10-02 15:45:53</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">8</td>
+                    <td class="percentage">16.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002153659664800" target="_blank" class="news-link">希腊外交部长：加沙援助船队的39艘船只正抵达阿什杜德港，船上所有人员均安全。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002153615500800" target="_blank" class="news-link">英国外交部就以色列阻止加沙援助船队发表声明称，已与以色列当局取得联系，明确表示期望局势能够安全解决。</a> [6] <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002153454598800" target="_blank" class="news-link">英国外交部就以色列阻止加沙援助船队发表声明称，我们对“全球坚韧船队”的局势深感关切，我们正与多名涉事英国国民的家属保持联系。</a> [8] <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7556222653574316086/" target="_blank" class="news-link">有多少存款才够养老</a> [8] <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002152947047800" target="_blank" class="news-link">比利时首相：已告知欧盟领导人“我要你们签字承诺，如果欧盟动用被冻结的俄罗斯资产为乌克兰提供贷款，你们将共同承担风险。”</a> [10] <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002152401583800" target="_blank" class="news-link">澳大利亚外交部：呼吁各方尊重国际法，确保相关人员的安全与人道待遇。</a> [14] <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002152349364800" target="_blank" class="news-link">澳大利亚外交部：关注以色列部队在“全球坚韧船队”上实施拘留的报道。</a> [15] <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002152300571800" target="_blank" class="news-link">澳大利亚外交部：官员正与以色列当局保持联系，随时准备为受影响的澳大利亚人提供领事协助。</a> [16] <font color='grey'>- 15时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">4</td>
+                    <td class="percentage">8.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002153856995800" target="_blank" class="news-link">比利时首相：如果所有乌克兰盟友共同出资，即使不使用俄罗斯的冻结资产，也完全有可能为乌克兰提供财政支持。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2161808?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月2日电，据印度国家证券交易所（NSE），全球基金10月1日净卖出155亿卢比印度股票。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002152841854800" target="_blank" class="news-link">金十数据整理：每日全球外汇市场要闻速递（2025-10-02）</a> [11] <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002151228536800" target="_blank" class="news-link">金十图示：2025年10月02日（周四）全球股市指数-欧洲市场（盘初）</a> [19] <font color='grey'>- 15时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/887/233.htm" target="_blank" class="news-link">Hugging Face 联合创始人沃尔夫：当前的 AI 模型不太可能带来重大科学突破</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2161800?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月2日电，欧洲私募股权公司PAI Partners完成了一笔价值36亿欧元的巨额交易，这笔钱将被用于重新投资到其投资组合公司Froneri中。</a> [7] <font color='grey'>- 15时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251002152650730800" target="_blank" class="news-link">谷歌翻译竞争对手DeepL正在考虑在美国首次公开募股（IPO）。</a> [12] <font color='grey'>- 15时45分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
