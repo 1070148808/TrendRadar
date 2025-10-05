@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 25</p><p>生成时间: 2025-10-05 22:29:30</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">6</td>
+                    <td class="percentage">24.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005222552043800" target="_blank" class="news-link">德国总理默茨在与以色列总理内塔尼亚胡的通话中称，特朗普的加沙计划是解救人质与实现和平的最佳机会。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005221548751800" target="_blank" class="news-link">欧洲央行行长拉加德：法国总统是糟糕的工作，不适合我</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3696241_100_1" target="_blank" class="news-link">德国总理默茨在与以色列总理内塔尼亚胡的通话中表示，美国总统特朗普的加沙计划是解救人质和实现和平的最佳机会。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005220225388800" target="_blank" class="news-link">乌克兰总统泽连斯基：下周，七国集团制裁协调员会议将举行，我们的合作伙伴已经收到了我们关于制裁和限制供应计划的所有提案。</a> [7] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005220143666800" target="_blank" class="news-link">乌克兰总统泽连斯基：俄罗斯的每一枚导弹和每一架攻击无人机都包含着西方国家的零部件。</a> [8] <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005220053977800" target="_blank" class="news-link">乌克兰总统泽连斯基：冬季来临前，俄罗斯正公然试图摧毁我们的民用基础设施。世界对此毫无实际反应。我们将奋起反抗。</a> [9] <font color='grey'>- 22时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">8.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162700?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">德银称长期持有AI是最佳策略</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时29分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2162700?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">德银称长期持有AI是最佳策略</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005220331718800" target="_blank" class="news-link">立陶宛将在白俄罗斯边境附近举办北约国际军事演习。</a> [6] <font color='grey'>- 22时29分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
