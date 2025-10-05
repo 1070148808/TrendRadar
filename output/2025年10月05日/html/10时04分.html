@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2025-10-05 10:04:00</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">11</td>
+                    <td class="percentage">6.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005093830302800" target="_blank" class="news-link">伯克希尔调整公司章程，将董事会主席与CEO职务分离</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3756680" target="_blank" class="news-link">捷克在野党赢得众议院选举 巴比什有望再次出任总理</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251005/1067737480.html" target="_blank" class="news-link">媒体：马克龙要求新总理至周日晚完成组阁</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3696071_101_1" target="_blank" class="news-link">伯克希尔调整公司章程，将董事会主席与Ceo职务分离</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005083618815800" target="_blank" class="news-link">金十数据整理：俄乌冲突最新24小时局势跟踪（10月5日）</a> [6] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005082803811800" target="_blank" class="news-link">俄总统助理：俄须加速发展海军力量以遏制西方挑衅</a> [7] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/china/202510/0553984.html" target="_blank" class="news-link">中国外交部吁日本奉行积极理性对华政策</a> [9] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005081158218800" target="_blank" class="news-link">埃及外交部：将于6日主持以色列和哈马斯代表团间会议</a> [15] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/opinion/202510/0553978.html" target="_blank" class="news-link">捷克在野党获胜 巴比什有望再次出任总理</a> [15] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005080310853800" target="_blank" class="news-link">市场消息：美国法官暂时阻止美国总统特朗普政府在俄勒冈州波特兰市部署国民警卫队部队。</a> [19] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557512706568244746/" target="_blank" class="news-link">国民党党主席改选有哪些变化</a> [29] <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">11</td>
+                    <td class="percentage">6.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251005/1067737354.html" target="_blank" class="news-link">金正恩：若美国无视地区诸国安全忧虑，将进一步推动朝方切实采取相关军事技术措施</a> [6]</div><br><div class='new-title'>🆕 [凤凰] <a href="https://news.ifeng.com/c/8nC8Duj9lVt" target="_blank" class="news-link">金正恩：若美国无视地区诸国安全忧虑，朝鲜将采取军事技术措施</a> [7] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005082451890800" target="_blank" class="news-link">俄称在多方向发动攻势 乌称打击俄石化厂</a> [8] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162550?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">委内瑞拉举行全国特别军事演习</a> [9] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/887/558.htm" target="_blank" class="news-link">任天堂加大力度打击“AI 侵权”，呼吁日本政府推动相关立法</a> [10] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162547?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">俄称在多方向发动攻势 乌称打击俄石化厂</a> [11] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2162550?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">委内瑞拉举行全国特别军事演习</a> [12] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005081504734800" target="_blank" class="news-link">委内瑞拉举行全国特别军事演习</a> [12] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2162547?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">俄称在多方向发动攻势 乌称打击俄石化厂</a> [14] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251005081213528800" target="_blank" class="news-link">金正恩：若美国无视地区诸国安全忧虑 朝鲜将采取军事技术措施</a> [14] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557517560091017254/" target="_blank" class="news-link">委内瑞拉举行全国特别军事演习</a> [28] <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2162558?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">聚焦人工智能等应用创新 2025世界智能网联汽车大会将在北京举办</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2162558?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">聚焦人工智能等应用创新 2025世界智能网联汽车大会将在北京举办</a> [8] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [thepaper] <a href="https://m.thepaper.cn/newsDetail_forward_31727862" target="_blank" class="news-link">南京队主场作战晋级“苏超”四强，现场观众人数再创新纪录</a> [20] <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2162552" target="_blank" class="news-link">AI基建迎新催化 英伟达携手日本半导体巨头加码 节能或成关键考量</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/887/562.htm" target="_blank" class="news-link">谷歌 Gmail 自 2026 年 1 月起不可以 POP 检查其它邮箱，仍支持 IMAP 连接</a> [6] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/887/556.htm" target="_blank" class="news-link">OpenAI 更新 GPT-5 Instant 模型：依旧理性、稳重，但更具共情力</a> [12] <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251005/1067737598.html" target="_blank" class="news-link">土耳其外长：欧洲对乌财政援助“成本极高”</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3696069_101_1" target="_blank" class="news-link">2025年迄今，美国股票型基金涨幅达11%</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/887/561.htm" target="_blank" class="news-link">小米汽车精英驾驶高阶驾驶培训湖南站今日开放报名，1999 元 / 人</a> [7] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/887/555.htm" target="_blank" class="news-link">小米路由器 BE6500 Pro 发布第 5 次固件更新：新增专属网络、无线接入节点选择等功能</a> [13] <font color='grey'>- 10时04分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
