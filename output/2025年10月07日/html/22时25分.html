@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2025-10-07 22:25:15</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">13</td>
+                    <td class="percentage">14.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2163250?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">土俄领导人通电话 讨论加沙停火与乌克兰局势</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2163250?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">土俄领导人通电话 讨论加沙停火与乌克兰局势</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4347740_1" target="_blank" class="news-link">卡塔尔外交部：加沙人质的释放将标志着巴以冲突的结束</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251007/1067770973.html" target="_blank" class="news-link">普京与独联体领导人进行电话会谈，探讨双边关系发展</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251007/1067770874.html" target="_blank" class="news-link">亚美尼亚总理祝普京生日快乐</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251007220155317800" target="_blank" class="news-link">克里姆林宫：俄罗斯总统普京不太可能参加巴西气候峰会。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3699326_100_1" target="_blank" class="news-link">联合国儿童基金会：以色列阻止医疗设备运入，导致加沙婴儿被迫共用氧气面罩。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251007215435884800" target="_blank" class="news-link">土耳其总统府：土耳其总统埃尔多安与俄罗斯总统普京通电话，表示仍支持与乌克兰的和平倡议。</a> [8] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3699323_100_1" target="_blank" class="news-link">土耳其总统府：土耳其总统埃尔多安与俄罗斯总统普京通话时表示，土耳其仍然支持与乌克兰之间的和平倡议。</a> [7 - 27] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3699320_100_1" target="_blank" class="news-link">波兰总理图斯克：（关于德国通缉的北溪管道案乌克兰人）波兰政府的立场是，将此人引渡至他国不符合波兰的利益。</a> [8 - 28] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251007215000000800" target="_blank" class="news-link">2027年FOMC票委、亚特兰大联储主席博斯蒂克将于十分钟后就经济前景发表讲话。</a> [12] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251007214925734800" target="_blank" class="news-link">波兰总理图斯克：（就德国在北溪管道案中通缉的乌克兰人）波兰政府的立场是，将他交给其他国家不符合波兰的利益。</a> [13] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251007214240933800" target="_blank" class="news-link">叙利亚外交部长将于10月8日访问土耳其。</a> [16] <font color='grey'>- 22时25分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">9</td>
+                    <td class="percentage">10.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251007220534781800" target="_blank" class="news-link">美联储理事鲍曼在社区银行会议的开场致辞中未对货币政策或经济前景发表评论。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251007220358404800" target="_blank" class="news-link">金十图示：2025年10月07日（周二）全球股市指数-美洲市场（盘初）</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2163248?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月7日电，纳斯达克中国金龙指数现跌0.5%，最新报8793.75点。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2163248?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月7日电，纳斯达克中国金龙指数现跌0.5%，最新报8793.75点。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251007215049946800" target="_blank" class="news-link">加密货币交易所Kraken：目前正在调查影响币安智能链（bsc）网络存取款的问题。所有基于BSC的代币可能面临处理延迟。</a> [11] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3699307_101_1" target="_blank" class="news-link">【行情】美股盘初，主要行业ETF涨跌不一，半导体ETF涨0.9%，科技行业ETF涨0.6%，全球航空业ETF跌0.4%。</a> [12] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3699301_101_1" target="_blank" class="news-link">【行情】美国标普500指数高开5.86点，涨幅0.09%，报6746.14点；道琼斯工业平均指数高开5.93点，涨幅0.01%，报46700.90点；纳斯达克综合指数高开30.70点，涨幅0.13%，报22972.37点。</a> [15] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251007214524084800" target="_blank" class="news-link">金十图示：2025年10月07日（周二）美股热门股票行情一览</a> [15] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3699297_100_1" target="_blank" class="news-link">【行情】Ast Spacemobile股价下跌5.1%，该公司此前宣布拟发8亿美元股票。</a> [17] <font color='grey'>- 22时25分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">6</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/887/910.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 6.0.0.107 SP2 Developer 版本新特性曝光，含双击桌面空白处锁屏等</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2163247?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月7日电，美股无人机概念股强势上涨，SES AI Corp涨超24%，Draganfly涨近7%，Ondas Holdings、Palladyne AI涨超5%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2163247?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月7日电，美股无人机概念股强势上涨，SES AI Corp涨超24%，Draganfly涨近7%，Ondas Holdings、Palladyne AI涨超5%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2163155" target="_blank" class="news-link">看跌英伟达的转折点？美国市场如何评价OpenAI-AMD巨额算力协议</a> [13] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/887/897.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 6.0.0.107 SP2 Developer 版本开启推送，优化相机稳定性等</a> [14] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1926849595331318550" target="_blank" class="news-link">2025 年该使用 ray 、 accelerate 、 trainer 、 lightning 还是 pytorch？</a> [15] <font color='grey'>- 22时25分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
