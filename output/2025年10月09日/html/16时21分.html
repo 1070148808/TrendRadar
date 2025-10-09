@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 145</p><p>生成时间: 2025-10-09 16:21:45</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">12</td>
+                    <td class="percentage">8.28%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=A%E8%82%A110%E6%9C%88%E5%BC%80%E9%97%A8%E7%BA%A2+%E6%B2%AA%E6%8C%87%E7%AB%99%E7%A8%B33900%E7%82%B9" target="_blank" class="news-link">A股10月开门红 沪指站稳3900点</a> [7] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2164327?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">兴齐眼药：SQ-129玻璃体缓释注射液获得临床试验批准通知书 目前国内外尚无该产品获批上市</a> [8] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2164327?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">兴齐眼药：SQ-129玻璃体缓释注射液获得临床试验批准通知书 目前国内外尚无该产品获批上市</a> [8] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702676_100_1" target="_blank" class="news-link">中国台湾9月贸易余额为124.0亿美元。</a> [7 - 28] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093046" target="_blank" class="news-link">星德胜(603344.SH)：暂未开展股票回购</a> [9] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702659_100_1" target="_blank" class="news-link">中国内地媒体报道称，中芯国际A股融资融券折算率被调为零。</a> [10] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009160025470800" target="_blank" class="news-link">中国台湾9月贸易帐 124亿美元，预期156.6亿美元，前值168.3亿美元。</a> [12] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2164300?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">方盛制药：受让复方醋酸地塞米松乳膏药品上市许可</a> [16] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009155946108800" target="_blank" class="news-link">高市早苗意外推低日元汇率 或迫使日本央行在本月提前加息</a> [16] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2164299?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月9日电，菲律宾比索兑美元汇率跌幅扩大至0.6%，报58.28。此前菲律宾央行意外降息25个基点。</a> [17] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009155713273800" target="_blank" class="news-link">以色列美元债券跃升，创新兴市场最大涨幅。</a> [17] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2164296?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">印尼投资与下游化部部长罗山：投资带动的就业增长有望支撑8%经济增长目标</a> [20] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">9</td>
+                    <td class="percentage">6.21%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009160645984800" target="_blank" class="news-link">法国政治僵局有望缓解 法德10年期国债息差收窄</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251009/1067811076.html" target="_blank" class="news-link">欧盟外交事务负责人：乌克兰无法独自阻止俄军推进</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009160336643800" target="_blank" class="news-link">约旦外交部：对加沙协议表示欢迎。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3756853" target="_blank" class="news-link">日元汇率跌破153，“新安倍经济学”预期下，美日汇率冲突重燃？</a> [6] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [凤凰] <a href="https://news.ifeng.com/c/8nJSMlmj1ht" target="_blank" class="news-link">高市早苗首相任命恐推迟，波及对中美外交</a> [7] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2164297?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中方是否支持意大利提出的冬奥会休战倡议？外交部回应</a> [18] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009155409753800" target="_blank" class="news-link">加沙协议缓解地缘政治风险 金价小幅回落但仍徘徊在历史高位</a> [20] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%8A%A0%E6%B2%99%E5%81%9C%E7%81%AB%E5%8D%8F%E8%AE%AE%E8%BE%BE%E6%88%90" target="_blank" class="news-link">外交部回应加沙停火协议达成</a> [23] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%85%BB%E8%80%81%E9%99%A2%E5%9B%9E%E5%BA%9427%E5%B2%81%E5%A5%B3%E7%94%9F%E6%9C%88%E7%A7%9F1500%E5%85%83%E5%85%A5%E4%BD%8F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26flag%3D1%26stream_entry_id%3D31%26pos%3D30%26lcate%3D5001%26filter_type%3Drealtimehot%26realpos%3D30%26c_type%3D31%26band_rank%3D30%26q%3D%2523%25E5%2585%25BB%25E8%2580%2581%25E9%2599%25A2%25E5%259B%259E%25E5%25BA%259427%25E5%25B2%2581%25E5%25A5%25B3%25E7%2594%259F%25E6%259C%2588%25E7%25A7%259F1500%25E5%2585%2583%25E5%2585%25A5%25E4%25BD%258F%2523%26cate%3D5001%26display_time%3D1759998017%26pre_seqid%3D17599980171430237092049" target="_blank" class="news-link">养老院回应27岁女生月租1500元入住</a> [30] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">5</td>
+                    <td class="percentage">3.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2164333?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中金：看好创新药长期产业发展趋势 期待商保突破</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2164333?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中金：看好创新药长期产业发展趋势 期待商保突破</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009160318949800" target="_blank" class="news-link">法拉利：将继续在内燃机领域进行创新，并确保其与替代燃料e-fuels兼容。未来投资将聚焦于内燃机动力系统、电动动力系统以及车载体验等领域。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702681_100_1" target="_blank" class="news-link">法拉利：将继续在内燃机方面进行创新，并确保与替代性电子燃料的兼容性。</a> <font color='red'><strong>[3 - 24]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7559087283383569947/" target="_blank" class="news-link">黄金再创新高 后市怎么看</a> [21] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">5</td>
+                    <td class="percentage">3.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/232.htm" target="_blank" class="news-link">12.1 英寸 120Hz 屏幕：小米 Redmi Pad Pro 平板 8G 版国补后 934 元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/229.htm" target="_blank" class="news-link">抖音电商双 11 运费险降费政策更新，商家最高可享 30% 费用减免</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009160114951800" target="_blank" class="news-link">英伟达(NVDA.O)盘前上涨1%，美国批准英伟达向阿联酋出售价值数十亿美元的芯片。</a> [11] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093042" target="_blank" class="news-link">美股异动丨英伟达盘前涨超1%，美国放行向阿联酋出售价值数十亿美元芯片</a> [13] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%85%A8%E6%98%8E%E6%98%9F%E5%8A%A0%E5%85%A5%E4%BA%AC%E4%B8%9C%E5%8F%8C11%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26flag%3D1%26stream_entry_id%3D31%26pos%3D19%26lcate%3D5001%26filter_type%3Drealtimehot%26realpos%3D19%26c_type%3D31%26band_rank%3D19%26q%3D%2523%25E5%2585%25A8%25E6%2598%258E%25E6%2598%259F%25E5%258A%25A0%25E5%2585%25A5%25E4%25BA%25AC%25E4%25B8%259C%25E5%258F%258C11%2523%26cate%3D5001%26display_time%3D1759998017%26pre_seqid%3D17599980171430237092049" target="_blank" class="news-link">全明星加入京东双11</a> [19] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">2.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/231.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 6.0 Developer 系统重要补丁发布，优化部分场景的使用体验</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [pcbeta] <a href="https://bbs.pcbeta.com/viewthread-2054232-1-1.html" target="_blank" class="news-link">Nvidia CEO 黄仁勋商业头脑活络，这个相当于是借钱给 OpenAI 发展 AI 事业了(ai.cn)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/225.htm" target="_blank" class="news-link">撼与公布系列英特尔锐炫 Pro B60 显卡 AI 解决方案，至高 16 张双芯卡</a> [7] <font color='grey'>- 16时21分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702656_0_1" target="_blank" class="news-link">印度国家支付公司和Razorpay与OpenAI合作，通过ChatGPT在印度整合人工智能支付</a> [11] <font color='grey'>- 16时21分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
