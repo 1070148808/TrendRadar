@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 78</p><p>生成时间: 2025-10-09 14:16:22</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">6</td>
+                    <td class="percentage">7.69%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2164105?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家发改委：2026年棉花进口关税配额总量为89.4万吨 其中33%为国营贸易配额</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2164105?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家发改委：2026年棉花进口关税配额总量为89.4万吨 其中33%为国营贸易配额</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2164093?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月9日电，德国8月季调后贸易顺差录得172亿欧元，预估为顺差152亿欧元，前值为顺差148亿欧元。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2164093?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月9日电，德国8月季调后贸易顺差录得172亿欧元，预估为顺差152亿欧元，前值为顺差148亿欧元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702471_100_1" target="_blank" class="news-link">印度贸易部长Goyal：很高兴宣布已签署印英联合经济贸易委员会的职权范围，旨在重新定位该委员会。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/179.htm" target="_blank" class="news-link">上市价 4599 元 → 2740 元国补新低：石头 P20 Pro 上下水版 3 期免息</a> [6] <font color='grey'>- 14时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">5</td>
+                    <td class="percentage">6.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4348135_1" target="_blank" class="news-link">贝森特完成美联储主席候选人首轮面试，严厉质询聚焦利率和QE问题</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3756844" target="_blank" class="news-link">谁是下一任美联储主席？贝森特已面完11名候选人，4个人最有希望</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702470_100_1" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：以色列与哈马斯之间就加沙和平协议第一阶段达成的协议是一次重大突破。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702450_100_1" target="_blank" class="news-link">消息人士：以色列总理内塔尼亚胡将于当地时间下午3点（格林威治标准时间1200）召集安全内阁会议，并于下午4点（格林威治标准时间1300）召集政府会议，以批准相关协议。</a> [12] <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7558905900279349290/" target="_blank" class="news-link">哈马斯和以总理感谢特朗普</a> [15] <font color='grey'>- 14时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">6.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2164109?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月9日电，据报道，德国AI初创公司N8N获得英伟达支持，估值达到25亿美元。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3756846" target="_blank" class="news-link">AI需求持续推动增长！台积电Q3营收超预期</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/183.htm" target="_blank" class="news-link">AI 芯片供应紧张背景下：OpenAI 奥尔特曼称现阶段相比选择英特尔代工，更期望台积电扩产</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/181.htm" target="_blank" class="news-link">英伟达 CEO 黄仁勋：AI 数据中心应建设配套离网发电能力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702459_0_1" target="_blank" class="news-link">台积电第三季度营收超出预期，同比增长30%，受益于人工智能需求增长</a> [9 - 29] <font color='grey'>- 14时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251009/1067803328.html" target="_blank" class="news-link">俄联邦委员会国防委员会：战斧导弹是过时武器</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702463_0_1" target="_blank" class="news-link">以色列国防军：已开始为落实加沙协议进行行动准备。将继续在该地区部署，并随时准备应对任何行动发展。</a> [7 - 27] <font color='grey'>- 14时16分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
