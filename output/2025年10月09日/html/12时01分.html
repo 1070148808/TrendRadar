@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-10-09 12:01:36</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">6</td>
+                    <td class="percentage">13.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4348106_1" target="_blank" class="news-link">AI热潮是泡沫？看看专家、行业大佬和金融机构怎么说……</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702344_100_1" target="_blank" class="news-link">致同：本港长期停牌上市公司数目回升，由管理层或股东引发占比升至34%。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009114422363800" target="_blank" class="news-link">泰国财政部长：将于本月开始收购不良家庭债务，政府计划投入100亿泰铢用于债务收购。</a> [8] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702331_100_1" target="_blank" class="news-link">【行情】印度10年期基准政府债券收益率变化不大，报6.5081%，前一交易日收报6.5030%。</a> [8 - 28] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009113515455800" target="_blank" class="news-link">机构：上调亚洲今明两年经济增速预期 内需和非美市场需求是主要支撑</a> [10] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009113059458800" target="_blank" class="news-link">早盘收盘，国内期货主力合约涨跌互现。沪金涨超4%，棕榈油、国际铜、沪铜涨超3%，沪银、沪锡、豆油涨超2%；跌幅方面，生猪、液化石油气（LPG）、鸡蛋跌超5%，集运欧线、尿素跌超3%，聚氯乙烯（PVC）、SC原油、甲醇跌超2%。</a> [15] <font color='grey'>- 12时01分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">5</td>
+                    <td class="percentage">11.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009115440849800" target="_blank" class="news-link">英国首相斯塔默：这一协议必须立即全面实施，不得拖延，并应立即解除对向加沙提供救生人道主义援助的一切限制。我们呼吁各方履行所作承诺，结束战争，并为实现冲突的公正与持久解决奠定基础。英国将支持这些关键的紧急措施以及下一阶段的谈判，以确保和平计划的全面实施。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009115253068800" target="_blank" class="news-link">英国首相斯塔默：我有关特朗普总统加沙和平计划第一阶段已达成协议的消息表示欢迎。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702349_100_1" target="_blank" class="news-link">英国首相斯塔默：我们呼吁各方履行已作出的承诺，结束战争，为公正持久地结束冲突奠定基础。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3702346_100_1" target="_blank" class="news-link">英国首相斯塔默：我对有关美国总统特朗普加沙和平计划第一阶段协议已达成的消息表示欢迎。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/09/6af8be59ad1d4a70b8fa3a3a844ad219.html" target="_blank" class="news-link">IMF警告西方须提高养老金领取年龄</a> [10] <font color='grey'>- 12时01分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/09/00470aef451f4065be31702ab8de63a7.html" target="_blank" class="news-link">美国加州出台首部AI监管法，有人欢呼有人忧</a> [12] <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BF%99%E4%B8%AA%E5%8D%81%E4%B8%80%E5%81%87%E6%9C%9F+AI%E5%8F%88%E5%8F%98%E5%A4%A9%E4%BA%86" target="_blank" class="news-link">这个十一假期 AI又变天了</a> [29] <font color='grey'>- 12时01分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3756838" target="_blank" class="news-link">火爆如斯！即便存在使用限制，Sora APP首周下载量超过了ChatGPT</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时01分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251009113250968800" target="_blank" class="news-link">特朗普任内首次批准 美国放行英伟达芯片输往阿联酋</a> [12] <font color='grey'>- 12时01分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
