@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 58</p><p>生成时间: 2025-10-10 23:58:43</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">7</td>
+                    <td class="percentage">12.07%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010234227195800" target="_blank" class="news-link">金十图示：2025年10月10日（周五）全球股市指数-欧洲市场（收盘）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%BA%B3%E6%96%AF%E8%BE%BE%E5%85%8B&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26lcate%3D5001%26flag%3D1%26stream_entry_id%3D31%26q%3D%25E7%25BA%25B3%25E6%2596%25AF%25E8%25BE%25BE%25E5%2585%258B%26band_rank%3D7%26pos%3D8%26realpos%3D7%26filter_type%3Drealtimehot%26c_type%3D31%26dgr%3D0%26display_time%3D1760111644%26pre_seqid%3D17601116447930375494673" target="_blank" class="news-link">纳斯达克</a> [7] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2166066?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月10日电，纳斯达克100指数下跌2.4%，创下4月30日以来最大跌幅。</a> [11] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010233618864800" target="_blank" class="news-link">美股继续下跌，纳斯达克综合指数跌超2%；纳斯达克100指数跌幅一度达2.4%，创4月30日以来最大跌幅。</a> [11] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2166062?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月10日电，纳斯达克综合指数跌超2%，亚马逊、特斯拉跌超3%。</a> [15] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010232758342800" target="_blank" class="news-link">知情人士：欧盟计划与美国达成新的贸易协议</a> [19] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010232514405800" target="_blank" class="news-link">欧洲债券收益率持续下跌</a> [21] <font color='grey'>- 23时58分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">6</td>
+                    <td class="percentage">10.34%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010235315427800" target="_blank" class="news-link">据塔斯社：俄联邦安全会议副主席梅德韦杰夫与朝鲜劳动党总书记金正恩讨论俄朝合作。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2166076?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">外交部公布中华人民共和国与瑞士联邦第四轮外长级战略对话共同文件</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010234718626800" target="_blank" class="news-link">法国社会党领袖福雷：目前，马克龙还没有回答我们对养老金改革的担忧。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010233838326800" target="_blank" class="news-link">埃及总统塞西邀请德国总理赴埃及签署加沙协议。</a> [8] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010233827162800" target="_blank" class="news-link">乌克兰总统泽连斯基：乌克兰与荷兰同意联合生产无人机。</a> [9] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010233234850800" target="_blank" class="news-link">法国共产党全国书记鲁塞尔：如果马克龙从其阵营中任命某人为总理，我们无法接受。</a> [15] <font color='grey'>- 23时58分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2166063?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月10日电，热门中概股中，阿里巴巴、百度、京东跌超6%，拼多多跌4%，小鹏、蔚来、哔哩哔哩跌超7%。</a> [14] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010233345032800" target="_blank" class="news-link">美股芯片股受挫，费城半导体指数下跌4.2%，AMD(AMD.O)跌超7%，英伟达(NVDA.O)跌2.6%。</a> [14] <font color='grey'>- 23时58分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.72%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2165982" target="_blank" class="news-link">普京：俄罗斯已经掌握了一种新型武器</a> [9] <font color='grey'>- 23时58分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
