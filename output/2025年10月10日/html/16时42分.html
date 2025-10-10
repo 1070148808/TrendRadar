@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 146</p><p>生成时间: 2025-10-10 16:42:25</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">22</td>
+                    <td class="percentage">15.07%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2165567?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月10日电，利弗莫尔证券显示，港股新股金叶国际集团、挚达科技分别收涨330%和192%，二者今日正式登陆港股市场。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2165522" target="_blank" class="news-link">一图看懂 | 超硬材料产业链受关注，A股概念股图谱一览</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165553?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">用友网络：退出深圳淮海方舟信息产业股权投资基金</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5093865" target="_blank" class="news-link">中无人机(688297.SH)：暂未开展股票回购</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/504.htm" target="_blank" class="news-link">15.68 万元起、驾驶辅助升级，长安启源 Q07 天枢智能激光版上市</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2165562?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">联合国贸发会议最新报告：中国制造驱动全球贸易增长</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704905_100_1" target="_blank" class="news-link">惠誉：中国浙江省在财政实力与债务增长间取得平衡。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165542?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家金融监督管理总局：推动财产保险公司非车险业务经营理念 由追求规模、速度向追求质量、效益转变</a> [7] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2165553?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">用友网络：退出深圳淮海方舟信息产业股权投资基金</a> [9] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704891_101_1" target="_blank" class="news-link">Metaplanet将暂停第20至22期股票认购权，以优化融资策略</a> [12] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7558755136639320127/" target="_blank" class="news-link">长安启源Q07新车型上市</a> [14] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165519?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">合百集团：公司参投基金通过产投壹号基金投资长鑫科技集团股份有限公司4.5亿元</a> [15] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2165542?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家金融监督管理总局：推动财产保险公司非车险业务经营理念 由追求规模、速度向追求质量、效益转变</a> [15] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010160430462800" target="_blank" class="news-link">泰国央行副行长：在决定下次降息时，希望经济和财政路径能更加清晰。央行认为进一步降息的空间已不大。财政政策需加大支持力度。</a> [16] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704866_100_1" target="_blank" class="news-link">【行情】美国E-MINI标普500指数期货上涨0.09%，道琼斯指数期货上涨0.12%，纳斯达克100指数期货上涨0.1%。</a> [17] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704865_100_1" target="_blank" class="news-link">马来西亚财政部：将维持2026年发展支出不变，缩小赤字。</a> [18] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165505?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">金融监管总局加强非车险业务监管：财险公司应合理降低保费规模、业务增速、市场份额的考核要求</a> [20] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010160140333800" target="_blank" class="news-link">马来西亚财政部：维持2025年修正后的增长预期在4.0%至4.8%之间。</a> [21] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010160109468800" target="_blank" class="news-link">马来西亚财政部：2026年GDP增长率预计为4%-4.5%，低于2025年预测的4%-4.8%。预计2026年财政赤字将降至占GDP的3.5%。</a> [22] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010160050329800" target="_blank" class="news-link">马来西亚财政部：受美国关税影响，预计2026年GDP增速将下降0.76个百分点。</a> [23] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7559468616576405001/" target="_blank" class="news-link">“做空美元”遭绞杀</a> [25] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010155805025800" target="_blank" class="news-link">外资撤离与关税忧虑 印度股市在低波动中挣扎</a> [28] <font color='grey'>- 16时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">11</td>
+                    <td class="percentage">7.53%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704910_100_1" target="_blank" class="news-link">马来西亚总理安瓦尔：政府将通过有针对性的补贴方式每年节省155亿林吉特。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704907_100_1" target="_blank" class="news-link">马来西亚总理安瓦尔：柴油补贴节省了50亿林吉特。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010161430636800" target="_blank" class="news-link">马来西亚总理宣布加强税收 以应对石油收入下降与经济放缓</a> [6] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010161349071800" target="_blank" class="news-link">据CGTN：俄罗斯总统普京邀请独联体领导人年底来俄举行非正式会晤。</a> [7] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7559495471774203923/" target="_blank" class="news-link">外交部：赖清德“双十”讲话颠倒黑白</a> [8] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704902_100_1" target="_blank" class="news-link">马来西亚总理安瓦尔：马来西亚政府正在考虑制定柠檬法以保护消费者权益。</a> [7 - 27] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704900_100_1" target="_blank" class="news-link">马来西亚总理安瓦尔：反腐组织和捐助者将有资格享受减税政策。</a> [8 - 28] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E8%B5%96%E6%B8%85%E5%BE%B7%E2%80%9C%E5%8F%8C%E5%8D%81%E2%80%9D%E8%AE%B2%E8%AF%9D" target="_blank" class="news-link">外交部回应赖清德“双十”讲话</a> [9] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704897_100_1" target="_blank" class="news-link">马来西亚总理安瓦尔：电子发票将于2026年全面推行。</a> [10 - 30] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010160511612800" target="_blank" class="news-link">金十整理：密集外交斡旋换诺奖？特朗普全球“灭火”八个月，最终能否如愿？</a> [14] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/635110606.html" target="_blank" class="news-link">[流言板]5岁男孩被戳伤老师抹猪油致失明，教育局回应</a> [28] <font color='grey'>- 16时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251010161750865800" target="_blank" class="news-link">北约秘书长吕特：北约年度核威慑演习“坚定正午”（Steadfast Noon）将于10月13日启动。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/politics/202510/1054420.html" target="_blank" class="news-link">为应对美国“军事侵略”，委内瑞拉开展演练</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3704892_100_1" target="_blank" class="news-link">北约秘书长吕特：演习有助于确保北约的核威慑力量尽可能地保持其有效性、安全性、可靠性和可信度。</a> [11] <font color='grey'>- 16时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3756940" target="_blank" class="news-link">所有AI的馈赠，早已在暗中标好了价格</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2165550?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">亚马逊云科技推出Agentic AI应用Quick Suite</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2165550?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">亚马逊云科技推出Agentic AI应用Quick Suite</a> [11] <font color='grey'>- 16时42分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
