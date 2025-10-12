@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 84</p><p>生成时间: 2025-10-12 11:26:44</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">6</td>
+                    <td class="percentage">7.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5094414" target="_blank" class="news-link">币安部分交易者涉嫌逃避印度加密货币税</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3757025" target="_blank" class="news-link">IMF/世行峰会的焦点话题：全球央行探讨“股市崩盘怎么办？”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时26分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E7%BE%8E%E8%B4%B8%E6%98%93%E6%88%98%E4%B8%BA%E4%BD%95%E5%8F%88%E5%BC%80%E6%89%93" target="_blank" class="news-link">中美贸易战为何又开打</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时26分</font></div><br><div class='new-title'>🆕 [B站热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E7%BE%8E%E8%B4%B8%E6%98%93%E6%88%98%E4%B8%BA%E4%BD%95%E5%8F%88%E5%BC%80%E6%89%93" target="_blank" class="news-link">中美贸易战为何又开打</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7560127046853070372/" target="_blank" class="news-link">下周A股是加仓还是撤退</a> [24] <font color='grey'>- 11时26分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%B4%A7%E6%8B%89%E6%8B%89%E4%B8%BA%E4%BD%956%E6%AC%A1%E4%B8%8A%E5%B8%82%E5%A4%B1%E8%B4%A5" target="_blank" class="news-link">货拉拉为何6次上市失败</a> [27] <font color='grey'>- 11时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/820.htm" target="_blank" class="news-link">鸿蒙智行公布“国庆出行辅助驾驶使用报告”：汽车辅助驾驶总里程达 2.3 亿公里、用户活跃度 90.8%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时26分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/819.htm" target="_blank" class="news-link">身着红棉袄、手持红手帕，宇树科技“扭秧歌”人形机器人专利获授权</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/822.htm" target="_blank" class="news-link">雷军亲赴新疆测试？小米第三款车 YU9 多张实车谍照曝光</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时26分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2266722" target="_blank" class="news-link">全抖音都在偶遇小贝</a> [28] <font color='grey'>- 11时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.19%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/12/5a194cce55874c1cac29638d1d02d71f.html" target="_blank" class="news-link">阿富汗与巴基斯坦在边境地区爆发激烈冲突</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时26分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
