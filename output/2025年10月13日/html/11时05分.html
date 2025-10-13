@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 208</p><p>生成时间: 2025-10-13 11:05:30</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">17</td>
+                    <td class="percentage">8.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3757056" target="_blank" class="news-link">中国前三季度货物贸易进出口33.61万亿元 同比增长4%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4348629_1" target="_blank" class="news-link">全球贸易情绪反复，WTI重返60美元附近，但反弹动力有限</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251013105826957800" target="_blank" class="news-link">中国9月以美元计算贸易帐 904.5亿美元，预期999.5亿美元，前值1023.3 亿美元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [solidot] <a href="https://www.solidot.org/story?sid=82525" target="_blank" class="news-link">在特朗普宣布加征 100% 关税前 30 分钟有人对比特币进行巨额做空</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [B站热搜] <a href="https://search.bilibili.com/all?keyword=A%E8%82%A1" target="_blank" class="news-link">A股</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=A%E8%82%A1" target="_blank" class="news-link">A股</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5094511" target="_blank" class="news-link">A股低开高走！科创50率先翻红，规模最大的机器人ETF近10日“吸金”超33亿</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3706986_101_1" target="_blank" class="news-link">纳斯达克上市公司AlphaTON Capital增持30万枚TON</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251013105717670800" target="_blank" class="news-link">中国9月贸易帐 6454.7亿元，前值7326.8亿元。</a> [8] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3706975_100_1" target="_blank" class="news-link">消息人士：碧桂园8只债券通过重组方案，涉资逾134亿人民币。</a> [8 - 28] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251013105358898800" target="_blank" class="news-link">金十数据整理：每日数字货币动态汇总（2025-10-13）</a> [9] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5094506" target="_blank" class="news-link">A股异动丨国产软件股集体飙升，金山办公涨近18%，商务部公告附件首次改为wps格式</a> [10] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2167162?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">海关总署：前三季度我国对APEC其他经济体进出口同比增长了2% 规模达到了19.41万亿元</a> [13] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5094503" target="_blank" class="news-link">A股异动丨两大稀土巨头再次提价，稀土股逆势上涨，包钢股份涨超8%</a> [13] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2167162?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">海关总署：前三季度我国对APEC其他经济体进出口同比增长了2% 规模达到了19.41万亿元</a> [15] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5094501" target="_blank" class="news-link">A股早评：三大指数大幅低开，创业板指低开4.44%，AI硬件板块大跌</a> [15] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2167143?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">海关总署：今年前7个月 我国进出口占全球货物贸易总值的比重为11.8%</a> [20] <font color='grey'>- 11时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">7</td>
+                    <td class="percentage">3.37%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2167112" target="_blank" class="news-link">关税、AI泡沫和债务飙升！IMF秋季年会召开 全球政经领袖直面“三重风险”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/976.htm" target="_blank" class="news-link">腾讯 AI 实现肺癌基因突变预测，精度最高 99%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5094510" target="_blank" class="news-link">大行评级丨大摩：英伟达市值可上望至5.1万亿美元，看好AI需求增长</a> [6] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5094508" target="_blank" class="news-link">登上热搜！商务部公告附件首次改为wps格式，“金山办公”含量最高的科创AIETF(588790)年内强势吸金</a> [8] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/965.htm" target="_blank" class="news-link">微软 OneDrive AI 人脸识别功能引争议：每年仅允许用户关闭三次</a> [10] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/960.htm" target="_blank" class="news-link">斯坦福大学研究称 AI 可被社交平台“人气”冲昏头脑，会逐渐出现不道德行为</a> [14] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/953.htm" target="_blank" class="news-link">马斯克：xAI 的“巨硬”项目目标是“能够做任何事情”</a> [20] <font color='grey'>- 11时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [solidot] <a href="https://www.solidot.org/story?sid=82526" target="_blank" class="news-link">同卵双胞胎的 IQ 差异与学校教育相关</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/politics/202510/1354632.html" target="_blank" class="news-link">印尼总统普拉博沃将出席加沙和平峰会</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/politics/202510/1354631.html" target="_blank" class="news-link">法国总理勒科尔尼二次组阁主要成员揭晓</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3706987_100_1" target="_blank" class="news-link">美联储理事沃勒：美联储主席人选的面试“非常顺利”，不带政治色彩。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/972.htm" target="_blank" class="news-link">我国接近 8 成的高端机床、超过 7 成的锂电池、接近 6 成的医疗器械都是由民营企业出口</a> [7] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3706960_100_1" target="_blank" class="news-link">美国总统的医生：79岁的特朗普拥有65岁的心脏年龄。</a> [17] <font color='grey'>- 11时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2167192?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">2025全球十大工程成就发布 DeepSeek、人形机器人等入选</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/978.htm" target="_blank" class="news-link">2025 全球十大工程成就发布：DeepSeek、人形机器人等入选</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%88%90%E9%83%BD+%E5%B0%8F%E7%B1%B3&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26realpos%3D6%26flag%3D1%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26pos%3D6%26q%3D%25E6%2588%2590%25E9%2583%25BD%2520%25E5%25B0%258F%25E7%25B1%25B3%26band_rank%3D6%26dgr%3D0%26cate%3D5001%26display_time%3D1760324674%26pre_seqid%3D176032467463803788069158" target="_blank" class="news-link">成都 小米</a> [6] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7560475975272857619/" target="_blank" class="news-link">小米SU7车祸后起火驾驶员遇难</a> [7] <font color='grey'>- 11时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/888/966.htm" target="_blank" class="news-link">联合创新推出 27 英寸显示器“GA27V1M”：4K 160Hz / FHD 320Hz + 双扬 + 光线传感器，2599 元</a> [9] <font color='grey'>- 11时05分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%8E%BB%E9%9F%A9%E5%9B%BD%E5%90%8E%E6%96%87%E5%8C%96%E8%87%AA%E4%BF%A1%E5%85%B7%E8%B1%A1%E5%8C%96%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26realpos%3D21%26flag%3D1%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26pos%3D22%26q%3D%25E5%258E%25BB%25E9%259F%25A9%25E5%259B%25BD%25E5%2590%258E%25E6%2596%2587%25E5%258C%2596%25E8%2587%25AA%25E4%25BF%25A1%25E5%2585%25B7%25E8%25B1%25A1%25E5%258C%2596%25E4%25BA%2586%26band_rank%3D21%26dgr%3D0%26cate%3D5001%26display_time%3D1760324674%26pre_seqid%3D176032467463803788069158" target="_blank" class="news-link">去韩国后文化自信具象化了</a> [21] <font color='grey'>- 11时05分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
