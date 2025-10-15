@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 75</p><p>生成时间: 2025-10-15 22:55:01</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">8</td>
+                    <td class="percentage">10.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3757253" target="_blank" class="news-link">美联储理事米兰：贸易不确定性使降息更为迫切</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251015223310043800" target="_blank" class="news-link">欧洲央行管委内格尔：德国经济正在改善。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096575" target="_blank" class="news-link">智富资源投资(00007.HK)拟携手天音通信(香港)共同拓展全球电子产品贸易、分销及品牌推广</a> [6] <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251015223232652800" target="_blank" class="news-link">美联储米兰称贸易不确定性加剧 呼吁加快降息步伐</a> [6] <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096574" target="_blank" class="news-link">10月15日A股投资避雷针︱三花智控：获得机器人大额订单的传言不属实</a> [7] <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713200_100_1" target="_blank" class="news-link">俄罗斯央行：将10月16日美元/俄罗斯卢布官方汇率定为78.8390（此前为79.9589）。</a> [7 - 27] <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251015222709787800" target="_blank" class="news-link">印度央行行长：我们希望在印度推广央行数字货币，而非加密货币或稳定币。</a> [12] <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251015222349512800" target="_blank" class="news-link">印度央行行长：印度无需央行数字货币或稳定币用于本地支付。</a> [13] <font color='grey'>- 22时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">6</td>
+                    <td class="percentage">8.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2170714?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">勒庞上诉被法国国务委员会驳回 将无法参选总统</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2170714?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">勒庞上诉被法国国务委员会驳回 将无法参选总统</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251015224301097800" target="_blank" class="news-link">勒庞上诉被法国国务委员会驳回 将无法参选总统</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713184_100_1" target="_blank" class="news-link">乌克兰总理：已与IMF总裁格奥尔基耶娃讨论了IMF一项新计划。</a> [10 - 30] <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713173_100_1" target="_blank" class="news-link">美联储理事米兰：或可认为黄金价格中已包含地缘政治风险溢价，但未见其对经济产生影响。</a> [12] <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713164_100_1" target="_blank" class="news-link">美联储理事米兰：许多前白宫经济顾问委员会主席都曾在美联储任职。</a> [16] <font color='grey'>- 22时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">4</td>
+                    <td class="percentage">5.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251015224220647800" target="_blank" class="news-link">乌克兰国防部长表示，2026年乌克兰将需要通过“乌克兰优先需求清单”（PURL）获得高达200亿的军事物资。如果获得充足资金，乌克兰有望在2026年生产1000万架无人机。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713211_100_1" target="_blank" class="news-link">乌克兰国防部长：乌克兰需要更多远程炮弹。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713210_100_1" target="_blank" class="news-link">乌克兰国防部长：若获得充足融资，乌克兰2026年或可生产1000万架无人机。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713203_100_1" target="_blank" class="news-link">乌克兰国防部长：乌克兰2026年将需要通过Purl机制获得价值高达200亿美元的军事物资。</a> [6 - 26] <font color='grey'>- 22时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2170708?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">京东与长安汽车建立全面战略合作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时55分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7561393299719012391/" target="_blank" class="news-link">你期待小米17 Pro背屏新功能吗</a> [9] <font color='grey'>- 22时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096567" target="_blank" class="news-link">美股异动｜现货黄金升破4210美元续创新高，黄金白银股走强</a> [14] <font color='grey'>- 22时55分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
