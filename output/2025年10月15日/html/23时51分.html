@@ -1,0 +1,94 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 35</p><p>生成时间: 2025-10-15 23:51:03</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">9</td>
+                    <td class="percentage">25.71%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2170732?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">欧洲主要股指收盘涨跌不一</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时51分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2170732?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">欧洲主要股指收盘涨跌不一</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时51分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2170729?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月15日电，美国财政部拍卖四个月期国债，得标利率3.810%，投标倍数2.87。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时51分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713302_101_1" target="_blank" class="news-link">花旗集团在欧洲发行27.5亿欧元（折合32亿美元）债券，包含五年期和九年期。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 23时51分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251015232329260800" target="_blank" class="news-link">美银：欧洲股票基金四周吸金18.8亿美元 工业板块流入居首</a> [6] <font color='grey'>- 23时51分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713289_100_1" target="_blank" class="news-link">巴西央行货币政策主管David：通胀预期高于我们的目标水平。</a> [8 - 28] <font color='grey'>- 23时51分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713288_100_1" target="_blank" class="news-link">巴西央行货币政策主管David：暂停加息是一项大胆的举措，需要长时间的暂停期。</a> [9 - 29] <font color='grey'>- 23时51分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713282_100_1" target="_blank" class="news-link">巴西央行货币政策主管David：我们得出的结论是，目前的利率水平足以将通胀拉回目标。</a> [11] <font color='grey'>- 23时51分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3713279_100_1" target="_blank" class="news-link">巴西央行货币政策主管David：我们有坚定的货币政策，实际上已经收紧了货币环境。</a> [12] <font color='grey'>- 23时51分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3757182" target="_blank" class="news-link">谷歌在印度南部砸下150亿美元建数据中心，打造美国之外最大AI枢纽</a> [10] <font color='grey'>- 23时51分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
