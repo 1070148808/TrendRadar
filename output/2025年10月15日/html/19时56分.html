@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 30</p><p>生成时间: 2025-10-15 19:56:18</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">7</td>
+                    <td class="percentage">23.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2170542?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">慧智微：大基金二期拟减持不超过1%公司股份</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3757228" target="_blank" class="news-link">“看，皇帝没穿衣服”！对冲基金经理：万亿美元的AI投入，赚得回来吗？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2170523?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上纬新材：未来36个月内智元创新不存在通过上市公司借壳上市的计划或安排</a> [6] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096466" target="_blank" class="news-link">上峰水泥(000672.SZ)：参股公司昂瑞微首次公开发行股票并在科创板上市申请通过上市委审议</a> [7] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096464" target="_blank" class="news-link">养元饮品(603156.SH)：向私募基金增资10亿元</a> [9] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2170382" target="_blank" class="news-link">9月以来次低纪录！A股成交额退守2万亿关口，哪些方向缩量最明显？</a> [13] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096460" target="_blank" class="news-link">德力股份(002571.SZ)：控股股东拟变更为新疆兵新建合伙 股票复牌</a> [13] <font color='grey'>- 19时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2170540?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">普京与叙政权领导人会谈 叙方：有意重启与俄关系</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096467" target="_blank" class="news-link">联影医疗(688271.SH)：向激励对象预留授予52.87万股限制性股票</a> [6] <font color='grey'>- 19时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3757245" target="_blank" class="news-link">李强主持国务院第十六次专题学习：强化人工智能等数字技术赋能，系统推进标准制定修订</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7560148461585711145/" target="_blank" class="news-link">知情人称京东新车是埃安UT换电版</a> [24] <font color='grey'>- 19时56分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
