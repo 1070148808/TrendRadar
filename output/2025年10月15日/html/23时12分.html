@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 25</p><p>生成时间: 2025-10-15 23:12:26</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">12.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4349167_1" target="_blank" class="news-link">硅谷巨头抱团押注AI算力，中国跟不跟？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/889/764.htm" target="_blank" class="news-link">699 元：荣耀亲选 KUMI AI Note 录音卡发布，支持转写翻译 133 种语言、声纹识别</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4349237_1" target="_blank" class="news-link">“毫无疑问” 存在市场泡沫：华尔街就AI驱动热潮发出警告</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">2</td>
+                    <td class="percentage">8.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2170717?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美议员质疑特朗普政府未公开打击加勒比海“贩毒船”行动依据</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251015/1067919555.html" target="_blank" class="news-link">美国防长：美国的北约盟友应增加用于基辅的武器采购</a> <font color='red'><strong>[3]</strong></font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2170718?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月15日电，国内期货主力合约涨跌互现。20号胶（NR）、丁二烯橡胶涨超1%。跌幅方面，苯乙烯（EB）、铁矿石、纯苯、纯碱跌超1%，热卷跌近1%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2170709" target="_blank" class="news-link">低风险临床资产或更受MNC青睐 业内呼吁关注管线源头创新</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/889/762.htm" target="_blank" class="news-link">小明 Q6 智能投影仪 1399 元首销：500CVIA 流明亮度、接入小米米家 App</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时12分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
