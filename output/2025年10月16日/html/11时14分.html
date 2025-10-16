@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2025-10-16 11:14:39</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">12</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2171113?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深创投王新东：赛米产业基金重点投向半导体和零部件、芯片设计和先进封装领域</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251016110306268800" target="_blank" class="news-link">日本经济产业省：预计10月至12月当季日本钢铁产量将较上一季度增长1.2%，达到2023万吨。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251016110250067800" target="_blank" class="news-link">日本经济产业省：预计日本10月至12月当季粗钢产量同比下降2.4%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3714167_100_1" target="_blank" class="news-link">中国台湾地区财政政策主管机关：今年要达成税收的预算数有挑战性。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2171129?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">日本经济产业省预计日本10月至12月当季钢铁产品出口量将同比下降6.1%</a> [8] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251016110142401800" target="_blank" class="news-link">日本经济产业省：预计10月至12月当季含出口在内的钢铁产品需求将同比下降3.5%，至1847万吨。</a> [8] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2171113?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">深创投王新东：赛米产业基金重点投向半导体和零部件、芯片设计和先进封装领域</a> [9] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251016110109762800" target="_blank" class="news-link">日本经济产业省：预计日本10月至12月当季钢铁产品出口量将同比下降6.1%，降至620万吨。</a> [9] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/889/845.htm" target="_blank" class="news-link">50 亿元，深圳市半导体与集成电路基金一期正式揭牌</a> [11] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2170694" target="_blank" class="news-link">印度央行打响货币保卫战 目标：把海外投机资本“打到平仓”</a> [13] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251016104805169800" target="_blank" class="news-link">金十数据整理：每日数字货币动态汇总（2025-10-16）</a> [20] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7561622732583682089/" target="_blank" class="news-link">财政部副部长王东伟履新安徽</a> [30] <font color='grey'>- 11时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">11</td>
+                    <td class="percentage">6.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2171116?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海资产管理协会认证“人工智能+资产管理（AIAM）复合型应用人才”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2171101?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】硬件厂商普遍重视这类产品的开发，AI有望推动行业进入爆发拐点，这家公司相关芯片可用于该领域产品</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2171068" target="_blank" class="news-link">巨额AI投资何时能回本？大摩给出答案：2028年！</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [pcbeta] <a href="https://bbs.pcbeta.com/viewthread-2054780-1-1.html" target="_blank" class="news-link">【百度网盘-123云盘】[Windows 11 GE-25H2]26200.6899 原版集成映像 25年10月第1次更新 - ananhaid</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [pcbeta] <a href="https://bbs.pcbeta.com/viewthread-2054779-1-1.html" target="_blank" class="news-link">【百度网盘-123云盘】[Windows 11 LTSC 2024]26200.6899 原版集成映像 2025年10月第1次更新 - ananhaid</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2170965" target="_blank" class="news-link">继科技巨头后，华尔街也掀起了“AI抢饭碗”浪潮</a> [7] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2171116?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海资产管理协会认证“人工智能+资产管理（AIAM）复合型应用人才”</a> [10] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2171101?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】硬件厂商普遍重视这类产品的开发，AI有望推动行业进入爆发拐点，这家公司相关芯片可用于该领域产品</a> [11] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096689" target="_blank" class="news-link">AI算力连续第二日上涨，创业板人工智能ETF南方(159382)涨1.9%</a> [13] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251016105501420800" target="_blank" class="news-link">OpenAI：所有用户现在可在SORA应用和网页端生成最长15秒的视频，专业用户最长可达25秒。</a> [15] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/889/840.htm" target="_blank" class="news-link">AMD 锐龙 AI 9 H 365 版 4146 元：机械革命无界 14X Pro 笔记本国补后新低</a> [16] <font color='grey'>- 11时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">7</td>
+                    <td class="percentage">3.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2171102?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">沪银期货主力合约日内涨幅扩大至5% 续创新高</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2171132?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">交通运输部刘伟：深入组织开展“十百千创新行动” 加速赋能组合辅助驾驶等7大行业</a> [6] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096695" target="_blank" class="news-link">ESMO会议+三季度业绩期，创新药板块冲击两连阳，恒生医药ETF涨2%，四连“吸金”</a> [7] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096693" target="_blank" class="news-link">「澳門銀河」宣布与大麦娱乐、澳门通再续三年战略合作 共推澳门文化娱乐行业升级</a> [9] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2171102?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">沪银期货主力合约日内涨幅扩大至5% 续创新高</a> [13] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096688" target="_blank" class="news-link">澳门银河宣布与大麦娱乐、澳门通再续三年战略合作 共推澳门文化娱乐行业升级</a> [14] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4349340_1" target="_blank" class="news-link">黄金暴拉连创新高！5000美元已进射程，空头惨遭“血洗”</a> [16] <font color='grey'>- 11时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">5</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/889/853.htm" target="_blank" class="news-link">全球 60% 的人去年曾遇诈骗，谷歌出击推 4 项功能保护安卓用户</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096692" target="_blank" class="news-link">大行评级丨招银国际：上调京东目标价至50.5美元 维持“买入”评级</a> [10] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096690" target="_blank" class="news-link">大行评级丨大摩：广汽伙京东等推新车可提升埃安品牌认知度 目标价3.9港元</a> [12] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2171049?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">京东外卖试点取消骑手超时罚款 全国25城已落地</a> [18] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%BA%AC%E4%B8%9C%E4%B8%8A%E7%BA%BF%E9%9C%89%E9%9C%89%E7%A8%80%E7%BC%BA%E9%BB%91%E8%83%B6%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26lcate%3D5001%26cate%3D5001%26pos%3D21%26stream_entry_id%3D31%26dgr%3D0%26flag%3D1%26realpos%3D20%26band_rank%3D20%26q%3D%2523%25E4%25BA%25AC%25E4%25B8%259C%25E4%25B8%258A%25E7%25BA%25BF%25E9%259C%2589%25E9%259C%2589%25E7%25A8%2580%25E7%25BC%25BA%25E9%25BB%2591%25E8%2583%25B6%2523%26display_time%3D1760584315%26pre_seqid%3D17605843155750066153" target="_blank" class="news-link">京东上线霉霉稀缺黑胶</a> [20] <font color='grey'>- 11时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096710" target="_blank" class="news-link">港股异动丨教育股拉升 思考乐教育一度涨超22%大幅领先 新东方涨超6%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251016/1067928426.html" target="_blank" class="news-link">俄外交官：欧盟和北约为实现大陆军事化误导自己的民众</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3714196_100_1" target="_blank" class="news-link">美国财长贝森特计划在12月向美国总统特朗普推荐三到四个美联储主席候选人。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 11时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5096694" target="_blank" class="news-link">大摩上调多只国防军工股的目标价</a> [8] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4349339_1" target="_blank" class="news-link">美防长敦促盟国增购美制武器以加强对乌军援</a> [18] <font color='grey'>- 11时14分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251016104135187800" target="_blank" class="news-link">美军曾在加勒比地区打击哥伦比亚籍“贩毒船”</a> [23] <font color='grey'>- 11时14分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
