@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 66</p><p>生成时间: 2025-10-20 17:48:59</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">4</td>
+                    <td class="percentage">6.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251020174523117800" target="_blank" class="news-link">泽连斯基称俄乌冲突“不可能这么快结束”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251020174451876800" target="_blank" class="news-link">日本首相候选人高市早苗：经济举措和有力的外交都离不开政治稳定。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251020173809894800" target="_blank" class="news-link">欧盟委员会主席冯德莱恩：将研究降低能源成本的短期行动。</a> [6] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251020171922005800" target="_blank" class="news-link">市场消息：日本执政党自民党主席高市早苗和维新党党魁吉村洋文签署协议，组成联合政府。</a> [24] <font color='grey'>- 17时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">4</td>
+                    <td class="percentage">6.06%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5098621" target="_blank" class="news-link">浦江国际(02060.HK)：上市委员会决定取消公司上市地位</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2174678?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">香港三季度失业率上升至3.9%</a> [6] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251020172440529800" target="_blank" class="news-link">日本首相候选人高市早苗：期待与维新党共同改善日本经济。</a> [19] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251020171849334800" target="_blank" class="news-link">债券违规担忧引发越南市场恐慌 股指暴跌创4月以来最大跌幅</a> [25] <font color='grey'>- 17时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">3</td>
+                    <td class="percentage">4.55%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251020173627362800" target="_blank" class="news-link">俄罗斯国防部：俄罗斯军队在一天内袭击了支持乌克兰国防工业企业运作的能源设施和攻击无人机的储存地点。</a> [8] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%80%83%E7%A6%BB%E9%B8%AD%E7%A7%91%E5%A4%AB%E5%85%A8%E6%AD%A6%E5%99%A8%E6%B5%8B%E8%AF%84" target="_blank" class="news-link">逃离鸭科夫全武器测评</a> [9] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251020173539797800" target="_blank" class="news-link">俄罗斯国防部：俄军已夺取了顿涅茨克地区的一处定居点。</a> [9] <font color='grey'>- 17时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.03%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/890/888.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 6.0.0.108 SP2 Developer 版本推送，优化部分场景界面显示效果及操作体验</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345970&amp;amp;topic_name=Blg%E5%A4%A7%E5%8F%98%E5%A4%A9%2C%E5%8A%9F%E5%8B%8B%E6%95%99%E7%BB%83Bail%E5%8D%B8%E4%BB%BB%E7%A6%BB%E9%98%9F" target="_blank" class="news-link">Blg大变天,功勋教练Bail卸任离队</a> [8] <font color='grey'>- 17时48分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
