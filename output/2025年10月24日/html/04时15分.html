@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 26</p><p>生成时间: 2025-10-24 04:15:11</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">4</td>
+                    <td class="percentage">15.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3728895_100_1" target="_blank" class="news-link">美国总统特朗普：与中国国家主席习近平会晤时，第一个问题将涉及芬太尼。</a> <font color='red'><strong>[1 - 22]</strong></font> <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3728892_100_1" target="_blank" class="news-link">美国总统特朗普：有关B1轰炸机接近委内瑞拉的报道不准确。</a> <font color='red'><strong>[2 - 23]</strong></font> <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3728868_100_1" target="_blank" class="news-link">美国总统特朗普：相信与中国国家主席习近平会晤取得良好结果。</a> [8 - 29] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3728936_100_1" target="_blank" class="news-link">美国总统特朗普：很快将在委内瑞拉看到地面军事行动。</a> [21] <font color='grey'>- 04时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">4</td>
+                    <td class="percentage">15.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2178986?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">纳斯达克中国金龙指数收涨1.66% 热门中概股集体上涨</a> [7] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3728874_101_1" target="_blank" class="news-link">【行情】标普500指数初步收涨0.5%，能源、工业、原材料、科技板块至少涨约1%，电信板块大致持平。纳斯达克100指数初步收涨0.9%，成分股中，霍尼韦尔涨6.6%，CEG、ISRG、拉姆研究等涨超4%，Booking、ORLY、T-Mobile、ODFL、ROP则至多跌3.6%。3M涨2.5%，卡特彼勒、亚马逊、英伟达至少涨约1%，与霍尼韦尔领跑道指成分股，可口可乐、麦当劳、IBM则跌超1%，VZ跌3.4%。</a> [6 - 27] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3728873_101_1" target="_blank" class="news-link">【行情】中国纳斯达克金龙指数初步收涨1.6%。热门中概股里，美团涨5.4%，文远知行、阿里巴巴至少涨3.6%，百度、拼多多、腾讯、京东、小米至少涨超2.1%，理想、网易、百胜中国至多涨1.9%。ETF中，YINN涨4.8%，KWEB涨2.1%，CQQQ涨1.1%。</a> [7 - 28] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2178983?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月24日电，据美国投资公司协会（ICI），美国货币市场资产7.39万亿美元，创历史新高。</a> [10] <font color='grey'>- 04时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">7.69%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2178982" target="_blank" class="news-link">OpenAI收购前苹果团队AI初创公司 意在强化ChatGPT桌面端交互能力</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3728857_101_1" target="_blank" class="news-link">美国银行CTO Gopalkrishnan：Agentic AI可以“重型举重”。大规模的AI产能积压将带来丰收。</a> [10] <font color='grey'>- 04时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3728864_100_1" target="_blank" class="news-link">俄罗斯国防部表示，俄罗斯Su-30战斗机在俄罗斯加里宁格勒州进行了训练飞行，未侵犯任何其他国家的边境。</a> [9 - 30] <font color='grey'>- 04时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
