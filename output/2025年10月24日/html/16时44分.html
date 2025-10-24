@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2025-10-24 16:44:43</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">7</td>
+                    <td class="percentage">7.37%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/892/127.htm" target="_blank" class="news-link">外交部回应美国网攻我授时中心：坚决捍卫中国的网络主权和安全</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251024/1068054789.html" target="_blank" class="news-link">中国外交部：强烈谴责美国政府网络攻击中国关键基础设施</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251024163418888800" target="_blank" class="news-link">日本首相高市早苗在X平台上向印度总理莫迪表示，期待与莫迪携手合作，进一步推动日印特殊战略全球伙伴关系。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2179785?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">教育部：严禁将手机等电子产品带进课堂</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%95%99%E8%82%B2%E9%83%A8%E4%B8%A5%E7%A6%81%E5%B0%86%E6%89%8B%E6%9C%BA%E7%AD%89%E7%94%B5%E5%AD%90%E4%BA%A7%E5%93%81%E5%B8%A6%E5%85%A5%E8%AF%BE%E5%A0%82" target="_blank" class="news-link">教育部严禁将手机等电子产品带入课堂</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2179617" target="_blank" class="news-link">中美元首是否将会晤？外交部回应</a> [11] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563539390233755690/" target="_blank" class="news-link">河南一幼儿园开展体能特色教育爆火</a> [23] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">6</td>
+                    <td class="percentage">6.32%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3757811" target="_blank" class="news-link">贸易紧张情绪缓解，美股期货集体上涨，亚洲科技股迎来狂欢，金银油全线回落</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3757786" target="_blank" class="news-link">沪指创逾十年新高，创业板涨超3%，AI硬件股爆发，寒武纪再登A股“股王”宝座，恒科指涨近2%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2179773?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月24日电，土耳其主要股票指数上涨5%。</a> [11] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251024162127157800" target="_blank" class="news-link">金十数据整理：每日债券市场要闻速递（2025-10-24）</a> [11] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4350961_1" target="_blank" class="news-link">危险的豪赌：当所有人都在做空日元时，一场逆转正在暗处蓄力</a> [19] <font color='grey'>- 16时44分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2179745?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">胡又文：以经济建设为中心 “十五五”规划将新质生产力置于更核心的战略地位</a> [20] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/635295916.html" target="_blank" class="news-link">为什么国内许多人会认为朝鲜人非常幸福，朝鲜军队吊打韩国？</a> [24] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7564670498257243667/" target="_blank" class="news-link">AI真的“席卷”华强北了吗</a> [29] <font color='grey'>- 16时44分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
