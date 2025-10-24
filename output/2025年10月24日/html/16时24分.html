@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 155</p><p>生成时间: 2025-10-24 16:24:08</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">13</td>
+                    <td class="percentage">8.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3757786" target="_blank" class="news-link">沪指创逾十年新高，创业板涨超3%，AI硬件股爆发，寒武纪再登A股“股王”宝座，恒科指涨超1%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3730007_100_1" target="_blank" class="news-link">【行情】美国E-MINI标普500指数期货上涨0.21%，纳斯达克100指数期货上涨0.34%，道琼斯指数期货上涨0.08%。</a> <font color='red'><strong>[2 - 23]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3729979_100_1" target="_blank" class="news-link">印度贸易部长：印度将贸易协定视为建立在相互信任基础上的长期伙伴关系。</a> [7 - 28] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2179727?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">一品红：全资子公司创新药APH03621片获得临床试验批准通知书 目前国内暂无获批上市的GnRH口服小分子拮抗剂</a> [10] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2179727?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">一品红：全资子公司创新药APH03621片获得临床试验批准通知书 目前国内暂无获批上市的GnRH口服小分子拮抗剂</a> [10] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251024160331441800" target="_blank" class="news-link">印度贸易部长：欧盟贸易法规损害双边贸易。</a> [10] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5101280" target="_blank" class="news-link">福元医药(601089.SH)：获得化学原料药上市申请批准通知书</a> [14] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2179715?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财政部：9月末全国地方政府债务余额536995亿元</a> [17] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2179715?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财政部：9月末全国地方政府债务余额536995亿元</a> [17] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2179712?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财政部：9月全国发行新增债券4741亿元</a> [20] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2179712?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财政部：9月全国发行新增债券4741亿元</a> [20] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251024155354380800" target="_blank" class="news-link">欧元兑英镑汇率升至两周半高点，报0.8726。</a> [25] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251024154851290800" target="_blank" class="news-link">印度贸易部长：印度将贸易协议视为建立在相互信任基础上的长期伙伴关系。</a> [30] <font color='grey'>- 16时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">10</td>
+                    <td class="percentage">6.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2179688" target="_blank" class="news-link">泽连斯基声称中国援助俄罗斯，外交部驳斥</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7564384051151667254/" target="_blank" class="news-link">外交部驳斥泽连斯基声称中国援俄</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3757814" target="_blank" class="news-link">APEC会议期间中美元首是否举行会晤？外交部回应</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3730006_100_1" target="_blank" class="news-link">土耳其总统埃尔多安：有关组建加沙特别工作组的谈判仍在进行中，土耳其已准备好提供任何形式的支持。</a> <font color='red'><strong>[3 - 24]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3730005_100_1" target="_blank" class="news-link">土耳其总统埃尔多安：哈马斯遵守加沙停火协议，而以色列违反了该协议，美国及其他国家应敦促以色列遵守该协议。</a> <font color='red'><strong>[4 - 25]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251024/1068051914.html" target="_blank" class="news-link">俄外交部：乌当局及其西方支持者持续利用儿童议题进行反俄宣传</a> [7]</div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251024160408549800" target="_blank" class="news-link">土耳其总统埃尔多安：组建加沙特别工作组的谈判正在进行，土耳其准备提供任何形式的支持。必须通过制裁和停止武器销售迫使以色列遵守停火协议。</a> [8] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251024160351923800" target="_blank" class="news-link">土耳其总统埃尔多安：哈马斯遵守加沙地带停火协议，而以色列违反该协议；美国等国家必须敦促以色列遵守协议。没有一个国家能够独自承担重建加沙的任务，我们已向海湾国家领导人发出呼吁，现在是采取行动的时候了。</a> [9] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E6%98%AF%E5%90%A6%E5%B0%86%E4%BC%9A%E6%99%A4" target="_blank" class="news-link">外交部回应中美元首是否将会晤</a> [10] <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251024160018647800" target="_blank" class="news-link">土耳其总统埃尔多安：在地区访问期间，与卡塔尔和阿曼讨论了采购欧洲台风战斗机的事宜，会谈进展顺利。</a> [18] <font color='grey'>- 16时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.94%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3757809" target="_blank" class="news-link">1999狂欢重演？华尔街延用互联网时代战术对付AI泡沫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251024160713714800" target="_blank" class="news-link">Anthropic将使用价值数百亿美元的谷歌AI芯片，Alphabet(GOOG.O)盘前上涨1%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时24分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/892/104.htm" target="_blank" class="news-link">GSMA：缺少非洲语言内容的模型拖慢了 AI 在当地的普及</a> [8] <font color='grey'>- 16时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.65%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251024/1068054478.html" target="_blank" class="news-link">专家：若遭“战斧”或“金牛座”导弹的袭击，俄罗斯或动用任何武器反击</a> <font color='red'><strong>[1]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
