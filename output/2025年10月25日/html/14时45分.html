@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2025-10-25 14:45:17</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">6</td>
+                    <td class="percentage">15.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2180570?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">泰国总理取消出席APEC领导人非正式会议</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时45分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2180570?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">泰国总理取消出席APEC领导人非正式会议</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时45分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2180567?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">越南任命首位女性副总理</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时45分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2180568" target="_blank" class="news-link">硅谷政治行动遭白宫施压：谨慎考虑立场 勿要站在特朗普对立面</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时45分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251025143159909800" target="_blank" class="news-link">俄总统代表：“普特会”没取消，“会晚点儿”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时45分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B6%8A%E5%8D%97%E4%BB%BB%E5%91%BD%E9%A6%96%E4%BD%8D%E5%A5%B3%E6%80%A7%E5%89%AF%E6%80%BB%E7%90%86" target="_blank" class="news-link">越南任命首位女性副总理</a> [28] <font color='grey'>- 14时45分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251025/1068064842.html" target="_blank" class="news-link">俄国防部：俄防空部队一夜间在多地上空摧毁121架乌克兰无人机</a> <font color='red'><strong>[1]</strong></font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/892/292.htm" target="_blank" class="news-link">紧急时刻掉链子，谷歌 Pixel 10 等手机被曝无法拨打报警电话</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时45分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
