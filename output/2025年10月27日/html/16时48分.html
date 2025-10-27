@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2025-10-27 16:48:10</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">22</td>
+                    <td class="percentage">17.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027164550488800" target="_blank" class="news-link">澳洲联储主席布洛克：如果核心通胀最终只有0.9%，那将是一个重大的偏离预期。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027164313792800" target="_blank" class="news-link">立陶宛总理：气球将被击落。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027164237012800" target="_blank" class="news-link">立陶宛总理：我们将气球事件视为混合型攻击。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027164137622800" target="_blank" class="news-link">立陶宛总理：政府计划关闭与白俄罗斯的边境，仅允许外交人员和离开白俄罗斯的欧盟公民通行。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163906102800" target="_blank" class="news-link">澳洲联储主席布洛克：我们必须决定是否需要降息来刺激就业市场。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3732534_100_1" target="_blank" class="news-link">澳联储主席布洛克：如果核心通胀率最终达到0.9%，那将是一个重大失误。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3732533_100_1" target="_blank" class="news-link">立陶宛总理：我们认为气球事件是混合攻击。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3732531_100_1" target="_blank" class="news-link">立陶宛总理：政府计划关闭与白俄罗斯的边境，外交官和离开白俄罗斯的欧盟公民除外。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3732526_100_1" target="_blank" class="news-link">澳联储主席布洛克：通胀已经回到目标区间，失业率仍然很低，所以情况仍然良好。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163632647800" target="_blank" class="news-link">澳洲联储主席布洛克：澳洲联储利率可能不会像其他国家那样大幅下调。</a> [6] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163606629800" target="_blank" class="news-link">澳洲联储主席布洛克：通胀已回到目标区间，失业率仍相当低，经济状况依然良好。</a> [7] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2181806" target="_blank" class="news-link">外媒称中美元首将在韩国举行会晤，外交部回应</a> [8] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163535427800" target="_blank" class="news-link">澳洲联储主席布洛克：正在等待更多经济数据。</a> [8] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3732516_100_1" target="_blank" class="news-link">澳联储主席布洛克：下个月失业率可能再次下降。</a> [8 - 28] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163529489800" target="_blank" class="news-link">澳洲联储主席布洛克：委员会对政策持谨慎态度，利率仍略显收紧。失业率的上升幅度并未大幅超出预期。</a> [9] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3732515_100_1" target="_blank" class="news-link">澳联储主席布洛克：委员会对政策持谨慎态度，利率仍然略具限制性。</a> [9 - 29] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3732505_100_1" target="_blank" class="news-link">澳联储主席布洛克：月度数据可能波动较大，但失业率跳升令人意外。</a> [11] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163411761800" target="_blank" class="news-link">澳洲联储主席布洛克：近期CPI数据存在一些热点。</a> [11] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2181799" target="_blank" class="news-link">外交部回应中美经贸磋商：双方同意进一步确定具体细节</a> [12] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163358773800" target="_blank" class="news-link">澳洲联储主席布洛克： 失业率下月可能再度下降。</a> [12] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163252091800" target="_blank" class="news-link">澳洲联储主席布洛克：月度数据可能波动较大，但失业率的跃升令人意外。</a> [13] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163140038800" target="_blank" class="news-link">澳洲联储主席布洛克：多数全球央行预计通胀将下降。</a> [15] <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">6</td>
+                    <td class="percentage">4.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2181914" target="_blank" class="news-link">港股收盘 | 三大指数集体走强 科技与金融共舞点燃做多情绪</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2181917" target="_blank" class="news-link">首批三股明日上市！科创成长层“迎新” 这些企业入选</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/892/668.htm" target="_blank" class="news-link">鸿蒙智行新款享界 S9 官图发布：全新车标、全新造型尾灯及轮辋，11 月上市</a> [9] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163246356800" target="_blank" class="news-link">中国香港9月贸易帐 -501.71亿港元，前值-254亿港元。</a> [14] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027163107519800" target="_blank" class="news-link">金十数据整理：每日债券市场要闻速递（2025-10-27）</a> [16] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7565807628614372927/" target="_blank" class="news-link">贺文萍：中美有望达成全面贸易协议</a> [30] <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2181941?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">ST葫芦娃：中药创新药小儿胆青双解颗粒获药物临床试验批准</a> [15] <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2181941?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">ST葫芦娃：中药创新药小儿胆青双解颗粒获药物临床试验批准</a> [16] <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.63%</td>
+                    <td class="titles"><div class='new-title'>🆕 [solidot] <a href="https://www.solidot.org/story?sid=82644" target="_blank" class="news-link">企业将 AI 作为裁员借口</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时48分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/892/672.htm" target="_blank" class="news-link">前英伟达工程师 Chip Huyen：若想在 AI 时代保持竞争力，必须立马动手实践</a> [6] <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.81%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/892/673.htm" target="_blank" class="news-link">小米汽车工厂今年已接待超 10 万人，11 月场次预约已开启</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时48分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
