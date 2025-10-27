@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 135</p><p>生成时间: 2025-10-27 19:25:00</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">12</td>
+                    <td class="percentage">8.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2182276?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">康众医疗：股东拟询价转让总股本的5.33%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251027/1068084946.html" target="_blank" class="news-link">专家：国际刑事法院对菲律宾前总统案件无管辖权，已侵犯该国主权</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3732965_100_1" target="_blank" class="news-link">捷克总统帕维尔：已要求选举获胜者Ano党领导人巴比什牵头政府组阁谈判。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027185442971800" target="_blank" class="news-link">阿联酋总理在社交平台X上表示，政府已批准2026年预算，预计收入为924亿迪拉姆。</a> [6] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2182276?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">康众医疗：股东拟询价转让总股本的5.33%</a> [8] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E7%BE%8E%E5%86%9B%E6%9C%BA%E5%8D%97%E6%B5%B7%E5%9D%A0%E6%AF%81%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E5%25A4%2596%25E4%25BA%25A4%25E9%2583%25A8%25E5%259B%259E%25E5%25BA%2594%25E7%25BE%258E%25E5%2586%259B%25E6%259C%25BA%25E5%258D%2597%25E6%25B5%25B7%25E5%259D%25A0%25E6%25AF%2581%2523%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26flag%3D1%26band_rank%3D10%26stream_entry_id%3D31%26cate%3D5001%26pos%3D11%26lcate%3D5001%26realpos%3D10%26display_time%3D1761564184%26pre_seqid%3D17615641848670281043506" target="_blank" class="news-link">外交部回应美军机南海坠毁</a> [10] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2182258?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">保罗·比亚在喀麦隆总统选举中赢得连任</a> [12] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027184150174800" target="_blank" class="news-link">匈牙利外长：匈牙利总理欧尔班将与美国总统特朗普讨论美国对俄罗斯能源的制裁。</a> [13] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251027184028040800" target="_blank" class="news-link">匈牙利外长：匈牙利总理欧尔班将于下周会晤美国总统特朗普。</a> [14] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2182253?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">本轮巴以冲突已致加沙地带68527人死亡</a> [17] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2182258?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">保罗·比亚在喀麦隆总统选举中赢得连任</a> [18] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3732921_101_1" target="_blank" class="news-link">哈里斯暗示或再次竞选美总统</a> [20] <font color='grey'>- 19时25分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%AE%B6%E5%88%86%E6%9E%90%E7%89%B9%E6%9C%97%E6%99%AE%E5%85%B3%E7%A8%8E%E6%94%BF%E7%AD%96" target="_blank" class="news-link">经济学家分析特朗普关税政策</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2182264?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">胜利股份：正筹划购买由公司控股股东及其关联方控制的燃气类相关资产并募集配套资金事项 股票停牌</a> [9] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2182264?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">胜利股份：正筹划购买由公司控股股东及其关联方控制的燃气类相关资产并募集配套资金事项 股票停牌</a> [15] <font color='grey'>- 19时25分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.48%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3757974" target="_blank" class="news-link">潘功胜：央行将恢复公开市场国债买卖，持续打击虚拟货币炒作</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A1%8C%EF%BC%9A%E7%BB%A7%E7%BB%AD%E6%89%93%E5%87%BB%E5%A2%83%E5%86%85%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81%E7%BB%8F%E8%90%A5%E7%82%92%E4%BD%9C" target="_blank" class="news-link">央行：继续打击境内虚拟货币经营炒作</a> [20] <font color='grey'>- 19时25分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.74%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/892/710.htm" target="_blank" class="news-link">还不如前代 Plus：苹果 iPhone Air 被曝首销激活量远低于预期</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时25分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
