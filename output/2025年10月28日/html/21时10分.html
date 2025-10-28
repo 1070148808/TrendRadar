@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 139</p><p>生成时间: 2025-10-28 21:10:03</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">13</td>
+                    <td class="percentage">9.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2183859" target="_blank" class="news-link">百度加码具身机器人 旗下基金入股深朴智能</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/063.htm" target="_blank" class="news-link">29.98 万元起比亚迪腾势 N8L 大六座 SUV 上市，230km 插混、易三方、冰箱彩电大沙发</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3735922_100_1" target="_blank" class="news-link">英国贸易大臣布莱恩特：世贸组织将于明年在喀麦隆召开会议，届时将面临一场“生死攸关的时刻”。</a> <font color='red'><strong>[4 - 25]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3735914_100_1" target="_blank" class="news-link">英国贸易大臣布莱恩特：我们需要就世贸组织的共识规则问题进行公开、坦诚的对话。</a> <font color='red'><strong>[5 - 26]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3735913_100_1" target="_blank" class="news-link">【行情】美国E-MINI标普500指数期货上涨0.1%，纳斯达克100指数期货上涨0.2%，道琼斯指数期货上涨0.5%。</a> [6 - 27] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2183889?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">三季度股票型指数基金规模新增超万亿元</a> [9] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20251028-%E5%B8%82%E5%9C%BA%E8%A7%82%E6%9C%9B%E5%B7%9D%E4%B9%A0%E4%BC%9A-%E4%BA%9A%E6%B4%B2%E8%82%A1%E5%B8%82%E6%B6%A8%E5%A4%9A%E5%9B%9E%E8%90%BD" target="_blank" class="news-link">市场观望川习会 亚洲股市涨多回落</a> [9]</div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2183868?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月28日电，美股期指走高，截至目前，道琼斯指数期货涨0.49%，标普500指数期货涨0.13%，纳斯达克100指数期货涨0.21%。</a> [11] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2183857?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月28日电，南非主要股票指数上涨1%至109,805.90点。</a> [17] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251028205332062800" target="_blank" class="news-link">金十数据整理：每日美股市场要闻速递（2025-10-28）</a> [24] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251028205310332800" target="_blank" class="news-link">联合包裹(UPS.N)首席执行官：我们正见证百年来贸易政策最深刻的变革。</a> [25] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251028204729363800" target="_blank" class="news-link">Paypal(PYPL.O)首席财务官：美国宏观经济的“减速”正在抵消进展。</a> [28] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7566200694974189110/" target="_blank" class="news-link">SWIFT发布全球货币国际支付比例排名</a> [29] <font color='grey'>- 21时10分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">9</td>
+                    <td class="percentage">6.47%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/066.htm" target="_blank" class="news-link">华为计算：KunLun AI Space 基于昇腾实现 DeepSeek V3.1 FP8 推理，成本减半</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251028210205594800" target="_blank" class="news-link">市场消息：微软(MSFT.O)支持OpenAI推进公共利益公司（PBC）形式的成立。微软在OpenAI公共利益公司中的投资估值约为1350亿美元。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251028210128191800" target="_blank" class="news-link">市场消息：微软(MSFT.O)与OpenAI签署了新协议。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2183899?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">AI推理创企Fireworks AI融资2.5亿美元 估值达40亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20251028-%E6%B2%99%E4%B9%8C%E5%9C%B0-%E6%B2%99%E6%BC%A0%E8%BE%BE%E6%B2%83%E6%96%AF-%E7%99%BB%E5%9C%BA-%E8%81%9A%E7%84%A6%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%94%BB%E4%B8%8Eai" target="_blank" class="news-link">沙乌地「沙漠达沃斯」登场 聚焦超级计画与AI</a> [6]</div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2183476?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】三季报单季度营收及净利润创历史新高，这家细分电子龙头公司受益AI端侧、数据中心、氢燃料电池、人形机器人等新兴赛道增量；另有一工业软件龙头新3DCAD产品值得期待</a> [8] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2183869?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">AI推理独角兽Fireworks AI融资2.54亿美元 估值飙升至40亿美元</a> [10] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2183476?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·公司】三季报单季度营收及净利润创历史新高，这家细分电子龙头公司受益AI端侧、数据中心、氢燃料电池、人形机器人等新兴赛道增量；另有一工业软件龙头新3DCAD产品值得期待</a> [18] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2183850?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月28日电，Adobe的CEO表示，Adobe将OpenAI和谷歌AI模型加入Photoshop及其他工具。Adobe美股盘前涨超2%。</a> [20] <font color='grey'>- 21时10分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">4</td>
+                    <td class="percentage">2.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/28/56cd5ca2c76d44bfbbcabbcd9344dd52.html" target="_blank" class="news-link">尼媒文章：“八项规定”彰显中共反腐决心与担当</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2183898?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">赛诺医疗：子公司产品COMETIU支架国内注册未获批准</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2183894?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">大博医疗：前三季度净利润同比增长77.03%</a> [8] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7566168352365022739/" target="_blank" class="news-link">纽森哈里斯放出2028美国总统参选信号</a> [16] <font color='grey'>- 21时10分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
