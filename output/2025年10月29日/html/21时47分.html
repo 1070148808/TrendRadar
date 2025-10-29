@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 134</p><p>生成时间: 2025-10-29 21:47:53</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">16</td>
+                    <td class="percentage">11.94%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2185289?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">公募权益类基金规模突破10万亿元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4351816_1" target="_blank" class="news-link">美国银行上调苹果股票目标价至320美元，基于新的五年展望分析</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5105659" target="_blank" class="news-link">三环集团(300408.SZ)：筹划发行H股股票并在香港联合交易所上市</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E6%98%AF%E9%9F%A9%E5%9B%BD%E7%AC%AC%E4%B8%80%E5%A4%A7%E8%B4%B8%E6%98%93%E4%BC%99%E4%BC%B4%E5%9B%BD%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26lcate%3D5001%26cate%3D5001%26band_rank%3D3%26stream_entry_id%3D31%26dgr%3D0%26realpos%3D3%26flag%3D1%26pos%3D2%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E6%2598%25AF%25E9%259F%25A9%25E5%259B%25BD%25E7%25AC%25AC%25E4%25B8%2580%25E5%25A4%25A7%25E8%25B4%25B8%25E6%2598%2593%25E4%25BC%2599%25E4%25BC%25B4%25E5%259B%25BD%2523%26display_time%3D1761745152%26pre_seqid%3D17617451526300109434271" target="_blank" class="news-link">中国是韩国第一大贸易伙伴国</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251029213500001800" target="_blank" class="news-link">加拿大央行将于十分钟后公布利率决议和货币政策报告。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3739319_100_1" target="_blank" class="news-link">墨西哥经济部长埃布拉德会见了美国贸易代表格里，双方同意团队将继续谈判，以达成贸易协议。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2185277?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">鼎泰高科：筹划在香港联合交易所发行H股上市 具体实施具有重大不确定性</a> [6] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2185295?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月29日电，费哲金融服务（FISERV）开盘大跌45%。公司预计全年调整后每股收益为8.50美元至8.60美元，此前为10.15美元至10.30美元。</a> [7] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2184704?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【财联社早知道】央企战略性新兴产业发展专项基金启动，首期规模510亿重点支持量子科技等产业，机构预计我国量子科技市场规模2029年将达97.58亿美元，这家公司专注于为量子科技提供上游核心硬件设备</a> [8] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2185294?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">创造历史！英伟达成为首家市值突破5万亿美元的上市公司</a> [8] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2185289?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">公募权益类基金规模突破10万亿元</a> [10] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251029213110561800" target="_blank" class="news-link">费哲金融服务（Fiserv）开盘暴跌44%，创历史最大跌幅。</a> [11] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3739251_100_1" target="_blank" class="news-link">美联储数据显示，美国有效联邦基金利率10月28日为4.12%，交易额为920亿美元，而前一日10月27日则为4.12%，交易额为880亿美元。</a> [13] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2185277?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">鼎泰高科：筹划在香港联合交易所发行H股上市 具体实施具有重大不确定性</a> [15] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251029211932050800" target="_blank" class="news-link">墨西哥经济部：墨西哥外长埃布拉德和美国贸易代表格里尔就贸易谈判的下一步达成一致，目标是在2026年美墨加贸易协定审查之前达成协议。</a> [20] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251029211417075800" target="_blank" class="news-link">英国首相斯塔默周三未能承诺在下个月的预算前履行此前关于不增加工人税负的承诺，表示即将发布的预测将显示经济状况比预期更糟。</a> [25] <font color='grey'>- 21时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">7</td>
+                    <td class="percentage">5.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3758166" target="_blank" class="news-link">利率决议、业绩报告在即，美股指数集体上涨，英伟达总市值突破5万亿美元，黄金突破4000美元关口</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2185286?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">京东内部人士：“美的被罚”、“京东二选一”等谣言是因与抖音的价格竞争引发</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2185299?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">英伟达高开高走，涨幅扩大至5%，总市值达到5.14万亿美元，单日增加2500亿美元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251029213523754800" target="_blank" class="news-link">英伟达(NVDA.O)延续涨势，涨幅扩大至5%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2185286?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">京东内部人士：“美的被罚”、“京东二选一”等谣言是因与抖音的价格竞争引发</a> [11] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251029213021776800" target="_blank" class="news-link">美股高开 英伟达总市值站上5万亿美元</a> [12] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2287803" target="_blank" class="news-link">英伟达总市值站上5万亿美元</a> [15] <font color='grey'>- 21时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">6</td>
+                    <td class="percentage">4.48%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3739334_100_1" target="_blank" class="news-link">韩国总统办公室：韩国总统李在明周四将与日本、越南、澳大利亚、泰国和新西兰领导人举行双边会谈。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [thepaper] <a href="https://m.thepaper.cn/newsDetail_forward_31848128" target="_blank" class="news-link">快评｜中美元首将会晤，“领导人会晤对中美关系具有无可替代的重要性”</a> [6] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3739318_100_1" target="_blank" class="news-link">美国白宫：美国总统特朗普将于当地时间上午11时与中国国家主席习近平会晤。</a> [6 - 26] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3739283_100_1" target="_blank" class="news-link">巴西萨马科公司CEO：由于地缘政治问题，铁矿石球团市场面临压力，但长期价格前景乐观。</a> [10 - 30] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251029212447480800" target="_blank" class="news-link">美国副国务卿：乌兹别克斯坦总统将于下周与美国总统特朗普会面。</a> [16] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251029212312143800" target="_blank" class="news-link">韩国总统办公室：韩国总统李在明将于周四与日本、越南、澳大利亚、泰国和新西兰的领导人举行双边会谈。</a> [18] <font color='grey'>- 21时47分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">3.73%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/337.htm" target="_blank" class="news-link">微信鸿蒙版 App 获 8.0.12.32 邀测升级，网页支持全文翻译</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3758216" target="_blank" class="news-link">美国AI公司们，开始青睐Made in China的大模型</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251029213906897800" target="_blank" class="news-link">AI热潮助推惊人涨幅，英伟达成为首家市值突破5万亿美元的企业</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2185278?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月29日电，超微电脑盘前拉升上涨近5%，宣布成立美国联邦业务部门，进一步拓展联邦政府市场，针对联邦生态系统的人工智能服务器产品组合将在美国本土进行大规模制造。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2185278?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月29日电，超微电脑盘前拉升上涨近5%，宣布成立美国联邦业务部门，进一步拓展联邦政府市场，针对联邦生态系统的人工智能服务器产品组合将在美国本土进行大规模制造。</a> [14] <font color='grey'>- 21时47分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
