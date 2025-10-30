@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 150</p><p>生成时间: 2025-10-30 21:42:39</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">15</td>
+                    <td class="percentage">10.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4352000_1" target="_blank" class="news-link">美国经济陷入“K型”分化态势</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2186883?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月30日电，纳斯达克综合指数跌幅扩大，现跌1.0%，最新报23715.3点。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2186300" target="_blank" class="news-link">山东黄金前三季归母净利猛升91.51%，存量债券80亿 | 债市财报观察</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2186880?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月30日电，Meta低开低走，跌幅扩大至13%，公司第三财季净利润为27亿美元，远低于分析师预期，公司计划通过债券发行筹集至少250亿美元。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3743542_100_1" target="_blank" class="news-link">沙特阿拉伯财政部：沙特第三季度预算赤字为236亿美元。</a> <font color='red'><strong>[2 - 24]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/639.htm" target="_blank" class="news-link">吉利银河星耀 6“国民家轿”上市：全新雷神 AI 电混 2.0 技术、千里浩瀚 H3 辅助驾驶，限时 6.88 万元起</a> [6] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251030211250140800" target="_blank" class="news-link">纳斯达克100指数期货延续跌势，下跌0.6%。</a> [6] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3743536_100_1" target="_blank" class="news-link">欧洲央行：央行的利率决策将基于其对通胀前景及其相关风险的评估，并结合即将公布的经济和金融数据、潜在通胀动态及货币政策传导力度。</a> [7 - 29] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2186873?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">标榜股份：筹划控制权变更事项 股票停牌</a> [9] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2186843?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社10月30日电，国内期货市场夜盘开盘涨跌不一，沪金跌0.04%，沪银跌0.33%，沪铜跌1.25%，铁矿跌0.56%，焦煤跌1.16%，原油跌0.89%，豆粕涨0.81%。</a> [11] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3743532_100_1" target="_blank" class="news-link">欧洲央行：尽管全球环境充满挑战，经济仍在持续增长。</a> [11] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3743531_100_1" target="_blank" class="news-link">欧洲央行：将采取数据依赖和逐次会议的方式来决定货币政策立场。</a> [12] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2186371" target="_blank" class="news-link">预计拉动项目总投资超7万亿元！5000亿元新型政策性金融工具完成投放</a> [13] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251030210351561800" target="_blank" class="news-link">据沙特媒体：沙特2025年第三季度非石油收入预计为1191亿里亚尔。沙特在2025年第三季度报告了885亿沙特里亚尔的财政赤字。</a> [19] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251030210003488800" target="_blank" class="news-link">俄罗斯至10月24日当周央行黄金和外汇储备 7312亿美元，前值7424亿美元。</a> [30] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">14</td>
+                    <td class="percentage">9.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2186886?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">韩俊在陕西调研时强调：推动科技创新和产业创新深度融合 因地制宜发展壮大乡村富民产业</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/a3f90959a0ae43b882987c6499897657.html" target="_blank" class="news-link">普京特别代表：有信心在一年内结束俄乌冲突</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251030/1068152982.html" target="_blank" class="news-link">印度外交部：印度公司已获得从中国进口稀土磁体的许可证</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3743543_100_1" target="_blank" class="news-link">安卡拉——德国总理默茨：土耳其尚未满足欧盟候选国标准。</a> <font color='red'><strong>[1 - 23]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3743537_100_1" target="_blank" class="news-link">欧洲央行：然而，前景仍然不明朗，尤其是由于持续的全球贸易争端和地缘政治紧张局势。</a> [6 - 28] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251030210933248800" target="_blank" class="news-link">默沙东(MRK.N)CEO：公司正与美国总统特朗普政府“积极合作”，以降低药品成本。</a> [8] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251030210851019800" target="_blank" class="news-link">德国总理默茨：欧盟应设法将被冻结的俄罗斯资产用于基辅。</a> [9] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2186814" target="_blank" class="news-link">养老理财产品试点全国扩围，单家机构募资上限大幅提高</a> [11] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2186537" target="_blank" class="news-link">重磅突发！全国试点，规模“天花板”打开，养老理财要“火”了</a> [11] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251030210606971800" target="_blank" class="news-link">德国总理默茨：将重新与土耳其就欧洲战斗机展开谈判。</a> [12] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3743514_100_1" target="_blank" class="news-link">土耳其总统埃尔多安在被问及伊斯坦布尔市长被判刑一事时表示，任何人不得践踏法律，无论其身居何职。</a> [16] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3743503_100_1" target="_blank" class="news-link">德国总理梅尔茨：土耳其与欧盟的关系紧密。</a> [17] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251030210431158800" target="_blank" class="news-link">德国总理默茨：与土耳其总统埃尔多安就移民问题进行了交谈，希望在遣返问题上取得更多进展。</a> [18] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3743490_100_1" target="_blank" class="news-link">安卡拉 - 德国总理梅尔茨：已与土总统埃尔多安就移民问题进行沟通，希望在遣返方面取得更大进展。</a> [20] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">5</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2186849?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">一汽-大众计划2027-2030年实现L3级及以上自动驾驶</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2186876?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美股开盘集体低开 Meta跌11%谷歌涨超6%</a> [7] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2186836" target="_blank" class="news-link">美股三大期指集体走低 谷歌盘前大涨8% | 今夜看点</a> [8] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251030210753926800" target="_blank" class="news-link">据The Information：特斯拉(TSLA.O)缩减后的自动驾驶出租车计划仍面临诸多障碍。</a> [11] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2186849?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">一汽-大众计划2027-2030年实现L3级及以上自动驾驶</a> [20] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2186860?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家数据局：鼓励依托数据基础设施开展数据智能封装等前沿技术探索和创新场景建设</a> [15] <font color='grey'>- 21时42分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
