@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 75</p><p>生成时间: 2025-11-07 00:46:20</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">3</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251107002116218800" target="_blank" class="news-link">据英国金融时报：瑞银旗下资产管理和投资部门对美国汽车零部件公司First Brands面临着超过5亿美元的风险敞口。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时46分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251107000907724800" target="_blank" class="news-link">据英国金融时报：诺和诺德再次提高对Metsera公司的收购报价。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时46分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7569463084856066090/" target="_blank" class="news-link">财政部在香港发行40亿美元主权债券</a> [28] <font color='grey'>- 00时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3759525_101_1" target="_blank" class="news-link">尼日利亚财长Wale Edun宣布该国欧元债发行取得成功，投资者认购倍数超过五倍。意味着投资者看淡美国总统特朗普近期发出的军事威胁，更关注该国的经济改革和政治稳定性。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时46分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3759584_101_1" target="_blank" class="news-link">美国纽约联储主席威廉姆斯：中性利率很难压低。</a> [22] <font color='grey'>- 00时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3758848" target="_blank" class="news-link">微软修订与OpenAI协议，瞄准“超级智能”新赛道</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时46分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251107001704444800" target="_blank" class="news-link">高通(QCOM.O)CEO：汽车是（本公司业务中）当前增速最快的领域。对个人AI设备的前景“非常乐观”。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3759555_100_1" target="_blank" class="news-link">瑞典国防大臣：瑞典可以帮助资助乌克兰的鹰狮战斗机交易。</a> [25] <font color='grey'>- 00时46分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/635546015.html" target="_blank" class="news-link">有一说一deepseek现在查资料完全没法用</a> [28] <font color='grey'>- 00时46分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
