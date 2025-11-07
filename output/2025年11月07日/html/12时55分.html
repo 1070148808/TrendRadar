@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-11-07 12:55:17</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">12</td>
+                    <td class="percentage">26.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251107124419261800" target="_blank" class="news-link">日本首相高市早苗：可以说日本的经济政策已经发生了变化。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251107/1068263737.html" target="_blank" class="news-link">俄会展基金会：美国将耗资超万亿美元建立针对俄中的“金穹”反导系统</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251107124142930800" target="_blank" class="news-link">菲律宾股市一度下跌1.5%至5,745.69点，为2022年10月3日以来的最低水平。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251107123838336800" target="_blank" class="news-link">印度央行行长：以金融不稳定为代价实现的短期增长，可能对长期增长产生影响。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193984?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月7日电，菲律宾股市一度下跌1.5%至5,745.69点，为2022年10月3日以来的最低水平.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251107123752665800" target="_blank" class="news-link">日本首相高市早苗：挑选安倍经济学支持者组成关键经济小组。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3761056_100_1" target="_blank" class="news-link">【行情】菲律宾股市下跌1.5%至5745.69点，创2022年10月3日以来新低。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3761055_100_1" target="_blank" class="news-link">印度央行行长马尔霍特拉：以金融不稳定为代价实现的短期增长可能会对长期增长产生影响。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2193984?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月7日电，菲律宾股市一度下跌1.5%至5,745.69点，为2022年10月3日以来的最低水平.</a> [6] <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251107122922594800" target="_blank" class="news-link">日本首相高市早苗：“安倍经济学” 需以 “积极型” 投资拉动增长。</a> [8] <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251107122424959800" target="_blank" class="news-link">日本首相高市早苗：财政民粹主义与高市内阁的政策不同。</a> [9] <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251107122312471800" target="_blank" class="news-link">日本首相高市早苗：安倍经济学由于新冠疫情失去动力。</a> [10] <font color='grey'>- 12时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2193978?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美防长称在加勒比海再次打击“贩毒船”</a> [7] <font color='grey'>- 12时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2193972" target="_blank" class="news-link">豪赌AI！科技巨头疯狂借债融资 华尔街再度拉响警报</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时55分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
