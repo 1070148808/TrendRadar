@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 115</p><p>生成时间: 2025-11-10 12:06:11</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">22</td>
+                    <td class="percentage">19.13%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2195664" target="_blank" class="news-link">美国贸易代表办公室：11月10日起，暂停对华海事、物流和造船行业301调查限制措施</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251110115314139800" target="_blank" class="news-link">日本央行审议委员中川顺子：受关税影响导致的暂时放缓后，预计海外经济将重回温和增长轨道。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2195665?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国贸易代表办公室：11月10日起 暂停对华海事、物流和造船行业301调查限制措施</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2195665?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美国贸易代表办公室：11月10日起 暂停对华海事、物流和造船行业301调查限制措施</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/china/202511/1056962.html" target="_blank" class="news-link">中国外汇储备规模升至近十年最高</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2195644" target="_blank" class="news-link">“AI泡沫”担忧缓解？韩股强势反弹近3% 领涨亚太股市</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3763687_100_1" target="_blank" class="news-link">【行情】纳斯达克期货最新上涨1.2%，此前美国参议院通过政府拨款法案，以结束政府停摆。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4353631_1" target="_blank" class="news-link">高市豪赌恐拖垮日本经济</a> <font color='red'><strong>[5 - 17]</strong></font> <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2195658?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月10日电，日本央行中川顺子表示，若经济展望实现，将提高利率。</a> [6] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2195658?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月10日电，日本央行中川顺子表示，若经济展望实现，将提高利率。</a> [6] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251110114848718800" target="_blank" class="news-link">日本央行审议委员中川顺子：我关注的风险包括美国经济前景，例如关税对经济和物价的影响可能大于预期，以及人工智能驱动的投资增长预期可能发生改变。</a> [6] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251110114620922800" target="_blank" class="news-link">日本央行审议委员中川顺子：受关税影响，日本企业利润可能走弱，但随着海外经济复苏、实际工资上涨带动消费增加，企业利润随后将有所改善。</a> [8] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3763681_100_1" target="_blank" class="news-link">日本央行委员Nakagawa：另一个风险是贸易政策对全球经济的影响，中国出口至非美国市场的增长可能会对全球和日本经济构成压力。</a> [7 - 27] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3763679_100_1" target="_blank" class="news-link">日本央行委员Nakagawa：我关注的风险包括：美国经济前景，例如关税对经济和物价的影响可能超出预期，以及人工智能驱动投资的增长预期发生变化。</a> [8 - 28] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3763676_100_1" target="_blank" class="news-link">日本央行委员Nakagawa：受关税影响，日本企业利润可能有所下滑，但随着海外经济复苏以及实际工资上涨带动消费增加，企业利润可能会有所改善。</a> [9 - 29] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3763675_100_1" target="_blank" class="news-link">日本央行委员Nakagawa：海外经济基本情景未发生变化。</a> [10 - 30] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251110114458593800" target="_blank" class="news-link">日本央行审议委员中川顺子：海外经济的基本假设情景不变。</a> [10] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3763671_100_1" target="_blank" class="news-link">日本央行委员Nakagawa：日本央行将综合考量贸易政策仍存在高不确定性，从而作出适当的政策决定。</a> [14] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3763670_100_1" target="_blank" class="news-link">日本央行委员Nakagawa：日本央行预计将根据经济和物价的改善情况继续加息。</a> [15] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251110114337159800" target="_blank" class="news-link">日本央行审议委员中川顺子：日本央行将考虑仍然较高的贸易政策不确定性，并做出适当的政策决定。</a> [15] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251110114238541800" target="_blank" class="news-link">日本央行审议委员中川顺子：日本央行预计将根据经济、物价的改善情况继续加息。</a> [16] <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251110113035556800" target="_blank" class="news-link">早盘收盘，国内期货主力合约涨跌互现。碳酸锂涨超6%，沪银涨超2%，苹果、沪金、工业硅、PX涨超1%；跌幅方面，玻璃跌超3%，集运欧线跌近2%，焦煤、焦炭、沥青跌超1%。</a> [22] <font color='grey'>- 12时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.74%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/896/224.htm" target="_blank" class="news-link">魅族 20 等机型推送 Flyme 12.4.0.0A 稳定版：新增自由小窗、Aicy 文本解释等</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2195390" target="_blank" class="news-link">太空成为AI算力的新战场 相关产业链有望迎来爆发</a> [12] <font color='grey'>- 12时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.74%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/896/235.htm" target="_blank" class="news-link">IDC 报告：2025 年 Q3 中国平板电脑市场出货量 849 万台同比增长 10.9%，华为、苹果、小米前三</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时06分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5114591" target="_blank" class="news-link">大行评级丨里昂：重申快手“跑赢大市”评级 预计第三季经调整净利润按年升23%</a> [6]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.87%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251110114535209800" target="_blank" class="news-link">因涉嫌诱使朝鲜进攻 韩国前总统尹锡悦被追加起诉</a> [9] <font color='grey'>- 12时06分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.87%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3763686_100_1" target="_blank" class="news-link">日本央行委员Nakagawa：通胀上升也可能削弱需求，促使企业削减成本，并打击其加薪意愿。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 12时06分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
