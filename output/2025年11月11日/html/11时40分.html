@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 160</p><p>生成时间: 2025-11-11 11:40:20</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">8</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5115424" target="_blank" class="news-link">ETF午评 | 港股汽车涨幅居前，港股汽车ETF、港股汽车ETF基金涨超2%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2196843?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国内期货主力合约涨跌不一 沪银、沪金涨超3%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2196843?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国内期货主力合约涨跌不一 沪银、沪金涨超3%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5115422" target="_blank" class="news-link">A股午评：沪指跌0.38%，超2900股上涨，培育钻石、光伏设备板块爆发</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3759108" target="_blank" class="news-link">顶级基金Coatue的最新思考：AI如何改变投资？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251111110436744800" target="_blank" class="news-link">金十数据整理：每日数字货币动态汇总（2025-11-11）</a> [6] <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5115411" target="_blank" class="news-link">A股异动丨电源设备股集体走强，中来股份、拓日新能等多股涨停</a> [14] <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251111102747113800" target="_blank" class="news-link">金十图示：2025年11月11日（周二）亚太市场股市指数（盘初）</a> [18] <font color='grey'>- 11时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">6</td>
+                    <td class="percentage">3.75%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2196822" target="_blank" class="news-link">2025乌镇峰会观察：AI大模型“上身”机器人</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5115423" target="_blank" class="news-link">极智嘉AI+机器人技术赋能Coupang，推动韩国仓储智能化升级</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5115421" target="_blank" class="news-link">港股异动丨苹果概念股多数走低 鸿腾精密跌超5% 苹果iPhone Air被曝大幅推迟</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [B站热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%8E%E9%A3%9E%E9%A3%9E%E6%95%99%E6%8E%88%E9%A2%84%E8%A8%80AI%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8D%81%E5%B9%B4" target="_blank" class="news-link">李飞飞教授预言AI下一个十年</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3759100" target="_blank" class="news-link">这可能是最体现OpenAI“真正意图”的对话！Altman：给几个月时间，我们没有那么疯狂，我们有计划</a> [6] <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%8E%E9%A3%9E%E9%A3%9E%E6%95%99%E6%8E%88%E9%A2%84%E8%A8%80AI%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8D%81%E5%B9%B4" target="_blank" class="news-link">李飞飞教授预言AI下一个十年</a> [28] <font color='grey'>- 11时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2196804?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中关村新型电池技术创新联盟：目前头部储能电池企业满产 一些订单已排到明年初</a> [15] <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2196804?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中关村新型电池技术创新联盟：目前头部储能电池企业满产 一些订单已排到明年初</a> [15] <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2196635" target="_blank" class="news-link">美股存储板块持续火爆：闪迪涨近12%再创新高 目标价迎密集上调</a> [24] <font color='grey'>- 11时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.62%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%A7%A3%E6%94%BE%E5%86%9B%E5%B7%B7%E6%88%98%E6%BC%94%E4%B9%A0+%E6%97%81%E8%BE%B9%E5%B0%8F%E5%90%83%E6%91%8A%E4%BA%AE%E4%BA%86" target="_blank" class="news-link">解放军巷战演习 旁边小吃摊亮了</a> [7] <font color='grey'>- 11时40分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
