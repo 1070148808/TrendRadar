@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 48</p><p>生成时间: 2025-11-12 13:49:25</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">8</td>
+                    <td class="percentage">16.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251112133152880800" target="_blank" class="news-link">韩国央行行长：货币政策行动取决于数据表现</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198112?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上交所副总经理王泊：吸引更多优质企业上市 推动提高上市公司质量</a> [6] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198105?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">全国社保基金理事会股票投资部副主任薛捷：科技投资需要坚持投资的长期性、稳定性和规模性</a> [8] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3768342_100_1" target="_blank" class="news-link">日本财务大臣片山皋月：将以高度的紧迫感，严密监控外汇市场过度波动和无序动向。</a> [8 - 28] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2198104?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月12日电，日本财务大臣片山皋月称，将以高度的紧迫感，密切监测外汇市场是否存在过度波动和无序走势。</a> [9] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251112132033629800" target="_blank" class="news-link">日本财务大臣片山皋月：将以高度的紧迫感，密切监测外汇市场是否存在过度波动和无序走势。</a> [9] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3768340_100_1" target="_blank" class="news-link">日本财务大臣片山皋月：货币以稳定的方式波动并反映基本面至关重要。</a> [9 - 29] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251112131953875800" target="_blank" class="news-link">日本财务大臣片山皋月：近期看到单边且迅速的波动，汇率以稳定的方式变动并反映基本面至关重要。</a> [10] <font color='grey'>- 13时49分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/896/860.htm" target="_blank" class="news-link">英伟达黄仁勋直言：低估华为的 AI 实力是“愚蠢的”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%AD%99%E7%87%95%E5%A7%BF%E4%B8%A4%E5%B9%B4%E5%89%8D%E5%B0%B1%E9%A2%84%E8%A8%80%E4%BA%86AI&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26band_rank%3D26%26filter_type%3Drealtimehot%26flag%3D0%26c_type%3D31%26lcate%3D5001%26pos%3D26%26cate%3D5001%26q%3D%25E5%25AD%2599%25E7%2587%2595%25E5%25A7%25BF%25E4%25B8%25A4%25E5%25B9%25B4%25E5%2589%258D%25E5%25B0%25B1%25E9%25A2%2584%25E8%25A8%2580%25E4%25BA%2586AI%26realpos%3D26%26dgr%3D0%26display_time%3D1762926485%26pre_seqid%3D1762926485831024174144&amp;launchid=10000360-page_H5" target="_blank" class="news-link">孙燕姿两年前就预言了AI</a> [26] <font color='grey'>- 13时49分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251112132543128800" target="_blank" class="news-link">据英国金融时报：英国国家安全顾问乔纳森·鲍威尔试图打开与俄罗斯总统普京的秘密沟通渠道。英国及其欧洲盟友担心，特朗普政府可能会在乌克兰问题上置它们的利益于不顾。</a> [6] <font color='grey'>- 13时49分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
