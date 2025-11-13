@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 14</p><p>生成时间: 2025-11-14 03:28:48</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">3</td>
+                    <td class="percentage">21.43%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2200230?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月14日电，纳斯达克中国金龙指数跌幅扩大，现跌2.0%，最新报7949.11点。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时28分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2200228" target="_blank" class="news-link">白宫经济顾问：美国10月就业报告会如期发布 但不含失业率数据</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时28分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3773234_101_1" target="_blank" class="news-link">白宫官员：美政府“停摆”致约6万私营部门雇员失业</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 03时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">2</td>
+                    <td class="percentage">14.29%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3773242_101_1" target="_blank" class="news-link">美国总统特朗普计划2026年1月出席达沃斯会议。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 03时28分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3773229_100_1" target="_blank" class="news-link">以色列总理办公室：已从红十字会接收到加沙地带一名已故人质遗体。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 03时28分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">7.14%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251114/1068379814.html" target="_blank" class="news-link">媒体：俄罗斯“卢比孔”部队根本性改变特别军事行动区域战局</a> <font color='red'><strong>[1]</strong></font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
