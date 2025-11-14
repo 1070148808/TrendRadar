@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 89</p><p>生成时间: 2025-11-14 17:52:31</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">12</td>
+                    <td class="percentage">13.48%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2201026?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月14日电，杰富瑞给予蓝思科技A股“买入”评级，目标价34元。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2201019?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上交所修订上证海洋经济主题指数编制方案</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3774827_100_1" target="_blank" class="news-link">罗马尼亚央行行长伊萨雷斯库：目前列伊兑欧元汇率略高于5，这相对稳定。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251114173529489800" target="_blank" class="news-link">路透调查：13位受访经济学家预计，匈牙利央行下周二将维持基准利率在6.5%不变。</a> [6] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251114173040553800" target="_blank" class="news-link">受美国财政部影响 桑坦德银行停止向Gunvor提供融资</a> [9] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3774810_100_1" target="_blank" class="news-link">罗马尼亚央行行长伊萨雷斯库：鉴于大规模财政整顿计划，罗马尼亚央行无法通过紧缩政策增加压力。</a> [9 - 29] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3774805_100_1" target="_blank" class="news-link">据路透调查：接受调查的13位经济学家均预计匈牙利央行将于下周二维持6.5%的基准利率不变。</a> [10 - 30] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2201012?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">金融监管总局：2025年三季度末银行业金融机构普惠型小微企业贷款余额36.5万亿元 同比增长12.1%</a> [11] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2201009?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">金融监管总局：2025年三季度末我国银行业金融机构本外币资产总额474.3万亿元 同比增长7.9%</a> [13] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5118056" target="_blank" class="news-link">三花智控(02050.HK)11月14日耗资3000.75万元回购69.93万股A股</a> [14] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3774790_100_1" target="_blank" class="news-link">中国金融监管总局：前三季度商业银行净利润1.9万亿元。</a> [16] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3774788_100_1" target="_blank" class="news-link">中国金融监管总局：三季度末，商业银行不良贷款率为1.52%。</a> [17] <font color='grey'>- 17时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">6</td>
+                    <td class="percentage">6.74%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251114174144476800" target="_blank" class="news-link">爱沙尼亚总理：我们必须确保东翼防御仍是北约和欧盟的首要任务。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251114173746099800" target="_blank" class="news-link">日本首相高市早苗：将与朝鲜领导人金正恩面对面会谈，推动建立新的、富有成果的日朝关系。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3774826_100_1" target="_blank" class="news-link">印尼称其加沙维和部队将重点关注医疗和基础设施建设任务。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251114173200271800" target="_blank" class="news-link">匈牙利总理：美国将在福林遭遇投机性攻击时提供支持</a> [7] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3774813_100_1" target="_blank" class="news-link">爱沙尼亚总理卡拉斯：必须确保北约和欧盟对东部边翼防御的重视依然明确。</a> [7 - 27] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3774799_100_1" target="_blank" class="news-link">日本首相高市早苗：将与朝鲜最高领导人金正恩会面，以建立一种新的、富有成果的日朝关系。</a> [13] <font color='grey'>- 17时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.37%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251114/1068389748.html" target="_blank" class="news-link">俄国防部：特别军事行动期间，乌克兰军队一周内损失8825名军人</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251114172839033800" target="_blank" class="news-link">俄罗斯国防部：俄罗斯军队对乌克兰军工和能源设施实施了大规模打击。</a> [10] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3774779_100_1" target="_blank" class="news-link">俄罗斯国防部：俄军对乌克兰军事工业和能源设施发动了大规模打击。</a> [18] <font color='grey'>- 17时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2200994" target="_blank" class="news-link">【焦点复盘】创业板指低开低走跌近3%，AI硬件端全线退潮，抗寒概念股逆势爆发</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5118057" target="_blank" class="news-link">美股异动丨CoreWeave盘前续跌超2%，遭美媒点名为“AI泡沫的核心”</a> [13] <font color='grey'>- 17时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251114173151372800" target="_blank" class="news-link">谷歌(GOOG.O)计划对欧盟委员会关于广告技术的裁决提出上诉，并表示不认同该决定。</a> [8] <font color='grey'>- 17时52分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3774792_101_1" target="_blank" class="news-link">谷歌：计划对欧盟委员会关于广告技术的裁决提出上诉，并表示不认同该决定。</a> [15] <font color='grey'>- 17时52分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
