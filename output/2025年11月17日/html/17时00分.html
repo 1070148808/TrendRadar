@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 109</p><p>生成时间: 2025-11-17 17:00:57</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">20</td>
+                    <td class="percentage">18.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2202588" target="_blank" class="news-link">新兴市场热门交易已过度拥挤？基金经理警告其中暗藏风险</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2202593" target="_blank" class="news-link">谷歌新AI旗舰模型未上市先迎热炒 伯克希尔浮盈已超4成</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2202601" target="_blank" class="news-link">美国经济中的第二个泡沫？先买后付激增令人忧心忡忡</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3759498" target="_blank" class="news-link">美股盘前涨幅扩大，纳指期货涨1%，金价三连跌，加密货币回暖，英伟达财报成市场焦点</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251117163740955800" target="_blank" class="news-link">谷歌：还将支持PARIS21伙伴关系，为各国国家统计局提供人工智能培训和技术支持。将与非洲经济委员会合作，助力非洲区域数据共享平台的启动。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3777540_100_1" target="_blank" class="news-link">中国央行上海总部：10月末境外机构持有银行间市场债券3.73万亿元人民币（9月末为3.78万亿）。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5118905" target="_blank" class="news-link">兖矿能源(01171.HK)成功发行2025年度第三期科技创新债券</a> [7] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3777530_101_1" target="_blank" class="news-link">【行情】美股股指期货涨幅持续扩大，纳斯达克100指数期货涨1%，道琼斯指数期货涨0.25%，标普500指数期货涨0.64%。</a> [6 - 26] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2202589?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">央行上海总部：截至10月末境外机构持有银行间市场债券3.73万亿元</a> [8] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2202589?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">央行上海总部：截至10月末境外机构持有银行间市场债券3.73万亿元</a> [8] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3777526_100_1" target="_blank" class="news-link">中国外管局：10月中国外汇市场继续保持稳健运行态势。</a> [7 - 27] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3777523_100_1" target="_blank" class="news-link">谷歌：将与联合国非洲经济委员会（UNECA）合作，协助推出非洲区域数据共享平台。</a> [8 - 28] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251117163140717800" target="_blank" class="news-link">日本央行委员片冈刚士：政府可通过发行10万亿日元的新债券以及13万亿日元的税收和非税收入，为23万亿日元的一揽子计划提供资金。</a> [9] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2202583?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">外汇局：我国外汇市场预期平稳 供求基本平衡</a> [11] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3777506_100_1" target="_blank" class="news-link">日本央行委员片冈刚士：日元过度下跌不可取，日本在应对此类波动时应不排除外汇干预。</a> [12] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251117162521122800" target="_blank" class="news-link">金十数据整理：每日债券市场要闻速递（2025-11-17）</a> [12] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3777505_100_1" target="_blank" class="news-link">日本央行委员片冈刚士：政府可利用10万亿日元的债券发行额及13万亿日元的税收及非税收入为23万亿日元的经济刺激计划提供资金。</a> [13] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5118898" target="_blank" class="news-link">山东新华制药股份(00719.HK)：获得富马酸伏诺拉生化学原料药上市申请批准通知书</a> [14] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2202578?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">纳斯达克100指数期货涨幅扩大至1%</a> [16] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7573589833021394478/" target="_blank" class="news-link">A股4000点能否稳住</a> [25] <font color='grey'>- 17时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">6</td>
+                    <td class="percentage">5.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3759505" target="_blank" class="news-link">AH股震荡走低，创业板跌0.2%，科指跌超0.96%，锂矿、AI应用板逆势走强</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4354864_1" target="_blank" class="news-link">沙特王储拟斥巨资换核能AI与防务条约</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3777541_101_1" target="_blank" class="news-link">谷歌：承诺投入225万美元支持非洲的AI相关数据产业。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251117163555133800" target="_blank" class="news-link">谷歌：承诺投入225万美元支持非洲的AI相关数据产业。</a> [7] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2202587?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月17日电，谷歌承诺投入225万美元支持非洲发展AI就绪数据，协助推出非洲区域数据共享平台。</a> [10] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E6%89%8B%E6%90%93AI%E5%B7%A5%E5%85%B7%E5%B8%AE%E5%8A%A9%E9%95%BF%E8%80%85" target="_blank" class="news-link">UP主手搓AI工具帮助长者</a> [20] <font color='grey'>- 17时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251117/1068430654.html" target="_blank" class="news-link">中国外交部：王毅将与中亚三国外长讨论双边关系及地区问题</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251117164631426800" target="_blank" class="news-link">孟加拉国法院判处孟加拉前总理哈西娜无期徒刑。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5118902" target="_blank" class="news-link">迪瑞医疗(300396.SZ)：目前公司产品不出口日本</a> [10] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5118900" target="_blank" class="news-link">环球医疗(02666.HK)委任黄友杰为非执行董事</a> [12] <font color='grey'>- 17时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.75%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251117/1068430270.html" target="_blank" class="news-link">扎哈罗娃评德国防长声明：现在已毫无疑问，谁才是侵略者</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251117/1068430349.html" target="_blank" class="news-link">俄方称与中东、北非国家的武器订单总额达数百亿美元</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2202580?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">韩国提议举行朝韩军事会谈 讨论军事分界线基准线设定</a> [12] <font color='grey'>- 17时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.83%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2202597?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">机构：香港楼市内地买家全年成交有望创新高</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2202597?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">机构：香港楼市内地买家全年成交有望创新高</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时00分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
