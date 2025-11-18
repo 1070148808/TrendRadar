@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 150</p><p>生成时间: 2025-11-18 15:22:04</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">21</td>
+                    <td class="percentage">14.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118151258615800" target="_blank" class="news-link">金十数据整理：A股每日市场要闻回顾（2025-11-18）</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3759613" target="_blank" class="news-link">对话郁蓓华：贝莱德基金的下一步，一定不会“同质化”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118150807673800" target="_blank" class="news-link">日央行行长：首相未就政策提出任何要求 密切关注外汇波动的影响</a> [7] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118150620439800" target="_blank" class="news-link">股市资金流向图：今日沪深两市主力资金净流出993.93亿元，占比5.16%；大单资金净流出426.87亿元，占比2.22%；小单资金净流入786.91亿元，占比4.09%。</a> [8] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3779636_100_1" target="_blank" class="news-link">瑞士央行：未偿货币市场债务登记债权规模将保持在60亿瑞士法郎至140亿瑞士法郎之间。</a> [9 - 29] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3779625_100_1" target="_blank" class="news-link">日本央行行长植田和男：正在关注外汇走势对经济的影响。</a> [10 - 30] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118150424138800" target="_blank" class="news-link">日本央行行长植田和男：密切关注汇率波动对经济的影响。</a> [10] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3779620_100_1" target="_blank" class="news-link">日本央行行长植田和男：外汇市场以稳定的方式反映基本面是可取的。</a> [11] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3779605_100_1" target="_blank" class="news-link">日本央行行长植田和男：与首相高市早苗就外汇问题进行了交流。</a> [12] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119501" target="_blank" class="news-link">A股收评：指数三连跌！全市场逾4100股下跌，煤炭、电池股及氟化工板块跌幅居前</a> [12] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118150321325800" target="_blank" class="news-link">日本央行行长植田和男：对外汇细节的讨论内容不予置评。</a> [12] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3779604_100_1" target="_blank" class="news-link">日本央行行长植田和男：已告知首相，央行正在调整货币支持力度，以稳定实现2%的通胀目标。</a> [13] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3779603_100_1" target="_blank" class="news-link">日本央行行长植田和男：将在仔细分析各种数据的基础上做出货币政策决定。</a> [14] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3779599_100_1" target="_blank" class="news-link">日本央行行长植田和男：与首相高市早苗就经济、通货膨胀和货币政策进行了交流。</a> [15] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119498" target="_blank" class="news-link">A股异动丨开创国际盘中跌逾8% 小间科技及其一致行动人11月7日至17日减持293.21万股</a> [15] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118150102484800" target="_blank" class="news-link">日本央行行长植田和男：外汇稳定运行反映基本面是可取的。</a> [15] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118150046326800" target="_blank" class="news-link">日本央行行长植田和男：将审慎研究各项数据后决定货币政策。已告知日本首相高市早苗，日本央行正在调整货币支持力度，以稳定实现2%的通胀目标。与日本首相高市早苗讨论了外汇问题。</a> [16] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118150037777800" target="_blank" class="news-link">午盘收盘，国内期货主力合约涨跌互现。红枣、铁矿石涨超1%，碳酸锂、BR橡胶涨近1%；跌幅方面，焦煤跌近4%，集运指数（欧线）、焦炭、沪银、双胶纸跌超2%。</a> [17] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118145933744800" target="_blank" class="news-link">日本央行行长植田和男：将审慎研究各项数据后决定货币政策。</a> [18] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118145834120800" target="_blank" class="news-link">经济学家：外部需求增强支撑新加坡出口</a> [19] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118145748601800" target="_blank" class="news-link">日本央行行长植田和男：与日本首相高市早苗就经济、通胀和货币政策进行了会谈。</a> [20] <font color='grey'>- 15时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">10</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/china/202511/1857621.html" target="_blank" class="news-link">日本外交官离开中国外交部 未回答媒体提问</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251118/1068444565.html" target="_blank" class="news-link">日本外务省官员离开中国外交部，未向媒体作任何表态</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [B站热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E5%A4%96%E5%8A%A1%E7%9C%81%E5%AE%98%E5%91%98%E7%A6%BB%E5%BC%80%E4%B8%AD%E5%9B%BD%E5%A4%96%E4%BA%A4%E9%83%A8" target="_blank" class="news-link">日本外务省官员离开中国外交部</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E5%A4%96%E5%8A%A1%E7%9C%81%E5%AE%98%E5%91%98%E7%A6%BB%E5%BC%80%E4%B8%AD%E5%9B%BD%E5%A4%96%E4%BA%A4%E9%83%A8" target="_blank" class="news-link">日本外务省官员离开中国外交部</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3779648_100_1" target="_blank" class="news-link">中国外交部：（就日本公民安全回应）中国政府将继续切实保障在华外国人的安全。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/11/18/92cb4787bedf4b1c9ef7036da4d8cb02.html" target="_blank" class="news-link">马杜罗警告：打击委内瑞拉将导致特朗普“政治领导生涯终结”</a> [8] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/11/18/8561a15d2cf342c09b52fae96e6c306d.html" target="_blank" class="news-link">美媒：特朗普暗示与马杜罗存在外交对话窗口</a> [10] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E4%BB%A4%E6%97%A5%E6%9C%AC%E5%A4%96%E4%BA%A4%E5%A4%A9%E5%B4%A9%E5%BC%80%E5%B1%80%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26cate%3D5001%26flag%3D1%26lcate%3D5001%26stream_entry_id%3D31%26realpos%3D10%26q%3D%2523%25E9%25AB%2598%25E5%25B8%2582%25E6%2597%25A9%25E8%258B%2597%25E4%25BB%25A4%25E6%2597%25A5%25E6%259C%25AC%25E5%25A4%2596%25E4%25BA%25A4%25E5%25A4%25A9%25E5%25B4%25A9%25E5%25BC%2580%25E5%25B1%2580%2523%26pos%3D9%26band_rank%3D10%26filter_type%3Drealtimehot%26dgr%3D0%26display_time%3D1763450519%26pre_seqid%3D176345051913702807733147&amp;launchid=10000360-page_H5" target="_blank" class="news-link">高市早苗令日本外交天崩开局</a> [10] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251118150410659800" target="_blank" class="news-link">金十图示：2025年11月18日（周二）富时中国A50指数成分股今日收盘行情一览：半导体板块走强、医疗服务、煤炭等板块下跌</a> [11] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E5%A4%96%E5%8A%A1%E7%9C%81%E5%AE%98%E5%91%98%E7%A6%BB%E5%BC%80%E4%B8%AD%E5%9B%BD%E5%A4%96%E4%BA%A4%E9%83%A8%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26cate%3D5001%26flag%3D1%26lcate%3D5001%26stream_entry_id%3D31%26realpos%3D15%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E5%25A4%2596%25E5%258A%25A1%25E7%259C%2581%25E5%25AE%2598%25E5%2591%2598%25E7%25A6%25BB%25E5%25BC%2580%25E4%25B8%25AD%25E5%259B%25BD%25E5%25A4%2596%25E4%25BA%25A4%25E9%2583%25A8%2523%26pos%3D14%26band_rank%3D15%26filter_type%3Drealtimehot%26dgr%3D0%26display_time%3D1763450519%26pre_seqid%3D176345051913702807733147&amp;launchid=10000360-page_H5" target="_blank" class="news-link">日本外务省官员离开中国外交部</a> [15] <font color='grey'>- 15时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119511" target="_blank" class="news-link">美信科技(301577.SZ)：产品已通过核心客户认证，应用于AI服务器电源上</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/898/281.htm" target="_blank" class="news-link">国内首批，宝马在华大规模部署自研 AI 智能体平台“盖亚”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1971246965376389265" target="_blank" class="news-link">你认为该图片是真实拍摄的还是由 AI 生成的？</a> [11] <font color='grey'>- 15时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119510" target="_blank" class="news-link">同益股份(300538.SZ)：暂未与英伟达开展合作</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/898/279.htm" target="_blank" class="news-link">Ookla 报告全球手机网速排名：下载方面谷歌险胜苹果夺冠，上传方面小米称王</a> [6] <font color='grey'>- 15时22分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1974042951152793272" target="_blank" class="news-link">11.11 元秒杀到小米冰箱无法发货，小米回应「系统配置错误，补偿 30 元」，这一处置合理吗？</a> [18] <font color='grey'>- 15时22分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
