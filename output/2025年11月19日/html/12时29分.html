@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 80</p><p>生成时间: 2025-11-19 12:29:40</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">9</td>
+                    <td class="percentage">11.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/898/523.htm" target="_blank" class="news-link">谷歌学术测试新技能：AI 提供论文摘要，还能引经据典为你答疑解惑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251119121305471800" target="_blank" class="news-link">华尔街日报：xAI正就融资150亿美元深入谈判 估值显著提升</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3759684" target="_blank" class="news-link">AI泡沫的“核心争议”：GPU真的能“用”6年吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251119120532267800" target="_blank" class="news-link">据华尔街日报：消息人士称，xAI正与投资者进行高级别谈判，以筹集150亿美元，此轮融资将使xAI的估值达到2300亿美元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251119120257616800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2025-11-19）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/898/514.htm" target="_blank" class="news-link">群联推出 PCIe 5.0 企业级 SSD 新品 X201 / D201，核显 AI 推理加速方案同步亮相</a> [6] <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2204716?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">马斯克旗下xAI公司正深入洽谈融资150亿美元事宜。</a> [8] <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2204716?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">马斯克旗下xAI公司正深入洽谈融资150亿美元事宜。</a> [8] <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2204501" target="_blank" class="news-link">AI大模型“新王”加冕 奥尔特曼发来贺电 谷歌做对了什么？</a> [23] <font color='grey'>- 12时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">7</td>
+                    <td class="percentage">8.75%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2204725" target="_blank" class="news-link">【午报】三大指数冲高回落涨跌不一，高位股持续退潮，银行、军工板块逆势活跃</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3759678" target="_blank" class="news-link">A股指数表现分化，锂矿涨幅居前，碳酸锂期货主力合约突破100000元/吨，港股高开低走，能源逆势走强</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251119120905733800" target="_blank" class="news-link">印度卢比兑美元汇率升至88.49，创下自11月4日以来的最高水平。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251119/1068460877.html" target="_blank" class="news-link">美财政部：俄罗斯减持美国国债至3100万美元</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5120257" target="_blank" class="news-link">大行评级丨里昂：维持宁德时代A股“高确信跑赢大市”评级 对其前景感到乐观</a> [6]</div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251119120202789800" target="_blank" class="news-link">10年期日债收益率升至17年高位，市场押注高市政府大规模财政支出</a> [6] <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3781250_100_1" target="_blank" class="news-link">马来西亚10月贸易顺差为190亿林吉特，路透调查预估为163亿林吉特。</a> [11] <font color='grey'>- 12时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.75%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3781265_100_1" target="_blank" class="news-link">【行情】恒生指数午间收报25812点，下跌117点；恒生科技指数午间收报5590点，下跌55点；小米集团跌超4%；上海实业H股、深圳国际创下新高。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2204599" target="_blank" class="news-link">小米集团股价跌破40港元，较6月最高点已跌超30%</a> [11] <font color='grey'>- 12时29分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2204599" target="_blank" class="news-link">小米集团股价跌破40港元，较6月最高点已跌超30%</a> [15] <font color='grey'>- 12时29分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=72%E5%B2%81%E9%9F%A9%E5%9B%BD%E5%89%8D%E6%80%BB%E7%BB%9F%E6%96%87%E5%9C%A8%E5%AF%85%E8%BD%AC%E5%9E%8B%E5%B8%A6%E8%B4%A7%E5%8D%9A%E4%B8%BB" target="_blank" class="news-link">72岁韩国前总统文在寅转型带货博主</a> [28] <font color='grey'>- 12时29分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
