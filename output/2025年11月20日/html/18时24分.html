@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 150</p><p>生成时间: 2025-11-20 18:24:25</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">20</td>
+                    <td class="percentage">13.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251120181448077800" target="_blank" class="news-link">乌克兰总理：会见了美国陆军高级官员。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251120/1068482037.html" target="_blank" class="news-link">俄罗斯联邦委员会主席表示纽伦堡审判已对纳粹主义意识形态本身作出审判</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251120181150851800" target="_blank" class="news-link">克里姆林宫就“乌克兰28点和平计划”的报道作出回应：除了在阿拉斯加举行的俄罗斯总统普京与美国总统特朗普峰会上所说的内容外，我们没有新的补充。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3759799" target="_blank" class="news-link">“国产医疗器械一哥”第三次上市：迈瑞医疗瞄准国际化</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251120181126700800" target="_blank" class="news-link">克里姆林宫就乌克兰和平前景表示：任何解决方案都必须消除冲突的根源。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3784420_100_1" target="_blank" class="news-link">乌克兰总理表示，她会见了美国陆军高级官员。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3784410_100_1" target="_blank" class="news-link">俄罗斯克宫：任何和平解决方案都必须消除冲突的根本原因。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3784409_100_1" target="_blank" class="news-link">俄罗斯克宫：对于有关乌克兰28点和平计划的报道，我们没有新的补充内容，仍以俄罗斯总统普京与美国前总统特朗普在阿拉斯加峰会期间的表态为准。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3784408_100_1" target="_blank" class="news-link">俄罗斯克宫：俄罗斯总统普京本人不使用人工智能，但总统办公厅有使用。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3784398_100_1" target="_blank" class="news-link">德国总理谴责此次袭击，并强调德国声援波兰。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251120181117973800" target="_blank" class="news-link">克里姆林宫就俄罗斯总统普京是否已获悉所谓“28点乌克兰和平计划”发表声明：对此无可奉告。</a> [6] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251120181052149800" target="_blank" class="news-link">克里姆林宫：俄罗斯总统普京本人未使用人工智能，但总统行政部门在使用。</a> [7] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%BE%B7%E5%9B%BD%E5%8C%BB%E7%96%97%E5%B1%95%E7%9B%92%E9%A5%AD%E8%87%B4200%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%AD%E6%AF%92%23&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">德国医疗展盒饭致200名中国人中毒</a> [7] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3784396_100_1" target="_blank" class="news-link">据德国政府发言人称，德国总理默茨已与波兰总理图斯克讨论了波兰铁路近期遭受破坏事件。</a> [6 - 26] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251120180756552800" target="_blank" class="news-link">德国政府发言人：德国总理谴责了此次（针对波兰铁路的）袭击，并强调德国与波兰的团结一致。</a> [11] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251120180707411800" target="_blank" class="news-link">德国总理默茨与波兰总理图斯克讨论了波兰铁路最新发生的破坏事件。</a> [12] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206445?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美媒：特朗普批准结束俄乌冲突新计划 要求乌克兰“割让更多领土”</a> [13] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2206445?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美媒：特朗普批准结束俄乌冲突新计划 要求乌克兰“割让更多领土”</a> [13] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [thepaper] <a href="https://m.thepaper.cn/newsDetail_forward_32005572" target="_blank" class="news-link">外交部：G20期间中方没有会见日方领导人的安排，请日方自重</a> [14] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7574703304081670185/" target="_blank" class="news-link">外交部回应赖清德晒日料午餐作秀</a> [15] <font color='grey'>- 18时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">6</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2206391" target="_blank" class="news-link">日元汇率逼近年内低位 日银官员释出“下月可能加息”信号</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5121645" target="_blank" class="news-link">中远海发(02866.HK)11月20日回购50万股A股及50万H股</a> [8] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5121644" target="_blank" class="news-link">中集集团(02039.HK)11月20日回购235万股A股及65.3万股H股</a> [9] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251120181020192800" target="_blank" class="news-link">金十图示：2025年11月20日（周四）全球股市指数-亚太市场（收盘）</a> [10] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206451?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">艾迪精密：拟1亿元-2亿元回购公司A股股份</a> [11] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2206451?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">艾迪精密：拟1亿元-2亿元回购公司A股股份</a> [11] <font color='grey'>- 18时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/898/960.htm" target="_blank" class="news-link">鸿蒙智行年度压轴新品享界 S9 轿车首销战绩出炉：2 小时大定破 2000 台</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2206420?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构龙虎榜解读】AI电源+数据中心+华为+PCB，华为相关收入占比约45%，持续推进800G光模块等新产品， AI数据中心一次、二次、三次电源项目部分将于四季度批量交付，机构大额净买入这家公司</a> [15] <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2206420?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构龙虎榜解读】AI电源+数据中心+华为+PCB，华为相关收入占比约45%，持续推进800G光模块等新产品， AI数据中心一次、二次、三次电源项目部分将于四季度批量交付，机构大额净买入这家公司</a> [15] <font color='grey'>- 18时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/898/961.htm" target="_blank" class="news-link">小米汽车 App 获 2.0 版更新：上线“服务”页面，优化泊车辅助功能</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3759753" target="_blank" class="news-link">英伟达业绩驱散悲观情绪，纳指100期货涨1.9%，日经225涨超3%，比特币反弹至9.2万美元，金价跌破4100美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3759753" target="_blank" class="news-link">英伟达业绩驱散悲观情绪，纳指100期货涨1.9%，日经225涨超3%，比特币反弹至9.2万美元，金价跌破4100美元</a> [6] <font color='grey'>- 18时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251120/1068482548.html" target="_blank" class="news-link">俄国防部：俄防空部队一昼夜内击落乌军4枚“风暴阴影”导弹和119架无人机</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251120181035057800" target="_blank" class="news-link">克里姆林宫就空中客车董事长有关战术核武器的言论回应称：越来越多的欧洲人正在失去克制。</a> [9] <font color='grey'>- 18时24分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2206438" target="_blank" class="news-link">网易游戏Q3业绩双位数增长 《燕云十六声》收入、月活均创新高|财报解读</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时24分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/898/956.htm" target="_blank" class="news-link">因被认定“国家文化遗产”，法国法院叫停拍卖 17 世纪帕斯卡计算器</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时24分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
