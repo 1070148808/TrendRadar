@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-11-23 17:35:02</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">6</td>
+                    <td class="percentage">13.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5122701" target="_blank" class="news-link">中信银行(601998.SH)全资子公司信银金融资产投资获准开业</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251123172649541800" target="_blank" class="news-link">二十国集团峰会：南非贸易部长表示，预计与美国就贸易协议的讨论将继续进行。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2208240?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中信证券：当下风险提前释放给了年末重新增配A股/港股、布局2026年的契机</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2208240?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中信证券：当下风险提前释放给了年末重新增配A股/港股、布局2026年的契机</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5122698" target="_blank" class="news-link">上能电气(300827.SZ)向特定对象发行股票申请获中国证监会同意注册批复</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3788210_100_1" target="_blank" class="news-link">G20峰会：南非贸易部长表示，我们预计与美国就贸易协议的讨论将继续进行。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 17时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251123/1068518057.html" target="_blank" class="news-link">伊朗外交部：伊朗在美方制裁威胁下仍将捍卫本国利益</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2208180" target="_blank" class="news-link">外交部：刚果（金）东部地区中国公民应立即撤离</a> [13] <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E7%8E%B0%E8%81%8C%E9%A2%86%E5%AF%BC%E4%BA%BA%E8%B6%8A%E4%BA%86%E4%B8%8D%E5%BA%94%E7%A2%B0%E7%9A%84%E7%BA%A2%E7%BA%BF%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">日本现职领导人越了不应碰的红线</a> [26] <font color='grey'>- 17时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251123172204864800" target="_blank" class="news-link">俄罗斯国防部：俄罗斯军队已控制乌克兰东部的蒂赫和奥德拉德内。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3788208_100_1" target="_blank" class="news-link">俄罗斯国防部：俄军已控制乌克兰顿涅茨克地区的Petrivske。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575001709903511595/" target="_blank" class="news-link">俄媒：为何日本西欧摆出军事化姿态</a> [29] <font color='grey'>- 17时35分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3759948" target="_blank" class="news-link">我怀疑：AI，真的是未来十年市场上涨的主要推动力吗？</a> [10] <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1974446156558910121" target="_blank" class="news-link">AI+ 时代，碳硅共生会如何带来生产力的跃迁？</a> [20] <font color='grey'>- 17时35分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
