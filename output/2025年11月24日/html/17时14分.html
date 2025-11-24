@@ -1,0 +1,126 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 130</p><p>生成时间: 2025-11-24 17:14:18</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">22</td>
+                    <td class="percentage">16.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251124165503682800" target="_blank" class="news-link">菲律宾央行行长：我们没有外汇目标水平，我们希望由外汇市场决定目标水平。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3759974" target="_blank" class="news-link">A股三大指数全线收涨，阿里概念股大涨，港股高开高走，恒科指涨超2%，科网、新能源车反弹</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2209026?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月24日电，菲律宾央行行长表示，正持续完善各项模型，包括外汇干预策略。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251124165307513800" target="_blank" class="news-link">菲律宾央行行长：我们对干预外汇市场有些犹豫。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3760001" target="_blank" class="news-link">自动驾驶港股上市潮持续，天瞳威视欲借L4突围</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2209023?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月24日电，据贸易商称，巴基斯坦国家机构发布招标，拟采购10万吨大米供应孟加拉国。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2209042?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">摩根资管：A股未来10-15年预期年化回报7.7%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251124165211780800" target="_blank" class="news-link">菲律宾央行行长：我们并非总是干预外汇市场。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3789019_100_1" target="_blank" class="news-link">菲律宾央行行长Remolona：我们希望外汇市场决定目标水平。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3789018_100_1" target="_blank" class="news-link">菲律宾央行行长Remolona：我们没有外汇目标水平。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3789014_100_1" target="_blank" class="news-link">菲律宾央行行长Remolona：我们并非总是干预外汇市场。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3789011_100_1" target="_blank" class="news-link">菲律宾央行行长Remolona：我们正在不断改进模型，包括外汇干预策略。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2209017?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">花旗财富主管：创纪录资金涌入 股市仍有上行空间</a> [7] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2209051?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">海创药业：口服PROTAC药物HP518片获得用于治疗晚期前列腺癌的临床试验批准 国内外暂无同类产品获批上市</a> [7] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2209011?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月24日电，财政部、税务总局发布关于明确资源税有关政策执行口径的公告。</a> [8] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251124164941670800" target="_blank" class="news-link">菲律宾央行行长：我们正在不断改进我们的模型，包括外汇干预策略。</a> [8] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2209048?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月24日电，据报道，Naver金融与韩国加密交易所运营商Dunamu合并后，将寻求在纳斯达克上市。</a> [10] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3788999_100_1" target="_blank" class="news-link">菲律宾央行行长Remolona：我们希望外汇市场走势平稳，并朝着基本面所指方向发展。</a> [12] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2209000?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">美股期货涨幅扩大 纳斯达克100指数期货涨1%</a> [14] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2208653" target="_blank" class="news-link">外资唱多声不断！高盛：中国股票将延续“牛气” AI股仍有上涨空间</a> [16] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2209035?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">恒瑞医药：硫酸艾玛昔替尼片药品上市许可申请获国家药监局受理</a> [17] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576188455168773638/" target="_blank" class="news-link">A股无量反弹能走多远</a> [24] <font color='grey'>- 17时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">13</td>
+                    <td class="percentage">10.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251124/1068534128.html" target="_blank" class="news-link">俄总统特别代表：下届俄中中小企业实业论坛或在哈巴罗夫斯克举行</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251124/1068533915.html" target="_blank" class="news-link">中国外交部：希望日方以实际行动展现对话的诚意</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2209060?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：推动扩大医疗服务项目和医用耗材医保支付范围</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2209052?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：聚焦细胞与基因治疗、罕见病、高质量首仿药、人工智能医疗器械等重点领域和产品 建立在研重点品种服务清单</a> [6] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3789005_100_1" target="_blank" class="news-link">瑞典外交部长：瑞典方面不会承认俄罗斯对克里米亚非法兼并，或对乌克兰任何其他领土的非法兼并。</a> [7 - 27] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3789003_100_1" target="_blank" class="news-link">欧盟委员会副主席谢夫乔维奇：希望近期再次前往印度就欧盟与印度的贸易谈判进行磋商。</a> [9 - 29] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3789002_100_1" target="_blank" class="news-link">欧盟委员会副主席谢夫乔维奇：将与美国贸易专员讨论关键原材料相关事宜。</a> [10 - 30] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3789001_100_1" target="_blank" class="news-link">韩国总统候选人李在明：对韩国而言，与美国的结盟和与中国的经济关系并非对立关系。</a> [11] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3788996_100_1" target="_blank" class="news-link">欧盟委员会副主席谢夫乔维奇：与美国的贸易谈判中，在钢铁问题上还有更多工作要做。</a> [13] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3788995_100_1" target="_blank" class="news-link">欧盟委员会副主席谢夫乔维奇：过去两天与美国商务部长卢特尼克以及美国贸易代表格里尔举行了富有成效的会谈</a> [14] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2209037?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：鼓励医疗机构、研发单位和药品企业共同打造中药创新与产业转化平台 鼓励中药大品种培育和经典品种二次开发</a> [16] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3788992_100_1" target="_blank" class="news-link">乌克兰总统泽连斯基：基辅将继续与伙伴合作，在乌方和平提案上寻求共识。</a> [16] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3788991_100_1" target="_blank" class="news-link">韩国总统李在明：韩国与朝鲜之间任何一次偶发冲突都将构成一种非常危险的局面。</a> [17] <font color='grey'>- 17时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2209058?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：支持中药研发创新 探索人用经验数据作为真实世界证据用于药品注册申报</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/899/813.htm" target="_blank" class="news-link">兆易创新：明年实现自研 LPDDR4X 内存量产并着手规划小容量 LPDDR5X 研发</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2209019?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">兆易创新：明年将实现自研LPDDR4X系列产品量产</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2209041?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">上海：支持符合条件的创新药临床试验审评审批时限缩短至30个工作日</a> [13] <font color='grey'>- 17时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">3.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2209008" target="_blank" class="news-link">【每日收评】三大指数缩量震荡小幅上涨，全市场逾百股涨超9%，AI应用、军工方向领涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/899/812.htm" target="_blank" class="news-link">刘扬伟用 6 年让富士康系统性转向，AI 服务器收入已超 iPhone</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [solidot] <a href="https://www.solidot.org/story?sid=82878" target="_blank" class="news-link">Git 3.0 将用 main 而不是 master 为默认分支名</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2208948" target="_blank" class="news-link">AI泡沫担忧愈演愈烈，这“烂摊子”就连英伟达也救不了？一文读懂</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3788986_100_1" target="_blank" class="news-link">乌克兰议会议长：乌克兰谈判的底线是，不正式承认被占领土、不对乌克兰国防军进行限制、不对乌克兰未来结盟进行限制。</a> [19] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575463439847374867/" target="_blank" class="news-link">日本加速“军事自主化”进程</a> [20] <font color='grey'>- 17时14分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">1.54%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2209005?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月24日电，小马智行与阳光出行达成合作，扩大自动驾驶车队规模。</a> [11] <font color='grey'>- 17时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5123087" target="_blank" class="news-link">瑞声科技(02018.HK)收购芬兰Dispelix：瞄准META/苹果/谷歌XR供应链？</a> [12] <font color='grey'>- 17时14分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
