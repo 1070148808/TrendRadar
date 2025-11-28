@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 132</p><p>生成时间: 2025-11-28 15:15:50</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">16</td>
+                    <td class="percentage">12.12%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/china/202511/2858469.html" target="_blank" class="news-link">中国对马美贸易协议部分内容表达关切</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2213865?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">日本财务省宣布修订债券发行计划</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2213865?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">日本财务省宣布修订债券发行计划</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126023" target="_blank" class="news-link">ETF收评 | A股连续三日缩量，商业航天板块午后拉升，卫星ETF涨2.5%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/900/990.htm" target="_blank" class="news-link">vivo 向开放原子开源基金会捐赠 Rust 自研操作系统内核</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3796405_100_1" target="_blank" class="news-link">哈萨克斯坦央行：若未看到通胀放缓趋势得以持续的明确迹象，可能收紧货币政策。</a> <font color='red'><strong>[2 - 29]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251128150146084800" target="_blank" class="news-link">泰国央行：泰国经济有望进一步复苏。</a> [6] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20251128-7886311" target="_blank" class="news-link">中国对马美贸易协议部分内容表达关切</a> [6] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251128150138712800" target="_blank" class="news-link">泰国央行：泰国经济10月份较上月有所改善。</a> [7] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2213830?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">日韩股市收盘涨跌不一</a> [14] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2213830?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">日韩股市收盘涨跌不一</a> [15] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126013" target="_blank" class="news-link">A股收评：三大指数齐涨，钛白粉、卫星互联网及海南板块走高</a> [15] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251128145827682800" target="_blank" class="news-link">金十图示：北京时间11月28日23:00将有欧美、美日、镑美等外汇期权大单到期，2个行权价10亿以上大单，敬请管理风险。</a> [17] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3796427_100_1" target="_blank" class="news-link">丹麦10月份失业率为2.6%。</a> [22] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251128143844148800" target="_blank" class="news-link">市场分析：2026年有望成为股票和公司债券的投资佳年</a> [22] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3796411_100_1" target="_blank" class="news-link">挪威劳工局：挪威11月登记失业率为2.1%（路透调查预估为2.0%）。</a> [27] <font color='grey'>- 15时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">12</td>
+                    <td class="percentage">9.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2213859?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月28日电，惠誉评级称，2026年亚太科技行业将面临消费需求疲软，但人工智能将带来顺风。</a> [6] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2213858?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月28日电，野村证券启动与OpenAI的战略合作。</a> [7] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2213859?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月28日电，惠誉评级称，2026年亚太科技行业将面临消费需求疲软，但人工智能将带来顺风。</a> [7] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2213854?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】下游覆盖AI服务器+机器人+AI手机，机构称AI浪潮下算力需求激增，有望带动该行业需求快速增长，这家企业产品在多个领域取得技术突破</a> [8] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2213858?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社11月28日电，野村证券启动与OpenAI的战略合作。</a> [8] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2213856?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">“迈向人工智能+时代”2025年大湾区交易所科技大会在深交所举办</a> [9] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2213854?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【盘中宝】下游覆盖AI服务器+机器人+AI手机，机构称AI浪潮下算力需求激增，有望带动该行业需求快速增长，这家企业产品在多个领域取得技术突破</a> [9] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2213856?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">“迈向人工智能+时代”2025年大湾区交易所科技大会在深交所举办</a> [10] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251128145150536800" target="_blank" class="news-link">野村证券：将利用OpenAI的战略和技术支持开发新服务。</a> [19] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251128144849477800" target="_blank" class="news-link">惠誉评级：2026年亚太科技行业将面临消费需求疲软，但人工智能将带来顺风。</a> [20] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%A4%B8%E5%85%8BAI%E7%9C%BC%E9%95%9C%E6%8C%81%E7%BB%AD%E9%9C%B8%E6%A6%9C%E7%AC%AC%E4%B8%80%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">夸克AI眼镜持续霸榜第一</a> [20] <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251128144813905800" target="_blank" class="news-link">野村证券：启动与OpenAI的战略合作。</a> [21] <font color='grey'>- 15时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">3</td>
+                    <td class="percentage">2.27%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251128150323831800" target="_blank" class="news-link">据国际文传电讯社：俄罗斯总统普京将于12月4日至5日访问印度。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3796388_0_1" target="_blank" class="news-link">塔斯社：俄罗斯克宫证实，俄罗斯总统普京将于周五晚些时候与匈牙利总理欧尔班举行会谈。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时15分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251128150133781800" target="_blank" class="news-link">乌克兰反腐败机构官员：已在乌克兰总统泽连斯基的幕僚长办公室展开搜查。</a> [8] <font color='grey'>- 15时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2213809" target="_blank" class="news-link">法国防疫专家警告：若禽流感变异 恐引发比新冠更可怕疫情</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时15分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126018" target="_blank" class="news-link">鼎龙股份(300054.SZ)：暂未直接布局英伟达M9材料相关的PCB基材、覆铜板等产品及技术研发</a> [10] <font color='grey'>- 15时15分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
