@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2025-12-01 22:02:14</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">25</td>
+                    <td class="percentage">27.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201215649190800" target="_blank" class="news-link">美国上诉法院维持原判，取消美国总统特朗普盟友阿丽娜·哈巴担任新泽西州代理联邦检察官的资格。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201215140790800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：如果我们想要长久的和平，就需要了解战争的起点。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201215127638800" target="_blank" class="news-link">乌克兰总统泽连斯基在与法国总统马克龙会谈后表示，和平必须是“持久的”。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201215041038800" target="_blank" class="news-link">乌克兰总统泽连斯基：乌克兰的战争必须尽快结束。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3799634_100_1" target="_blank" class="news-link">乌克兰总统泽连斯基：（与法国总统马克龙会谈后表示）和平必须是“持久的”。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3799632_100_1" target="_blank" class="news-link">乌克兰总统泽连斯基：乌克兰战争必须尽快结束。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3799630_100_1" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：此举不符合任何一方的利益，包括乌克兰和欧盟的利益。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201215033307800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：我担心所有的压力都将施加于受害者身上，乌克兰将不得不做出妥协。这不符合任何人的利益，包括乌克兰和欧盟的利益。</a> [6] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3799628_100_1" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：我担心所有的压力都会施加在受害者身上，乌克兰将不得不作出让步。</a> [6 - 26] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201214349110800" target="_blank" class="news-link">据CNN：美国国防部长赫格塞斯、参谋长联席会议主席凯恩和国务卿鲁比奥预计将出席委内瑞拉会议。</a> [8] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201214206612800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：我们需要让俄罗斯处于必须谈判的境地，但他们目前并不处于这种境地。</a> [9] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3799620_0_1" target="_blank" class="news-link">美国有线电视新闻网：美国国防部长海格塞斯、参谋长联席会议主席凯恩和国务卿卢比奥预计将出席委内瑞拉会议。</a> [10 - 30] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201214111094800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：俄罗斯已经明确表示他们对和平没有兴趣。</a> [11] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201214102164800" target="_blank" class="news-link">据CNN：美国总统特朗普将在椭圆形办公室就委内瑞拉问题举行会议。</a> [12] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201214027588800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：乌克兰弹药援助计划尚未达到目标。</a> [13] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3799607_0_1" target="_blank" class="news-link">消息人士：乌克兰总统泽连斯基预计将于周二抵达爱尔兰。</a> [14] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3799605_100_1" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：欧盟关于乌克兰弹药援助计划尚未达到目标。</a> [15] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201213908523800" target="_blank" class="news-link">知情人士：乌克兰总统泽连斯基预计将于周二抵达爱尔兰。</a> [15] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201213736652800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：现在帮助乌克兰的成本比让这场战争继续下去的情况下要便宜得多。</a> [16] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201213555071800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：我并不轻视比利时对赔偿问题的担忧。</a> [19] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201213540085800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：基于俄罗斯被冻结资产的拟议赔偿贷款将强化欧洲在与莫斯科打交道时的立场。</a> [20] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201213257666800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：俄罗斯应对其对乌克兰造成的损害进行赔偿。</a> [22] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201213240985800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：能够随时随地调动部队至关重要。</a> [23] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201213226461800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：普京不太可能长期遵守任何协议。</a> [24] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201213213130800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：乌克兰的自由之路不应因腐败调查而蒙上阴影。</a> [25] <font color='grey'>- 22时02分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">7</td>
+                    <td class="percentage">7.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5127657" target="_blank" class="news-link">高乐股份(002348.SZ)：黎曼云图拟成为公司控股股东 股票复牌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5127656" target="_blank" class="news-link">12月2日A股投资避雷针︱*ST苏吴：上交所决定终止公司股票上市；秦安股份：外部流通盘较小且近期换手率较高的风险</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201214154979800" target="_blank" class="news-link">金十数据整理：每日美股市场要闻速递（2025-12-01）</a> [10] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5127647" target="_blank" class="news-link">鼎泰高科(301377.SZ)：向香港联交所递交H股发行上市申请并刊发申请资料</a> [11] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5127646" target="_blank" class="news-link">辰安科技(300523.SZ)：股票继续停牌，预计停牌时间不超过3个交易日</a> [12] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3799602_100_1" target="_blank" class="news-link">巴西央行行长加利波罗：今年年底外汇市场将面临一个额外变量，即股息分配预期。</a> [18] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3799596_100_1" target="_blank" class="news-link">巴西央行行长加利波罗：我们对浮动汇率制感到非常满意，仅在市场功能失常时才会出手干预。</a> [20] <font color='grey'>- 22时02分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2215956?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【风口研报·洞察】字节发布豆包手机助手，抢占手机AI入口，分析师认为12月18日至19日举办的“Force字节原动力大会”或为产业链注入全新驱动力；如何布局春季躁动行情</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2216291" target="_blank" class="news-link">孙正义回应清仓英伟达：为了投AI，我是哭着卖的</a> [11] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2216065" target="_blank" class="news-link">“AI网购”时代即将到来！大摩：2030年近半数线上购物者将使用AI代理</a> [13] <font color='grey'>- 22时02分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2216348?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月1日电，秦皇岛海事局发布航行警告，12月2日0时至4日24时、12月2日0时至8日24时，渤海部分海域执行军事任务，禁止驶入。 ​​​</a> [12] <font color='grey'>- 22时02分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">京东 小米 字节 抖音 快手 小红书 希缇缇 英伟达 谷歌 chatgpt deepseek openai 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.11%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201215404939800" target="_blank" class="news-link">AlphaTON部署了第一批英伟达B200GPU。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时02分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
