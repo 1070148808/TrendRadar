@@ -1,0 +1,118 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2025-12-01 13:04:45</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">10</td>
+                    <td class="percentage">10.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2215554" target="_blank" class="news-link">【午报】三大指数全线飘红，AI端侧方向迎集体爆发，龙头股中兴通讯涨停</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2215564?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构调研】这家公司打造端侧AI全链路音频方案，全系智能产品接入豆包VLM多模态AI大模型</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/singapore/story20251201-7896893" target="_blank" class="news-link">杜克—国大开发区域首个AI驱动流行病数据共享平台</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2215560?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">鸿蒙智行全系11月交付81864辆</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3798539_0_1" target="_blank" class="news-link">软银：和安川电机 签署谅解备忘录，联合开发面向办公场景的人工智能机器人应用方案。将拓展机器人可执行的任务范围。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215564?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构调研】这家公司打造端侧AI全链路音频方案，全系智能产品接入豆包VLM多模态AI大模型</a> [8] <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2215541" target="_blank" class="news-link">字节搅动端侧AI风云！豆包发布手机助手预览版 又一轮换机潮可期？</a> [9] <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3760431" target="_blank" class="news-link">直接嵌入手机系统！豆包AI手机，帮你跨平台比价点外卖、自动回消息</a> [9] <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215560?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">鸿蒙智行全系11月交付81864辆</a> [11] <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201122301880800" target="_blank" class="news-link">软银：和安川电机 (Yaskawa Electric Corporation)签署谅解备忘录，联合开发面向办公场景的人工智能机器人应用方案。将拓展机器人可执行的任务范围。</a> [13] <font color='grey'>- 13时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">8</td>
+                    <td class="percentage">8.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126926" target="_blank" class="news-link">万亿市场重磅调整！A500ETF基金(512050)新质生产力含量提升，千亿规模上证50ETF(510050)上周净流入23亿</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201130151032800" target="_blank" class="news-link">据英国金融时报：汇丰签署协议，将使用Mistral的人工智能工具</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201125807455800" target="_blank" class="news-link">泰国财长：洪灾对整体经济影响较小。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201125603196800" target="_blank" class="news-link">泰国央行行长：与财政部合作良好，正努力解决结构性问题。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3798556_100_1" target="_blank" class="news-link">日本央行审议委员中村丰明：必须警惕与人工智能相关的股票可能出现估值过高的情况。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251201125304161800" target="_blank" class="news-link">日本央行审议委员中村豊明：我们必须警惕人工智能相关股票可能出现的估值过高问题。</a> [6] <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2215558?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月1日电，利弗莫尔证券显示，赣州和美药业股份有限公司再次向港交所提交上市申请书，独家保荐人为国投证券国际。</a> [7] <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [财联社-热点] <a href="https://www.cls.cn/detail/2215474" target="_blank" class="news-link">3900点关口存款搬家争论继续升温，银行客户钱往哪走？一线：基金销售渐火、保险产品受宠</a> [13] <font color='grey'>- 13时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">5</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/901/521.htm" target="_blank" class="news-link">法国总统马克龙希望将“手机禁令”扩大到高中</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [pcbeta] <a href="https://bbs.pcbeta.com/viewthread-2058640-1-1.html" target="_blank" class="news-link">2160P好看的宫崎骏风乡村唯美绘画，5枚</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5126924" target="_blank" class="news-link">卓越教育集(03978.HK)捐赠100万港元以支援香港大埔火灾救援</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3798554_100_1" target="_blank" class="news-link">洪都拉斯选举委员会初步结果显示，保守派总统候选人阿斯福拉暂时领先，目前已统计34%选票。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215567?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">“冒充总统索要钱财” 韩总统府发声：将依法严肃惩处</a> [6] <font color='grey'>- 13时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-电报] <a href="https://api3.cls.cn/share/article/2215562?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">澳大利亚国防部启动50年来最大规模重组</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215562?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">澳大利亚国防部启动50年来最大规模重组</a> [9] <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578723328102239750/" target="_blank" class="news-link">03式中程地空导弹是一款怎样的武器</a> [18] <font color='grey'>- 13时04分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/singapore/story20251201-7896918" target="_blank" class="news-link">裕廊创新区开发洁净科技园和峇哈区 兼顾生态保护策略</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时04分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2215575?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">中东部气温将大面积创新低 降温过后升温迅速</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时04分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
