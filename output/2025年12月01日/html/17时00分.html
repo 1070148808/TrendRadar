@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-12-01 17:00:20</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">4</td>
+                    <td class="percentage">9.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/01/2851c44be6a94fa89b26053e930aeefb.html" target="_blank" class="news-link">南非总统谴责虚假信息宣传活动</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5127162" target="_blank" class="news-link">研报掘金丨中信建投：维持联影医疗“买入”评级，全年收入净利润有望实现稳健增长</a> [10] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5127159" target="_blank" class="news-link">康众医疗(688607.SH)：本次询价转让价格为28.22元/股</a> [13] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578688931730948115/" target="_blank" class="news-link">法国总统马克龙将访华</a> [27] <font color='grey'>- 17时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/658394235" target="_blank" class="news-link">如果《英雄联盟》有位英雄攻速锁死 5.0 但经济获取量只有其他英雄的三分之一，这个英雄强度怎么样？</a> [18] <font color='grey'>- 17时00分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578549164415385636/" target="_blank" class="news-link">岚图追光L将于12月10日上市</a> [21] <font color='grey'>- 17时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5127171" target="_blank" class="news-link">龙虎榜丨杰瑞股份两连板创新高，深股通净卖出1.76亿元，五机构净卖出1.28亿元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/901/602.htm" target="_blank" class="news-link">夏威夷向司机发放 1000 台 AI 行车记录仪，协助识别危险驾驶及“路怒”行为</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时00分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
