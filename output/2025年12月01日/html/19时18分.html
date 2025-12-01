@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-12-01 19:18:27</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">7</td>
+                    <td class="percentage">11.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社-深度] <a href="https://www.cls.cn/detail/2216146" target="_blank" class="news-link">美印贸易协议迟迟未能达成 印度卢比跌至纪录低点</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4357312_1" target="_blank" class="news-link">英伟达称未采用“循环融资”模式，两大知名做空机构提出质疑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2216166?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月1日电，利弗莫尔证券显示，活力集团控股有限公司向港交所提交上市申请书，联席保荐人为招商证券国际、民银资本。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/member/articles/3760452" target="_blank" class="news-link">浙商李超：2026最强资产是权益，A股确定性集中在科技成长与红利</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4357339_1" target="_blank" class="news-link">部分新兴市场债券比美国更安全</a> <font color='red'><strong>[5 - 17]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2216156?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">财联社12月1日电，利弗莫尔证券显示，广东鼎泰高科技术股份有限公司向港交所提交上市申请书，联席保荐人为中信证券和汇丰银行。</a> [9] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2216151?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">宁德时代：拟5亿元参投博裕新智新产股权投资基金</a> [14] <font color='grey'>- 19时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">5</td>
+                    <td class="percentage">8.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2216169?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">国家药监局：注销硬性角膜接触镜等9个医疗器械注册证书</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/01/4daae86f799a45fca297a75298f8beb1.html" target="_blank" class="news-link">欧尔班访俄后，波兰总统取消与他会面</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [sputniknewscn] <a href="https://sputniknews.cn/20251201/1068650257.html" target="_blank" class="news-link">泰军：泰国因缅甸军事冲突关闭泰缅边境口岸</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://chinese.aljazeera.net/news/2025/12/1/%e5%88%9d%e6%ad%a5%e8%ae%a1%e7%a5%a8%e7%bb%93%e6%9e%9c%e6%98%be%e7%a4%ba%e7%89%b9%e6%9c%97%e6%99%ae%e6%94%af%e6%8c%81%e7%9a%84%e5%80%99%e9%80%89%e4%ba%ba%e7%ba%b3%e6%96%af%e9%87%8c%e9%98%bf%e6%96%af" target="_blank" class="news-link">初步计票结果显示：特朗普支持的候选人纳斯里·阿斯富拉在洪都拉斯总统选举中领先</a> [9] <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578802765992824347/" target="_blank" class="news-link">俄乌冲突28点和平方案变19点改了啥</a> [30] <font color='grey'>- 19时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">文化 遗产 传承 创新</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [fastbull-news] <a href="https://www.fastbull.com/cn/news-detail/4357342_1" target="_blank" class="news-link">美印协议未果卢比创新低</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时18分</font></div><br><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2216158?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">金一文化：海科金集团拟延长对海鑫资产股权托管期限5年</a> [8] <font color='grey'>- 19时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社] <a href="https://api3.cls.cn/share/article/2216128?os=web&amp;sv=8.4.6&amp;app=CailianpressWeb" target="_blank" class="news-link">【机构龙虎榜解读】端侧AI+存储芯片，新制程的DDR4产品已开始给客户送样，预计明年会有收入的提升，LPDDR5的产品正在规划中，计划推出更大算力SoC芯片，布局边缘AI与大模型应用，这家公司获净买入</a> [11] <font color='grey'>- 19时18分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
