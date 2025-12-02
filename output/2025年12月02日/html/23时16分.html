@@ -1,0 +1,110 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 80</p><p>生成时间: 2025-12-02 23:16:23</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>36kr</li><li>ghxi</li><li>kuaishou</li><li>smzdm</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">政治 冲突 外交 两会 反腐 民生政策 养老 医疗 教育 城市建设 乡村 国际组织 领导人 总统 主席 总理</td>
+                    <td class="count">25</td>
+                    <td class="percentage">31.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202231422300800" target="_blank" class="news-link">俄罗斯总统普京：若（乌克兰对黑海船只的）袭击持续，或将切断乌克兰的出海通道。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/world/story20251202-7906200" target="_blank" class="news-link">获特朗普赦免 洪都拉斯前总统埃尔南德斯获释</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202231125889800" target="_blank" class="news-link">俄罗斯总统普京：我希望乌克兰领导人能思考一下，这种做法是否值得。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202231003771800" target="_blank" class="news-link">俄罗斯总统普京：我们将加大对设施和乌克兰船只的打击力度；我们将对援助乌克兰的国家的油轮采取措施。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3801923_100_1" target="_blank" class="news-link">俄罗斯总统普京：我们将增加对设施和乌克兰船只的打击力度。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3801918_100_1" target="_blank" class="news-link">俄罗斯总统普京：袭击土耳其附近油轮是海盗行为。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202230848648800" target="_blank" class="news-link">俄罗斯总统普京：（就土耳其附近油轮遇袭事件）这是海盗行为。</a> [6] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202230734924800" target="_blank" class="news-link">俄罗斯总统普京：如果欧洲想打仗，我们现在就准备好了。</a> [7] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202230719817800" target="_blank" class="news-link">俄罗斯总统普京：库皮扬斯克-乌兹洛沃伊将在几天内完全解放。</a> [8] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202230643897800" target="_blank" class="news-link">俄罗斯总统普京：欧洲方面提出的要求俄罗斯无法接受。</a> [9] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3801911_100_1" target="_blank" class="news-link">俄罗斯总统普京：如果欧洲想开战，我们现在已经准备好了。</a> [9 - 29] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3801910_0_1" target="_blank" class="news-link">俄罗斯总统普京：欧洲方面提出的要求俄罗斯无法接受。</a> [10 - 30] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202230616766800" target="_blank" class="news-link">俄罗斯总统普京：欧洲人正阻挠美国政府和美国总统特朗普通过谈判实现和平。欧洲人没有和平议程，他们站在战争一边。</a> [10] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202230513191800" target="_blank" class="news-link">俄罗斯总统普京：欧洲人自己脱离了谈判。</a> [11] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3801902_100_1" target="_blank" class="news-link">俄罗斯总统普京：欧洲人正阻挠美国政府和美国总统特朗普通过谈判实现和平。欧洲人没有和平议程，他们站在战争一边。</a> [12] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3801900_100_1" target="_blank" class="news-link">俄罗斯总统普京：欧洲国家已自行退出谈判。</a> [13] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://chinese.aljazeera.net/news/2025/12/2/%e7%89%b9%e6%9c%97%e6%99%ae%e5%b0%b1%e6%b4%aa%e9%83%bd%e6%8b%89%e6%96%af%e6%80%bb%e7%bb%9f%e9%80%89%e4%b8%be%e6%8a%80%e6%9c%af%e6%80%a7%e5%b9%b3%e5%b1%80%e6%8f%90%e5%87%ba%e6%8a%97" target="_blank" class="news-link">特朗普就洪都拉斯总统选举“技术性平局”提出抗议</a> [13] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3801893_100_1" target="_blank" class="news-link">叙利亚国家通讯社：总统会见了来自雪佛龙和叙利亚石油公司的代表，讨论了在叙利亚海域油气勘探领域的合作。</a> [14] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3801870_100_1" target="_blank" class="news-link">俄罗斯总统普京：波克罗夫斯克已完全在俄罗斯军队的控制之下。</a> [15] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3801868_100_1" target="_blank" class="news-link">俄罗斯总统普京：乌克兰波克罗夫斯克具有特殊意义，是实现目标的重要基地。</a> [17] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202225956266800" target="_blank" class="news-link">俄罗斯总统普京：波克罗夫斯克（红军城）已经完全在俄罗斯军队的控制之下。</a> [17] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202225936011800" target="_blank" class="news-link">俄罗斯总统普京：乌克兰的波克罗夫斯克（红军城）具有特殊意义，这是实现目标的重要基地。</a> [18] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202225210135800" target="_blank" class="news-link">俄罗斯总统普京：俄罗斯仍然是世界上公共债务最低的国家之一。</a> [24] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202225138719800" target="_blank" class="news-link">市场消息：韩国总统李在明政府首份预算案获国会全体会议通过，总规模达727.9万亿韩元。</a> [25] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202224726367800" target="_blank" class="news-link">俄罗斯总统普京：俄罗斯的失业率保持在2.2%的历史低位。</a> [28] <font color='grey'>- 23时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">经济 金融 贸易 股票 股市 纳斯达克 A股 上市 涨跌 做空 做多 外汇 货币 财政 失业 汇率 债券 基金</td>
+                    <td class="count">6</td>
+                    <td class="percentage">7.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3760523" target="_blank" class="news-link">美日政策预期分化，美股指集体高开，金银油回落，加密货币止跌反弹，拍卖需求强劲推高日债</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-热点] <a href="https://wallstreetcn.com/articles/3760523" target="_blank" class="news-link">美日政策预期分化，美股指集体高开，金银油回落，加密货币止跌反弹，拍卖需求强劲推高日债</a> [9] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202230207058800" target="_blank" class="news-link">金十图示：2025年12月02日（周二）全球股市指数-美洲市场（盘初）</a> [13] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [fastbull] <a href="https://www.fastbull.com/cn/fastshort/3801850_101_1" target="_blank" class="news-link">花旗与华尔街看空美元派分道扬镳，在新兴市场货币上采取不同立场</a> [19] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202225000001800" target="_blank" class="news-link">美联储理事鲍曼将于十分钟后在众议院金融服务委员会做证词陈述。</a> [27] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202224528329800" target="_blank" class="news-link">新西兰至12月2日全球乳制品贸易价格指数 -4.3%，前值-3%。</a> [29] <font color='grey'>- 23时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">鸿蒙 宇树 AI 人工智能</td>
+                    <td class="count">6</td>
+                    <td class="percentage">7.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3760561" target="_blank" class="news-link">OpenAI正开发大语言模型“Garlic”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-时事] <a href="https://wallstreetcn.com/articles/3760559" target="_blank" class="news-link">英伟达CFO：到2026年，Blackwell和Rubin人工智能芯片的5000亿美元预订额中，不包括我们目前正就OpenAI下一阶段协议所做的任何工作。 我们尚未与OpenAI完成一份最终协议。 OpenAI正继续沿着他们的道路前进。 我相信我们与他们的合作将永不停止</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [zaobao] <a href="https://www.zaochenbao.com/news/taiwan/202512/0258825.html" target="_blank" class="news-link">阿里国际站在台推出全自动陌生开发AI虚拟机器人应用服务</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202225631707800" target="_blank" class="news-link">英伟达(NVDA.O)CFO：截至2026年，英伟达在Blackwell和Rubin AI芯片上的订单总额达5000亿美元，但这“并不包括我们目前与OpenAI协议下的下一阶段正在进行的任何工作”。</a> [19] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202225350484800" target="_blank" class="news-link">英伟达(NVDA.O)CFO：目前仍未与OpenAI达成最终协议。</a> [21] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金10] <a href="https://flash.jin10.com/detail/20251202225250866800" target="_blank" class="news-link">英伟达(NVDA.O)CFO：目前出货的大多数英伟达AI芯片都是用于构建新的数据中心基础设施，而不是替换现有设备。</a> [23] <font color='grey'>- 23时16分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">军事 打击 演习 武器 军队 国防</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/world/story20251202-7906167" target="_blank" class="news-link">内坦亚胡：若叙设立非军事缓冲区 或可达成协议</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时16分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
